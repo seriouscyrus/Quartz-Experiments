@@ -30,12 +30,22 @@
 -(void) handleNewFrame: (IOSurfaceRef)surface {
     // Now what?
     // CFRetain(surface);
-     if (updatedFrame) {
+    if (updatedFrame) {
         CFRelease(updatedFrame);
+
     }
     //NSLog(@"Setting new frame");
     updatedFrame = surface;
     CFRetain(updatedFrame);
+//    if (!myPixelBuffer) {
+//        CVPixelBufferCreateWithIOSurface(NULL, updatedFrame, NULL, &(myPixelBuffer));
+//        CVBufferRetain(myPixelBuffer);
+//    }
+//    else {
+//        CVBufferRelease(myPixelBuffer);
+//        CVPixelBufferCreateWithIOSurface(NULL, updatedFrame, NULL, &(myPixelBuffer));
+//    }
+//    [self setValue:CFBridgingRelease(myPixelBuffer) forInputKey:@"Image"];
 
 }
 
@@ -45,33 +55,22 @@
     //if (!myCIContext) {
     //    [self setupMyContext];
     //}
-     if (updatedFrame) {
-        IOSurfaceIncrementUseCount(updatedFrame);
-        IOSurfaceLock(updatedFrame, 1, NULL);
-        currentImage = [[CIImage alloc] initWithIOSurface:updatedFrame];
-        //CVPixelBufferCreateWithIOSurface(NULL, updatedFrame, NULL, &(myPixelBuffer));
-        //CVPixelBufferRetain(myPixelBuffer);
-        IOSurfaceUnlock(updatedFrame, 1, NULL);
-        //[self setValue:currentImage forInputKey:@"Image"];
-         [self setValue:currentImage forInputKey:@"Image"];
+
+    if (updatedFrame) {
+        CVPixelBufferCreateWithIOSurface(NULL, updatedFrame, NULL, &(myPixelBuffer));
+        CVPixelBufferRetain(myPixelBuffer);
+
+        [self setValue:CFBridgingRelease(myPixelBuffer) forInputKey:@"Image"];
+
     }
     //NSLog(@"Called render at time");
+
     success = [super renderAtTime:time arguments:arguments];
     
     if (updatedFrame) {
-        currentImage = nil;
-        //CVPixelBufferRelease(myPixelBuffer);
-        IOSurfaceDecrementUseCount(updatedFrame);
-    }
-    else
-    {
-        NSLog(@"What?");
+        CVPixelBufferRelease(myPixelBuffer);
     }
     return success;
-}
-
--(void) setUpdateFrame:(IOSurfaceRef) newFrame {
-    updatedFrame = newFrame;
 }
 
 - (void) setupMyContext {

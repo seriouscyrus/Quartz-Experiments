@@ -8,11 +8,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "Quartz Experiments/SCAppDelegate.m"
-         timestampString = "385241471.673648"
+         timestampString = "386098872.944198"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "44"
-         endingLineNumber = "44"
+         startingLineNumber = "45"
+         endingLineNumber = "45"
          landmarkName = "-openFile:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -21,11 +21,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "Quartz Experiments/SCAppDelegate.m"
-         timestampString = "385241471.673648"
+         timestampString = "386098872.944198"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "31"
-         endingLineNumber = "31"
+         startingLineNumber = "32"
+         endingLineNumber = "32"
          landmarkName = "-openPanelDidEnd:returnCode:contextInfo:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -34,20 +34,7 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "Quartz Experiments/SCAppDelegate.m"
-         timestampString = "385241471.673648"
-         startingColumnNumber = "9223372036854775807"
-         endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "47"
-         endingLineNumber = "47"
-         landmarkName = "-doLoadXML:"
-         landmarkType = "5">
-      </FileBreakpoint>
-      <FileBreakpoint
-         shouldBeEnabled = "No"
-         ignoreCount = "0"
-         continueAfterRunningActions = "No"
-         filePath = "Quartz Experiments/SCAppDelegate.m"
-         timestampString = "385241471.673648"
+         timestampString = "386098872.944198"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
          startingLineNumber = "48"
@@ -60,12 +47,12 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "Quartz Experiments/SCAppDelegate.m"
-         timestampString = "385241471.673648"
+         timestampString = "386098872.944198"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "40"
-         endingLineNumber = "40"
-         landmarkName = "-openFile:"
+         startingLineNumber = "49"
+         endingLineNumber = "49"
+         landmarkName = "-doLoadXML:"
          landmarkType = "5">
       </FileBreakpoint>
       <FileBreakpoint
@@ -73,7 +60,7 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "Quartz Experiments/SCAppDelegate.m"
-         timestampString = "385241471.673648"
+         timestampString = "386098872.944198"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
          startingLineNumber = "41"
@@ -85,26 +72,13 @@
          shouldBeEnabled = "No"
          ignoreCount = "0"
          continueAfterRunningActions = "No"
-         filePath = "Quartz Experiments/SCMainQCView.m"
-         timestampString = "385580917.968912"
+         filePath = "Quartz Experiments/SCAppDelegate.m"
+         timestampString = "386098872.944198"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "52"
-         endingLineNumber = "52"
-         landmarkName = "-renderAtTime:arguments:"
-         landmarkType = "5">
-      </FileBreakpoint>
-      <FileBreakpoint
-         shouldBeEnabled = "No"
-         ignoreCount = "0"
-         continueAfterRunningActions = "No"
-         filePath = "Quartz Experiments/SCMainQCView.m"
-         timestampString = "385761738.271993"
-         startingColumnNumber = "9223372036854775807"
-         endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "55"
-         endingLineNumber = "55"
-         landmarkName = "-renderAtTime:arguments:"
+         startingLineNumber = "42"
+         endingLineNumber = "42"
+         landmarkName = "-openFile:"
          landmarkType = "5">
       </FileBreakpoint>
    </FileBreakpoints>

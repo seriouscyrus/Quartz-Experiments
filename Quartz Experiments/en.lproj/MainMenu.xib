@@ -1327,7 +1327,8 @@
 							</set>
 							<string key="NSFrameSize">{640, 480}</string>
 							<reference key="NSSuperview" ref="439893737"/>
-							<reference key="NSNextKeyView"/>
+							<reference key="NSWindow"/>
+							<bool key="NSViewCanDrawConcurrently">YES</bool>
 							<bool key="NSViewWantsBestResolutionOpenGLSurface">YES</bool>
 							<string key="NSReuseIdentifierKey">_NS:9</string>
 							<dictionary key="composition">
@@ -1338,7 +1339,8 @@ YW5rIGNvbXBvc2l0aW9uLjwvcD4</string>
 								<string key="frameworkVersion">284</string>
 								<dictionary key="inputParameters">
 									<integer value="1" key="Sprite"/>
-									<string key="String">Hello World!</string>
+									<string key="String">Just Checking</string>
+									<integer value="0" key="SurfaceID"/>
 								</dictionary>
 								<dictionary key="portAttributes">
 									<object class="NSDictionary" key="Image">
@@ -1356,6 +1358,10 @@ YW5rIGNvbXBvc2l0aW9uLjwvcD4</string>
 									<object class="NSDictionary" key="Structure">
 										<string key="NS.key.0">name</string>
 										<string key="NS.object.0">Structure</string>
+									</object>
+									<object class="NSDictionary" key="SurfaceID">
+										<string key="NS.key.0">name</string>
+										<string key="NS.object.0">SurfaceID</string>
 									</object>
 								</dictionary>
 								<dictionary key="rootPatch">
@@ -1383,7 +1389,7 @@ YW5rIGNvbXBvc2l0aW9uLjwvcD4</string>
 											<dictionary key="connection_12">
 												<string key="destinationNode">Sprite_2</string>
 												<string key="destinationPort">inputImage</string>
-												<string key="sourceNode">Splitter_3</string>
+												<string key="sourceNode">Splitter_5</string>
 												<string key="sourcePort">output</string>
 											</dictionary>
 											<dictionary key="connection_13">
@@ -1428,6 +1434,30 @@ YW5rIGNvbXBvc2l0aW9uLjwvcD4</string>
 												<string key="sourceNode">ScreenInfo_1</string>
 												<string key="sourcePort">outputHeight</string>
 											</dictionary>
+											<dictionary key="connection_21">
+												<string key="destinationNode">Sprite_3</string>
+												<string key="destinationPort">inputWidth</string>
+												<string key="sourceNode">ScreenInfo_1</string>
+												<string key="sourcePort">outputWidth</string>
+											</dictionary>
+											<dictionary key="connection_22">
+												<string key="destinationNode">Sprite_3</string>
+												<string key="destinationPort">inputHeight</string>
+												<string key="sourceNode">ScreenInfo_1</string>
+												<string key="sourcePort">outputHeight</string>
+											</dictionary>
+											<dictionary key="connection_23">
+												<string key="destinationNode">Conditional_4</string>
+												<string key="destinationPort">inputValue1</string>
+												<string key="sourceNode">Splitter_4</string>
+												<string key="sourcePort">output</string>
+											</dictionary>
+											<dictionary key="connection_24">
+												<string key="destinationNode">Sprite_3</string>
+												<string key="destinationPort">_enable</string>
+												<string key="sourceNode">Conditional_4</string>
+												<string key="sourcePort">outputResult</string>
+											</dictionary>
 											<dictionary key="connection_3">
 												<string key="destinationNode">Sprite_1</string>
 												<string key="destinationPort">inputImage</string>
@@ -1449,7 +1479,7 @@ YW5rIGNvbXBvc2l0aW9uLjwvcD4</string>
 											<dictionary key="connection_6">
 												<string key="destinationNode">TextImage_1</string>
 												<string key="destinationPort">inputString</string>
-												<string key="sourceNode">Splitter_1</string>
+												<string key="sourceNode">Splitter_3</string>
 												<string key="sourcePort">output</string>
 											</dictionary>
 											<dictionary key="connection_7">
@@ -1580,15 +1610,15 @@ KoSEDHtDR1BvaW50PWRkfZuB9wCBeQGGhg</bytes>
 												<string key="key">TextImage_1</string>
 												<dictionary key="state">
 													<dictionary key="customInputPortStates">
-														<object class="NSDictionary" key="inputGlyphSize" id="461543392">
+														<object class="NSDictionary" key="inputGlyphSize" id="904439322">
 															<string key="NS.key.0">value</string>
 															<real value="0.10000000000000001" key="NS.object.0"/>
 														</object>
-														<object class="NSDictionary" key="inputKerning" id="446053308">
+														<object class="NSDictionary" key="inputKerning" id="919838666">
 															<string key="NS.key.0">value</string>
 															<real value="0.0" key="NS.object.0"/>
 														</object>
-														<object class="NSDictionary" key="inputLeading" id="289063293">
+														<object class="NSDictionary" key="inputLeading" id="420613658">
 															<string key="NS.key.0">value</string>
 															<real value="0.0" key="NS.object.0"/>
 														</object>
@@ -1601,9 +1631,9 @@ KoSEDHtDR1BvaW50PWRkfZuB9wCBeQGGhg</bytes>
 															<string key="NS.key.0">value</string>
 															<string key="NS.object.0">LucidaGrande</string>
 														</object>
-														<reference key="inputGlyphSize" ref="461543392"/>
-														<reference key="inputKerning" ref="446053308"/>
-														<reference key="inputLeading" ref="289063293"/>
+														<reference key="inputGlyphSize" ref="904439322"/>
+														<reference key="inputKerning" ref="919838666"/>
+														<reference key="inputLeading" ref="420613658"/>
 													</dictionary>
 													<boolean value="NO" key="manualLayout"/>
 													<object class="NSMutableData" key="userInfo">
@@ -1907,15 +1937,15 @@ KoSEDHtDR1BvaW50PWRkfZuB3wGBYQGGhg</bytes>
 															<string key="key">TextImage_1</string>
 															<dictionary key="state">
 																<dictionary key="customInputPortStates">
-																	<object class="NSDictionary" key="inputGlyphSize" id="660916497">
+																	<object class="NSDictionary" key="inputGlyphSize" id="649363736">
 																		<string key="NS.key.0">value</string>
 																		<real value="0.10000000000000001" key="NS.object.0"/>
 																	</object>
-																	<object class="NSDictionary" key="inputKerning" id="867796788">
+																	<object class="NSDictionary" key="inputKerning" id="420473025">
 																		<string key="NS.key.0">value</string>
 																		<real value="0.0" key="NS.object.0"/>
 																	</object>
-																	<object class="NSDictionary" key="inputLeading" id="36636327">
+																	<object class="NSDictionary" key="inputLeading" id="725247332">
 																		<string key="NS.key.0">value</string>
 																		<real value="0.0" key="NS.object.0"/>
 																	</object>
@@ -1928,9 +1958,9 @@ KoSEDHtDR1BvaW50PWRkfZuB3wGBYQGGhg</bytes>
 																		<string key="NS.key.0">value</string>
 																		<string key="NS.object.0">LucidaGrande</string>
 																	</object>
-																	<reference key="inputGlyphSize" ref="660916497"/>
-																	<reference key="inputKerning" ref="867796788"/>
-																	<reference key="inputLeading" ref="36636327"/>
+																	<reference key="inputGlyphSize" ref="649363736"/>
+																	<reference key="inputKerning" ref="420473025"/>
+																	<reference key="inputLeading" ref="725247332"/>
 																</dictionary>
 																<boolean value="NO" key="manualLayout"/>
 																<object class="NSMutableData" key="userInfo">
@@ -2112,39 +2142,6 @@ KoSEDHtDR1BvaW50PWRkfZuBYgSByQKGhg</bytes>
 												</dictionary>
 											</dictionary>
 											<dictionary>
-												<string key="class">QCSplitter</string>
-												<string key="key">Splitter_3</string>
-												<dictionary key="state">
-													<object class="NSDictionary" key="customInputPortStates">
-														<string key="NS.key.0">input</string>
-														<object class="NSDictionary" key="NS.object.0">
-															<string key="NS.key.0">userInfo</string>
-															<object class="NSMutableData" key="NS.object.0">
-																<bytes key="NS.bytes">BAtzdHJlYW10eXBlZIHoA4QBQISEhBNOU011dGFibGVEaWN0aW9uYXJ5AISEDE5TRGljdGlvbmFyeQCE
-hAhOU09iamVjdACFhAFpAZKEhIQITlNTdHJpbmcBlYQBKwRuYW1lhpKEl5gFSW1hZ2WGhg</bytes>
-															</object>
-														</object>
-													</object>
-													<object class="NSDictionary" key="customOutputPortStates">
-														<string key="NS.key.0">output</string>
-														<object class="NSDictionary" key="NS.object.0">
-															<string key="NS.key.0">userInfo</string>
-															<object class="NSMutableData" key="NS.object.0">
-																<bytes key="NS.bytes">BAtzdHJlYW10eXBlZIHoA4QBQISEhBNOU011dGFibGVEaWN0aW9uYXJ5AISEDE5TRGljdGlvbmFyeQCE
-hAhOU09iamVjdACFhAFpAZKEhIQITlNTdHJpbmcBlYQBKwRuYW1lhpKEl5gFSW1hZ2WGhg</bytes>
-															</object>
-														</object>
-													</object>
-													<string key="portClass">QCGLImagePort</string>
-													<object class="NSMutableData" key="userInfo">
-														<bytes key="NS.bytes">BAtzdHJlYW10eXBlZIHoA4QBQISEhBNOU011dGFibGVEaWN0aW9uYXJ5AISEDE5TRGljdGlvbmFyeQCE
-hAhOU09iamVjdACFhAFpApKEhIQITlNTdHJpbmcBlYQBKwRuYW1lhpKEl5gFSW1hZ2WGkoSXmAhwb3Np
-dGlvboaShISEB05TVmFsdWUAlYQBKoSEDHtDR1BvaW50PWRkfZuBCAGBKAOGhg</bytes>
-													</object>
-													<integer value="1" key="version"/>
-												</dictionary>
-											</dictionary>
-											<dictionary>
 												<string key="class">QCConditional</string>
 												<string key="key">Conditional_1</string>
 												<dictionary key="state">
@@ -2254,6 +2251,157 @@ KoSEDHtDR1BvaW50PWRkfZuBLAKB1QKGhg</bytes>
 													</object>
 												</dictionary>
 											</dictionary>
+											<dictionary>
+												<string key="class">QCSplitter</string>
+												<string key="key">Splitter_3</string>
+												<dictionary key="state">
+													<object class="NSDictionary" key="customInputPortStates">
+														<string key="NS.key.0">input</string>
+														<object class="NSDictionary" key="NS.object.0">
+															<string key="NS.key.0">userInfo</string>
+															<object class="NSMutableData" key="NS.object.0">
+																<bytes key="NS.bytes">BAtzdHJlYW10eXBlZIHoA4QBQISEhBNOU011dGFibGVEaWN0aW9uYXJ5AISEDE5TRGljdGlvbmFyeQCE
+hAhOU09iamVjdACFhAFpAZKEhIQITlNTdHJpbmcBlYQBKwRuYW1lhpKEl5gJU3VyZmFjZUlEhoY</bytes>
+															</object>
+														</object>
+													</object>
+													<object class="NSDictionary" key="customOutputPortStates">
+														<string key="NS.key.0">output</string>
+														<object class="NSDictionary" key="NS.object.0">
+															<string key="NS.key.0">userInfo</string>
+															<object class="NSMutableData" key="NS.object.0">
+																<bytes key="NS.bytes">BAtzdHJlYW10eXBlZIHoA4QBQISEhBNOU011dGFibGVEaWN0aW9uYXJ5AISEDE5TRGljdGlvbmFyeQCE
+hAhOU09iamVjdACFhAFpAZKEhIQITlNTdHJpbmcBlYQBKwRuYW1lhpKEl5gJU3VyZmFjZUlEhoY</bytes>
+															</object>
+														</object>
+													</object>
+													<real value="0.0" key="inputMin"/>
+													<string key="portClass">QCIndexPort</string>
+													<object class="NSMutableData" key="userInfo">
+														<bytes key="NS.bytes">BAtzdHJlYW10eXBlZIHoA4QBQISEhBNOU011dGFibGVEaWN0aW9uYXJ5AISEDE5TRGljdGlvbmFyeQCE
+hAhOU09iamVjdACFhAFpApKEhIQITlNTdHJpbmcBlYQBKwRuYW1lhpKEl5gJU3VyZmFjZUlEhpKEl5gI
+cG9zaXRpb26GkoSEhAdOU1ZhbHVlAJWEASqEhAx7Q0dQb2ludD1kZH2bgVQBgUwDhoY</bytes>
+													</object>
+													<integer value="1" key="version"/>
+												</dictionary>
+											</dictionary>
+											<dictionary>
+												<string key="class">QCSplitter</string>
+												<string key="key">Splitter_5</string>
+												<dictionary key="state">
+													<object class="NSDictionary" key="customInputPortStates">
+														<string key="NS.key.0">input</string>
+														<object class="NSDictionary" key="NS.object.0">
+															<string key="NS.key.0">userInfo</string>
+															<object class="NSMutableData" key="NS.object.0">
+																<bytes key="NS.bytes">BAtzdHJlYW10eXBlZIHoA4QBQISEhBNOU011dGFibGVEaWN0aW9uYXJ5AISEDE5TRGljdGlvbmFyeQCE
+hAhOU09iamVjdACFhAFpAZKEhIQITlNTdHJpbmcBlYQBKwRuYW1lhpKEl5gFSW1hZ2WGhg</bytes>
+															</object>
+														</object>
+													</object>
+													<object class="NSDictionary" key="customOutputPortStates">
+														<string key="NS.key.0">output</string>
+														<object class="NSDictionary" key="NS.object.0">
+															<string key="NS.key.0">userInfo</string>
+															<object class="NSMutableData" key="NS.object.0">
+																<bytes key="NS.bytes">BAtzdHJlYW10eXBlZIHoA4QBQISEhBNOU011dGFibGVEaWN0aW9uYXJ5AISEDE5TRGljdGlvbmFyeQCE
+hAhOU09iamVjdACFhAFpAZKEhIQITlNTdHJpbmcBlYQBKwRuYW1lhpKEl5gFSW1hZ2WGhg</bytes>
+															</object>
+														</object>
+													</object>
+													<string key="portClass">QCGLImagePort</string>
+													<object class="NSMutableData" key="userInfo">
+														<bytes key="NS.bytes">BAtzdHJlYW10eXBlZIHoA4QBQISEhBNOU011dGFibGVEaWN0aW9uYXJ5AISEDE5TRGljdGlvbmFyeQCE
+hAhOU09iamVjdACFhAFpApKEhIQITlNTdHJpbmcBlYQBKwRuYW1lhpKEl5gFSW1hZ2WGkoSXmAhwb3Np
+dGlvboaShISEB05TVmFsdWUAlYQBKoSEDHtDR1BvaW50PWRkfZuBOAGBBAOGhg</bytes>
+													</object>
+													<integer value="1" key="version"/>
+												</dictionary>
+											</dictionary>
+											<dictionary>
+												<string key="class">QCSprite</string>
+												<string key="key">Sprite_3</string>
+												<dictionary key="state">
+													<integer value="0" key="antialiasing"/>
+													<dictionary key="ivarInputPortStates">
+														<object class="NSDictionary" key="inputBlending">
+															<string key="NS.key.0">value</string>
+															<integer value="1" key="NS.object.0"/>
+														</object>
+														<object class="NSDictionary" key="inputColor">
+															<string key="NS.key.0">value</string>
+															<dictionary key="NS.object.0">
+																<real value="1" key="alpha"/>
+																<real value="1" key="blue"/>
+																<real value="1" key="green"/>
+																<real value="1" key="red"/>
+															</dictionary>
+														</object>
+														<object class="NSDictionary" key="inputCulling">
+															<string key="NS.key.0">value</string>
+															<integer value="0" key="NS.object.0"/>
+														</object>
+														<object class="NSDictionary" key="inputRX">
+															<string key="NS.key.0">value</string>
+															<real value="0.0" key="NS.object.0"/>
+														</object>
+														<object class="NSDictionary" key="inputRY">
+															<string key="NS.key.0">value</string>
+															<real value="0.0" key="NS.object.0"/>
+														</object>
+														<object class="NSDictionary" key="inputRZ">
+															<string key="NS.key.0">value</string>
+															<real value="0.0" key="NS.object.0"/>
+														</object>
+														<object class="NSDictionary" key="inputX">
+															<string key="NS.key.0">value</string>
+															<real value="0.0" key="NS.object.0"/>
+														</object>
+														<object class="NSDictionary" key="inputY">
+															<string key="NS.key.0">value</string>
+															<real value="0.0" key="NS.object.0"/>
+														</object>
+														<object class="NSDictionary" key="inputZ">
+															<string key="NS.key.0">value</string>
+															<real value="0.0" key="NS.object.0"/>
+														</object>
+														<object class="NSDictionary" key="inputZBuffer">
+															<string key="NS.key.0">value</string>
+															<integer value="1" key="NS.object.0"/>
+														</object>
+													</dictionary>
+													<object class="NSMutableData" key="userInfo">
+														<bytes key="NS.bytes">BAtzdHJlYW10eXBlZIHoA4QBQISEhBNOU011dGFibGVEaWN0aW9uYXJ5AISEDE5TRGljdGlvbmFyeQCE
+hAhOU09iamVjdACFhAFpAZKEhIQITlNTdHJpbmcBlYQBKwhwb3NpdGlvboaShISEB05TVmFsdWUAlYQB
+KoSEDHtDR1BvaW50PWRkfZuBYQSBoQOGhg</bytes>
+													</object>
+												</dictionary>
+											</dictionary>
+											<dictionary>
+												<string key="class">QCConditional</string>
+												<string key="key">Conditional_4</string>
+												<dictionary key="state">
+													<dictionary key="ivarInputPortStates">
+														<object class="NSDictionary" key="inputTest">
+															<string key="NS.key.0">value</string>
+															<integer value="0" key="NS.object.0"/>
+														</object>
+														<object class="NSDictionary" key="inputTolerance">
+															<string key="NS.key.0">value</string>
+															<real value="0.0" key="NS.object.0"/>
+														</object>
+														<object class="NSDictionary" key="inputValue2">
+															<string key="NS.key.0">value</string>
+															<real value="4" key="NS.object.0"/>
+														</object>
+													</dictionary>
+													<object class="NSMutableData" key="userInfo">
+														<bytes key="NS.bytes">BAtzdHJlYW10eXBlZIHoA4QBQISEhBNOU011dGFibGVEaWN0aW9uYXJ5AISEDE5TRGljdGlvbmFyeQCE
+hAhOU09iamVjdACFhAFpAZKEhIQITlNTdHJpbmcBlYQBKwhwb3NpdGlvboaShISEB05TVmFsdWUAlYQB
+KoSEDHtDR1BvaW50PWRkfZuBlQKBNQOGhg</bytes>
+													</object>
+												</dictionary>
+											</dictionary>
 										</array>
 										<array key="publishedInputPorts">
 											<dictionary>
@@ -2281,18 +2429,6 @@ hAhOU09iamVjdACFhAFpAZKEhIQITlNTdHJpbmcBlYQBKwRuYW1lhpKEl5gJU3RydWN0dXJlhoY</byt
 												</object>
 											</dictionary>
 											<dictionary>
-												<string key="key">Image</string>
-												<string key="node">Splitter_3</string>
-												<string key="port">input</string>
-												<object class="NSDictionary" key="state">
-													<string key="NS.key.0">userInfo</string>
-													<object class="NSMutableData" key="NS.object.0">
-														<bytes key="NS.bytes">BAtzdHJlYW10eXBlZIHoA4QBQISEhBNOU011dGFibGVEaWN0aW9uYXJ5AISEDE5TRGljdGlvbmFyeQCE
-hAhOU09iamVjdACFhAFpAZKEhIQITlNTdHJpbmcBlYQBKwRuYW1lhpKEl5gFSW1hZ2WGhg</bytes>
-													</object>
-												</object>
-											</dictionary>
-											<dictionary>
 												<string key="key">Sprite</string>
 												<string key="node">Splitter_4</string>
 												<string key="port">input</string>
@@ -2304,12 +2440,36 @@ hAhOU09iamVjdACFhAFpAZKEhIQITlNTdHJpbmcBlYQBKwRuYW1lhpKEl5gGU3ByaXRlhoY</bytes>
 													</object>
 												</object>
 											</dictionary>
+											<dictionary>
+												<string key="key">SurfaceID</string>
+												<string key="node">Splitter_3</string>
+												<string key="port">input</string>
+												<object class="NSDictionary" key="state">
+													<string key="NS.key.0">userInfo</string>
+													<object class="NSMutableData" key="NS.object.0">
+														<bytes key="NS.bytes">BAtzdHJlYW10eXBlZIHoA4QBQISEhBNOU011dGFibGVEaWN0aW9uYXJ5AISEDE5TRGljdGlvbmFyeQCE
+hAhOU09iamVjdACFhAFpAZKEhIQITlNTdHJpbmcBlYQBKwRuYW1lhpKEl5gJU3VyZmFjZUlEhoY</bytes>
+													</object>
+												</object>
+											</dictionary>
+											<dictionary>
+												<string key="key">Image</string>
+												<string key="node">Splitter_5</string>
+												<string key="port">input</string>
+												<object class="NSDictionary" key="state">
+													<string key="NS.key.0">userInfo</string>
+													<object class="NSMutableData" key="NS.object.0">
+														<bytes key="NS.bytes">BAtzdHJlYW10eXBlZIHoA4QBQISEhBNOU011dGFibGVEaWN0aW9uYXJ5AISEDE5TRGljdGlvbmFyeQCE
+hAhOU09iamVjdACFhAFpAZKEhIQITlNTdHJpbmcBlYQBKwRuYW1lhpKEl5gFSW1hZ2WGhg</bytes>
+													</object>
+												</object>
+											</dictionary>
 										</array>
 										<object class="NSMutableData" key="userInfo">
 											<bytes key="NS.bytes">BAtzdHJlYW10eXBlZIHoA4QBQISEhBNOU011dGFibGVEaWN0aW9uYXJ5AISEDE5TRGljdGlvbmFyeQCE
 hAhOU09iamVjdACFhAFpA5KEhIQITlNTdHJpbmcBlYQBKwp6b29tRmFjdG9yhpKEhIQITlNOdW1iZXIA
-hIQHTlNWYWx1ZQCVhAEqhIQBZpwBhpKEl5gJc2Nyb2xsaW5nhpKEmpuEhAx7Q0dQb2ludD1kZH2dgcQC
-gwAAAAAA9IRAhpKEl5gIcG9zaXRpb26GkoSam56dAAWGhg</bytes>
+hIQHTlNWYWx1ZQCVhAEqhIQBZpwBhpKEl5gJc2Nyb2xsaW5nhpKEmpuEhAx7Q0dQb2ludD1kZH2dgc0C
+gW4DhpKEl5gIcG9zaXRpb26GkoSam56dAAWGhg</bytes>
 										</object>
 									</dictionary>
 								</dictionary>
@@ -3129,6 +3289,7 @@ AAAAvI5AgSEEhpKEl5gIcG9zaXRpb26GkoSam56dgfkBgRUChoY</bytes>
 					</array>
 					<string key="NSFrameSize">{640, 480}</string>
 					<reference key="NSSuperview"/>
+					<reference key="NSWindow"/>
 					<reference key="NSNextKeyView" ref="516801481"/>
 				</object>
 				<string key="NSScreenRect">{{0, 0}, {1920, 1178}}</string>
@@ -3168,6 +3329,7 @@ AAAAvI5AgSEEhpKEl5gIcG9zaXRpb26GkoSam56dgfkBgRUChoY</bytes>
 							<int key="NSvFlags">268</int>
 							<string key="NSFrame">{{20, 336}, {236, 22}}</string>
 							<reference key="NSSuperview" ref="142353368"/>
+							<reference key="NSWindow"/>
 							<reference key="NSNextKeyView" ref="19792165"/>
 							<string key="NSReuseIdentifierKey">_NS:9</string>
 							<bool key="NSEnabled">YES</bool>
@@ -3209,7 +3371,7 @@ AAAAvI5AgSEEhpKEl5gIcG9zaXRpb26GkoSam56dgfkBgRUChoY</bytes>
 							<int key="NSvFlags">268</int>
 							<string key="NSFrame">{{20, 304}, {236, 22}}</string>
 							<reference key="NSSuperview" ref="142353368"/>
-							<reference key="NSNextKeyView"/>
+							<reference key="NSWindow"/>
 							<string key="NSReuseIdentifierKey">_NS:9</string>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSTextFieldCell" key="NSCell" id="1061965202">
@@ -3228,6 +3390,7 @@ AAAAvI5AgSEEhpKEl5gIcG9zaXRpb26GkoSam56dgfkBgRUChoY</bytes>
 					</array>
 					<string key="NSFrameSize">{276, 378}</string>
 					<reference key="NSSuperview"/>
+					<reference key="NSWindow"/>
 					<reference key="NSNextKeyView" ref="192184003"/>
 					<string key="NSReuseIdentifierKey">_NS:21</string>
 				</object>
@@ -5464,7 +5627,64 @@ AAAAvI5AgSEEhpKEl5gIcG9zaXRpb26GkoSam56dgfkBgRUChoY</bytes>
 			<nil key="sourceID"/>
 			<int key="maxID">614</int>
 		</object>
-		<object class="IBClassDescriber" key="IBDocument.Classes"/>
+		<object class="IBClassDescriber" key="IBDocument.Classes">
+			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
+				<object class="IBPartialClassDescription">
+					<string key="className">NSLayoutConstraint</string>
+					<string key="superclassName">NSObject</string>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">./Classes/NSLayoutConstraint.h</string>
+					</object>
+				</object>
+				<object class="IBPartialClassDescription">
+					<string key="className">SCAppDelegate</string>
+					<string key="superclassName">NSObject</string>
+					<object class="NSMutableDictionary" key="actions">
+						<string key="NS.key.0">openFile:</string>
+						<string key="NS.object.0">id</string>
+					</object>
+					<object class="NSMutableDictionary" key="actionInfosByName">
+						<string key="NS.key.0">openFile:</string>
+						<object class="IBActionInfo" key="NS.object.0">
+							<string key="name">openFile:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+					</object>
+					<dictionary class="NSMutableDictionary" key="outlets">
+						<string key="FullScreenMenuItem">NSMenuItem</string>
+						<string key="theObjectController">NSObjectController</string>
+						<string key="window">NSWindow</string>
+					</dictionary>
+					<dictionary class="NSMutableDictionary" key="toOneOutletInfosByName">
+						<object class="IBToOneOutletInfo" key="FullScreenMenuItem">
+							<string key="name">FullScreenMenuItem</string>
+							<string key="candidateClassName">NSMenuItem</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="theObjectController">
+							<string key="name">theObjectController</string>
+							<string key="candidateClassName">NSObjectController</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="window">
+							<string key="name">window</string>
+							<string key="candidateClassName">NSWindow</string>
+						</object>
+					</dictionary>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">./Classes/SCAppDelegate.h</string>
+					</object>
+				</object>
+				<object class="IBPartialClassDescription">
+					<string key="className">SCMainQCView</string>
+					<string key="superclassName">QCView</string>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">./Classes/SCMainQCView.h</string>
+					</object>
+				</object>
+			</array>
+		</object>
 		<int key="IBDocument.localizationMode">0</int>
 		<string key="IBDocument.TargetRuntimeIdentifier">IBCocoaFramework</string>
 		<bool key="IBDocument.PluginDeclaredDependenciesTrackSystemTargetVersion">YES</bool>

@@ -1,0 +1,6 @@
+//
+// Prefix header for all source files of the 'SCIOSurfaceRenderer' target in the 'SCIOSurfaceRenderer' project
+//
+
+#ifdef __OBJC__
+#endif

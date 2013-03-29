@@ -8,6 +8,7 @@
 
 #import "SCAppDelegate.h"
 #import <IOSurface/IOSurface.h>
+#import <dispatch/dispatch.h>
 
 
 @implementation SCAppDelegate
@@ -56,7 +57,8 @@
     size_t              pHeight = CGDisplayModeGetPixelHeight(mode);
     
     CGDisplayModeRelease(mode);
-    displayQueue = dispatch_queue_create("scqcexp.mainqcview.displayQueue", DISPATCH_QUEUE_SERIAL);
+    //displayQueue = dispatch_queue_create("scqcexp.mainqcview.displayQueue", DISPATCH_QUEUE_SERIAL);
+    displayQueue = dispatch_get_main_queue();
     //displayQueue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_HIGH, 0);
     if (!displayQueue) {
         NSLog(@"No display queue");
@@ -73,12 +75,14 @@
                                                                {
                                                                    // As per CGDisplayStreams header
                                                                    // As we're copying directly in the handler, we don't need this
-                                                                   IOSurfaceIncrementUseCount(frameSurface);
+                                                                   //IOSurfaceIncrementUseCount(frameSurface);
                                                                    // -emitNewFrame: retains the frame
                                                                    //CIImage *newFrame = [CIImage imageWithIOSurface:frameSurface];
                                                                    //screenImage = newFrame;
-                                                                   //[_theObjectController setValue:screenImage forKeyPath:@"selection.patch.Image.value"];
-                                                                   
+                                                                   //NSInteger isurfaceID = IOSurfaceGetID(frameSurface);
+                                                                   //NSNumber *surfaceID = [NSNumber numberWithInteger:isurfaceID];
+                                                                   //NSLog(@"isurfaceID = %@", surfaceID);
+                                                                   //[_theObjectController setValue:surfaceID forKeyPath:@"selection.patch.SurfaceID.value"];
                                                                    [self handleNewFrame:frameSurface];
                                                                }
                                                            });
@@ -93,10 +97,11 @@
 
 -(void) handleNewFrame: (IOSurfaceRef)surface {
     // Now what?
-    // CFRetain(surface);
+    //CFRetain(surface);
     //CIImage *newFrame = [CIImage imageWithIOSurface:surface];
+
     [mainQCView handleNewFrame:surface];
-    IOSurfaceDecrementUseCount(surface);
+    //IOSurfaceDecrementUseCount(surface);
 }
 
 
