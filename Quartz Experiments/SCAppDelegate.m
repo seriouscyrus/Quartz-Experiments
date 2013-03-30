@@ -81,8 +81,10 @@
                                                                    //screenImage = newFrame;
                                                                    //NSInteger isurfaceID = IOSurfaceGetID(frameSurface);
                                                                    //NSNumber *surfaceID = [NSNumber numberWithInteger:isurfaceID];
-                                                                   //NSLog(@"isurfaceID = %@", surfaceID);
+                                                                   NSLog(@"Emitting frame");
                                                                    //[_theObjectController setValue:surfaceID forKeyPath:@"selection.patch.SurfaceID.value"];
+                                                                   //CVPixelBufferCreateWithIOSurface(NULL, frameSurface, NULL, &(myPixelBuffer));
+                                                                   //[_theObjectController setValue:CFBridgingRelease(myPixelBuffer) forKeyPath:@"selection.patch.SurfaceID.value"];
                                                                    [self handleNewFrame:frameSurface];
                                                                }
                                                            });
@@ -99,8 +101,9 @@
     // Now what?
     //CFRetain(surface);
     //CIImage *newFrame = [CIImage imageWithIOSurface:surface];
-
-    [mainQCView handleNewFrame:surface];
+    CVPixelBufferCreateWithIOSurface(NULL, surface, NULL, &(myPixelBuffer));
+    //[mainQCView handleNewFrame:surface];
+    [mainQCView handleNewFrame:myPixelBuffer];
     //IOSurfaceDecrementUseCount(surface);
 }
 

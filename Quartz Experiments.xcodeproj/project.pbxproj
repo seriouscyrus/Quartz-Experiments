@@ -24,6 +24,7 @@
 		6E6156CF16E7B7B300DE564E /* Quartz_ExperimentsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6156CE16E7B7B300DE564E /* Quartz_ExperimentsTests.m */; };
 		6E6156D916E7B7D100DE564E /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E6156D816E7B7D100DE564E /* Quartz.framework */; };
 		6E8E376516ECA306004A8378 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E8E376416ECA306004A8378 /* CoreGraphics.framework */; };
+		6E9F641E1706287000ED24FA /* SCOpenGlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E9F641D1706287000ED24FA /* SCOpenGlView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,8 @@
 		6E8E376416ECA306004A8378 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6E8E376616ECA31B004A8378 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 		6E8E376816EFCB08004A8378 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		6E9F641C1706287000ED24FA /* SCOpenGlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCOpenGlView.h; sourceTree = "<group>"; };
+		6E9F641D1706287000ED24FA /* SCOpenGlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCOpenGlView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +151,8 @@
 				6E6156AB16E7B7B300DE564E /* Supporting Files */,
 				6E24B9A916F5FD7C00790233 /* SCMainQCView.h */,
 				6E24B9AA16F5FD7C00790233 /* SCMainQCView.m */,
+				6E9F641C1706287000ED24FA /* SCOpenGlView.h */,
+				6E9F641D1706287000ED24FA /* SCOpenGlView.m */,
 			);
 			path = "Quartz Experiments";
 			sourceTree = "<group>";
@@ -296,6 +301,7 @@
 				6E6156B116E7B7B300DE564E /* main.m in Sources */,
 				6E6156B816E7B7B300DE564E /* SCAppDelegate.m in Sources */,
 				6E24B9AB16F5FD7C00790233 /* SCMainQCView.m in Sources */,
+				6E9F641E1706287000ED24FA /* SCOpenGlView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

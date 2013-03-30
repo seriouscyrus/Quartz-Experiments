@@ -20,6 +20,8 @@
     CIImage             *screenImage;
     CIContext              *aContext;
     SCMainQCView         *mainQCView;
+    CVPixelBufferRef   myPixelBuffer;
+    CVPixelBufferPoolRef      myPool;
 }
 @property (weak) IBOutlet NSMenuItem *FullScreenMenuItem;
 @property (weak) IBOutlet NSObjectController *theObjectController;

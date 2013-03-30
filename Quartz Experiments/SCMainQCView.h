@@ -23,6 +23,6 @@
 
 -(BOOL) renderAtTime:(NSTimeInterval)time arguments:(NSDictionary *)arguments;
 
--(void) handleNewFrame: (IOSurfaceRef) newFrame;
-
+//-(void) handleNewFrame: (IOSurfaceRef) newFrame;
+-(void) handleNewFrame: (CVPixelBufferRef) newFrame;
 @end

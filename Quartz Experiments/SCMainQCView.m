@@ -27,26 +27,49 @@
     // Drawing code here.
 }
 
--(void) handleNewFrame: (IOSurfaceRef)surface {
+//-(void) handleNewFrame: (IOSurfaceRef)surface {
+//    // Now what?
+//    // CFRetain(surface);
+//    if (updatedFrame) {
+//        CFRelease(updatedFrame);
+//
+//    }
+//    //NSLog(@"Setting new frame");
+//    updatedFrame = surface;
+//    CFRetain(updatedFrame);
+////    if (!myPixelBuffer) {
+////        CVPixelBufferCreateWithIOSurface(NULL, updatedFrame, NULL, &(myPixelBuffer));
+////        CVBufferRetain(myPixelBuffer);
+////    }
+////    else {
+////        CVBufferRelease(myPixelBuffer);
+////        CVPixelBufferCreateWithIOSurface(NULL, updatedFrame, NULL, &(myPixelBuffer));
+////    }
+////    [self setValue:CFBridgingRelease(myPixelBuffer) forInputKey:@"Image"];
+//
+//}
+
+-(void) handleNewFrame: (CVPixelBufferRef)surface {
     // Now what?
     // CFRetain(surface);
-    if (updatedFrame) {
-        CFRelease(updatedFrame);
-
+    if (myPixelBuffer) {
+        CVPixelBufferRelease(myPixelBuffer);
     }
     //NSLog(@"Setting new frame");
-    updatedFrame = surface;
-    CFRetain(updatedFrame);
-//    if (!myPixelBuffer) {
-//        CVPixelBufferCreateWithIOSurface(NULL, updatedFrame, NULL, &(myPixelBuffer));
-//        CVBufferRetain(myPixelBuffer);
-//    }
-//    else {
-//        CVBufferRelease(myPixelBuffer);
-//        CVPixelBufferCreateWithIOSurface(NULL, updatedFrame, NULL, &(myPixelBuffer));
-//    }
-//    [self setValue:CFBridgingRelease(myPixelBuffer) forInputKey:@"Image"];
+    myPixelBuffer = surface;
+//    CVPixelBufferRetain(myPixelBuffer);
+    //    if (!myPixelBuffer) {
+    //        CVPixelBufferCreateWithIOSurface(NULL, updatedFrame, NULL, &(myPixelBuffer));
+    //        CVBufferRetain(myPixelBuffer);
+    //    }
+    //    else {
+    //        CVBufferRelease(myPixelBuffer);
+    //        CVPixelBufferCreateWithIOSurface(NULL, updatedFrame, NULL, &(myPixelBuffer));
+    //    }
+    //CVPixelBufferRetain(myPixelBuffer);
 
+    //[self setValue:CFBridgingRelease(myPixelBuffer) forInputKey:@"Image"];
+    
 }
 
 -(BOOL) renderAtTime:(NSTimeInterval)time arguments:(NSDictionary *)arguments {
@@ -56,17 +79,24 @@
     //    [self setupMyContext];
     //}
 
-    if (updatedFrame) {
-        CVPixelBufferCreateWithIOSurface(NULL, updatedFrame, NULL, &(myPixelBuffer));
+//    if (updatedFrame) {
+//        CVPixelBufferCreateWithIOSurface(NULL, updatedFrame, NULL, &(myPixelBuffer));
+//        CVPixelBufferRetain(myPixelBuffer);
+//
+//        [self setValue:CFBridgingRelease(myPixelBuffer) forInputKey:@"Image"];
+//
+//    }
+    if (myPixelBuffer) {
         CVPixelBufferRetain(myPixelBuffer);
-
         [self setValue:CFBridgingRelease(myPixelBuffer) forInputKey:@"Image"];
-
+        //CVPixelBufferRelease(myPixelBuffer);
+        
     }
-    //NSLog(@"Called render at time");
+
+    NSLog(@"Called render at time");
 
     success = [super renderAtTime:time arguments:arguments];
-    
+    NSLog(@"Done");
     if (updatedFrame) {
         CVPixelBufferRelease(myPixelBuffer);
     }
