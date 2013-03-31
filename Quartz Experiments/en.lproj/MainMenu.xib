@@ -6,26 +6,23 @@
 		<string key="IBDocument.InterfaceBuilderVersion">3084</string>
 		<string key="IBDocument.AppKitVersion">1187.37</string>
 		<string key="IBDocument.HIToolboxVersion">626.00</string>
-		<dictionary class="NSMutableDictionary" key="IBDocument.PluginVersions">
-			<string key="com.apple.InterfaceBuilder.CocoaPlugin">3084</string>
-			<string key="com.apple.QuartzComposerIBPlugin">2053</string>
-		</dictionary>
+		<object class="NSMutableDictionary" key="IBDocument.PluginVersions">
+			<string key="NS.key.0">com.apple.InterfaceBuilder.CocoaPlugin</string>
+			<string key="NS.object.0">3084</string>
+		</object>
 		<array key="IBDocument.IntegratedClassDependencies">
 			<string>IBNSLayoutConstraint</string>
 			<string>NSCustomObject</string>
 			<string>NSMenu</string>
 			<string>NSMenuItem</string>
 			<string>NSObjectController</string>
-			<string>NSTextField</string>
-			<string>NSTextFieldCell</string>
+			<string>NSOpenGLView</string>
 			<string>NSUserDefaultsController</string>
 			<string>NSView</string>
 			<string>NSWindowTemplate</string>
-			<string>QCView</string>
 		</array>
 		<array key="IBDocument.PluginDependencies">
 			<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
-			<string>com.apple.QuartzComposerIBPlugin</string>
 		</array>
 		<object class="NSMutableDictionary" key="IBDocument.Metadata">
 			<string key="NS.key.0">PluginDependencyRecalculationVersion</string>
@@ -1309,7 +1306,7 @@
 				<int key="NSWindowStyleMask">15</int>
 				<int key="NSWindowBacking">2</int>
 				<string key="NSWindowRect">{{335, 390}, {640, 480}}</string>
-				<int key="NSWTFlags">1954021376</int>
+				<int key="NSWTFlags">1685585920</int>
 				<string key="NSWindowTitle">Quartz Experiments</string>
 				<string key="NSWindowClass">NSWindow</string>
 				<nil key="NSViewClass"/>
@@ -1318,1979 +1315,25 @@
 					<reference key="NSNextResponder"/>
 					<int key="NSvFlags">256</int>
 					<array class="NSMutableArray" key="NSSubviews">
-						<object class="QCView" id="516801481">
+						<object class="NSOpenGLView" id="593023252">
 							<reference key="NSNextResponder" ref="439893737"/>
 							<int key="NSvFlags">268</int>
-							<array class="NSMutableArray" key="NSSubviews"/>
-							<set class="NSMutableSet" key="NSDragTypes">
-								<string>NSFilenamesPboardType</string>
-							</set>
 							<string key="NSFrameSize">{640, 480}</string>
 							<reference key="NSSuperview" ref="439893737"/>
 							<reference key="NSWindow"/>
 							<bool key="NSViewCanDrawConcurrently">YES</bool>
-							<bool key="NSViewWantsBestResolutionOpenGLSurface">YES</bool>
-							<string key="NSReuseIdentifierKey">_NS:9</string>
-							<dictionary key="composition">
-								<string type="base64-UTF8" key="description">PGltZyBzcmM9IkJsYW5rIENvbXBvc2l0aW9uLnRpZmYiIHdpZHRoPSI1MCIgaGVpZ2h0PSI1MCIgLz4J
-CQo8aDQ+QmxhbmsgQ29tcG9zaXRpb248L2g0Pgo8cD5BIHRlbXBsYXRlIHRoYXQgY3JlYXRlcyBhIGJs
-YW5rIGNvbXBvc2l0aW9uLjwvcD4</string>
-								<string key="editorViewerWindow">1088 748 512 430 0 0 1920 1178 </string>
-								<string key="frameworkVersion">284</string>
-								<dictionary key="inputParameters">
-									<integer value="1" key="Sprite"/>
-									<string key="String">Just Checking</string>
-									<integer value="0" key="SurfaceID"/>
-								</dictionary>
-								<dictionary key="portAttributes">
-									<object class="NSDictionary" key="Image">
-										<string key="NS.key.0">name</string>
-										<string key="NS.object.0">Image</string>
-									</object>
-									<object class="NSDictionary" key="Sprite">
-										<string key="NS.key.0">name</string>
-										<string key="NS.object.0">Sprite</string>
-									</object>
-									<object class="NSDictionary" key="String">
-										<string key="NS.key.0">name</string>
-										<string key="NS.object.0">String</string>
-									</object>
-									<object class="NSDictionary" key="Structure">
-										<string key="NS.key.0">name</string>
-										<string key="NS.object.0">Structure</string>
-									</object>
-									<object class="NSDictionary" key="SurfaceID">
-										<string key="NS.key.0">name</string>
-										<string key="NS.object.0">SurfaceID</string>
-									</object>
-								</dictionary>
-								<dictionary key="rootPatch">
-									<string key="class">QCPatch</string>
-									<dictionary key="state">
-										<dictionary key="connections">
-											<dictionary key="connection_1">
-												<string key="destinationNode">Sprite_1</string>
-												<string key="destinationPort">inputWidth</string>
-												<string key="sourceNode">ScreenInfo_1</string>
-												<string key="sourcePort">outputWidth</string>
-											</dictionary>
-											<dictionary key="connection_10">
-												<string key="destinationNode">Sprite_2</string>
-												<string key="destinationPort">inputWidth</string>
-												<string key="sourceNode">ScreenInfo_1</string>
-												<string key="sourcePort">outputWidth</string>
-											</dictionary>
-											<dictionary key="connection_11">
-												<string key="destinationNode">Sprite_2</string>
-												<string key="destinationPort">inputHeight</string>
-												<string key="sourceNode">ScreenInfo_1</string>
-												<string key="sourcePort">outputHeight</string>
-											</dictionary>
-											<dictionary key="connection_12">
-												<string key="destinationNode">Sprite_2</string>
-												<string key="destinationPort">inputImage</string>
-												<string key="sourceNode">Splitter_5</string>
-												<string key="sourcePort">output</string>
-											</dictionary>
-											<dictionary key="connection_13">
-												<string key="destinationNode">Sprite_1</string>
-												<string key="destinationPort">_enable</string>
-												<string key="sourceNode">Conditional_1</string>
-												<string key="sourcePort">outputResult</string>
-											</dictionary>
-											<dictionary key="connection_14">
-												<string key="destinationNode">Conditional_1</string>
-												<string key="destinationPort">inputValue1</string>
-												<string key="sourceNode">Splitter_4</string>
-												<string key="sourcePort">output</string>
-											</dictionary>
-											<dictionary key="connection_15">
-												<string key="destinationNode">Conditional_2</string>
-												<string key="destinationPort">inputValue1</string>
-												<string key="sourceNode">Splitter_4</string>
-												<string key="sourcePort">output</string>
-											</dictionary>
-											<dictionary key="connection_16">
-												<string key="destinationNode">Iterator_1</string>
-												<string key="destinationPort">_enable</string>
-												<string key="sourceNode">Conditional_2</string>
-												<string key="sourcePort">outputResult</string>
-											</dictionary>
-											<dictionary key="connection_17">
-												<string key="destinationNode">Conditional_3</string>
-												<string key="destinationPort">inputValue1</string>
-												<string key="sourceNode">Splitter_4</string>
-												<string key="sourcePort">output</string>
-											</dictionary>
-											<dictionary key="connection_18">
-												<string key="destinationNode">Sprite_2</string>
-												<string key="destinationPort">_enable</string>
-												<string key="sourceNode">Conditional_3</string>
-												<string key="sourcePort">outputResult</string>
-											</dictionary>
-											<dictionary key="connection_2">
-												<string key="destinationNode">Sprite_1</string>
-												<string key="destinationPort">inputHeight</string>
-												<string key="sourceNode">ScreenInfo_1</string>
-												<string key="sourcePort">outputHeight</string>
-											</dictionary>
-											<dictionary key="connection_21">
-												<string key="destinationNode">Sprite_3</string>
-												<string key="destinationPort">inputWidth</string>
-												<string key="sourceNode">ScreenInfo_1</string>
-												<string key="sourcePort">outputWidth</string>
-											</dictionary>
-											<dictionary key="connection_22">
-												<string key="destinationNode">Sprite_3</string>
-												<string key="destinationPort">inputHeight</string>
-												<string key="sourceNode">ScreenInfo_1</string>
-												<string key="sourcePort">outputHeight</string>
-											</dictionary>
-											<dictionary key="connection_23">
-												<string key="destinationNode">Conditional_4</string>
-												<string key="destinationPort">inputValue1</string>
-												<string key="sourceNode">Splitter_4</string>
-												<string key="sourcePort">output</string>
-											</dictionary>
-											<dictionary key="connection_24">
-												<string key="destinationNode">Sprite_3</string>
-												<string key="destinationPort">_enable</string>
-												<string key="sourceNode">Conditional_4</string>
-												<string key="sourcePort">outputResult</string>
-											</dictionary>
-											<dictionary key="connection_3">
-												<string key="destinationNode">Sprite_1</string>
-												<string key="destinationPort">inputImage</string>
-												<string key="sourceNode">TextImage_1</string>
-												<string key="sourcePort">outputImage</string>
-											</dictionary>
-											<dictionary key="connection_4">
-												<string key="destinationNode">TextImage_1</string>
-												<string key="destinationPort">inputWidth</string>
-												<string key="sourceNode">ScreenInfo_1</string>
-												<string key="sourcePort">outputWidth</string>
-											</dictionary>
-											<dictionary key="connection_5">
-												<string key="destinationNode">TextImage_1</string>
-												<string key="destinationPort">inputHeight</string>
-												<string key="sourceNode">ScreenInfo_1</string>
-												<string key="sourcePort">outputHeight</string>
-											</dictionary>
-											<dictionary key="connection_6">
-												<string key="destinationNode">TextImage_1</string>
-												<string key="destinationPort">inputString</string>
-												<string key="sourceNode">Splitter_3</string>
-												<string key="sourcePort">output</string>
-											</dictionary>
-											<dictionary key="connection_7">
-												<string key="destinationNode">StructureCount_1</string>
-												<string key="destinationPort">inputStructure</string>
-												<string key="sourceNode">Splitter_2</string>
-												<string key="sourcePort">output</string>
-											</dictionary>
-											<dictionary key="connection_8">
-												<string key="destinationNode">Iterator_1</string>
-												<string key="destinationPort">inputCount</string>
-												<string key="sourceNode">StructureCount_1</string>
-												<string key="sourcePort">outputCount</string>
-											</dictionary>
-											<dictionary key="connection_9">
-												<string key="destinationNode">Iterator_1</string>
-												<string key="destinationPort">Structure</string>
-												<string key="sourceNode">Splitter_2</string>
-												<string key="sourcePort">output</string>
-											</dictionary>
-										</dictionary>
-										<array key="nodes">
-											<dictionary>
-												<string key="class">QCClear</string>
-												<string key="key">Clear_1</string>
-												<dictionary key="state">
-													<boolean value="YES" key="clearColorBuffer"/>
-													<boolean value="YES" key="clearDepthBuffer"/>
-													<object class="NSDictionary" key="ivarInputPortStates">
-														<string key="NS.key.0">inputColor</string>
-														<object class="NSDictionary" key="NS.object.0">
-															<string key="NS.key.0">value</string>
-															<dictionary key="NS.object.0">
-																<real value="0.0" key="alpha"/>
-																<real value="0.0" key="blue"/>
-																<real value="0.0" key="green"/>
-																<real value="0.0" key="red"/>
-															</dictionary>
-														</object>
-													</object>
-													<object class="NSDictionary" key="systemInputPortStates">
-														<string key="NS.key.0">_enable</string>
-														<object class="NSDictionary" key="NS.object.0">
-															<string key="NS.key.0">value</string>
-															<boolean value="YES" key="NS.object.0"/>
-														</object>
-													</object>
-													<object class="NSMutableData" key="userInfo">
-														<bytes key="NS.bytes">BAtzdHJlYW10eXBlZIHoA4QBQISEhBNOU011dGFibGVEaWN0aW9uYXJ5AISEDE5TRGljdGlvbmFyeQCE
-hAhOU09iamVjdACFhAFpAZKEhIQITlNTdHJpbmcBlYQBKwhwb3NpdGlvboaShISEB05TVmFsdWUAlYQB
-KoSEDHtDR1BvaW50PWRkfZuBjwGBAQGGhg</bytes>
-													</object>
-												</dictionary>
-											</dictionary>
-											<dictionary>
-												<string key="class">QCSprite</string>
-												<string key="key">Sprite_1</string>
-												<dictionary key="state">
-													<integer value="0" key="antialiasing"/>
-													<dictionary key="ivarInputPortStates">
-														<object class="NSDictionary" key="inputBlending">
-															<string key="NS.key.0">value</string>
-															<integer value="1" key="NS.object.0"/>
-														</object>
-														<object class="NSDictionary" key="inputColor">
-															<string key="NS.key.0">value</string>
-															<dictionary key="NS.object.0">
-																<real value="1" key="alpha"/>
-																<real value="1" key="blue"/>
-																<real value="1" key="green"/>
-																<real value="1" key="red"/>
-															</dictionary>
-														</object>
-														<object class="NSDictionary" key="inputCulling">
-															<string key="NS.key.0">value</string>
-															<integer value="0" key="NS.object.0"/>
-														</object>
-														<object class="NSDictionary" key="inputRX">
-															<string key="NS.key.0">value</string>
-															<real value="0.0" key="NS.object.0"/>
-														</object>
-														<object class="NSDictionary" key="inputRY">
-															<string key="NS.key.0">value</string>
-															<real value="0.0" key="NS.object.0"/>
-														</object>
-														<object class="NSDictionary" key="inputRZ">
-															<string key="NS.key.0">value</string>
-															<real value="0.0" key="NS.object.0"/>
-														</object>
-														<object class="NSDictionary" key="inputX">
-															<string key="NS.key.0">value</string>
-															<real value="0.0" key="NS.object.0"/>
-														</object>
-														<object class="NSDictionary" key="inputY">
-															<string key="NS.key.0">value</string>
-															<real value="0.0" key="NS.object.0"/>
-														</object>
-														<object class="NSDictionary" key="inputZ">
-															<string key="NS.key.0">value</string>
-															<real value="0.0" key="NS.object.0"/>
-														</object>
-														<object class="NSDictionary" key="inputZBuffer">
-															<string key="NS.key.0">value</string>
-															<integer value="1" key="NS.object.0"/>
-														</object>
-													</dictionary>
-													<object class="NSMutableData" key="userInfo">
-														<bytes key="NS.bytes">BAtzdHJlYW10eXBlZIHoA4QBQISEhBNOU011dGFibGVEaWN0aW9uYXJ5AISEDE5TRGljdGlvbmFyeQCE
-hAhOU09iamVjdACFhAFpAZKEhIQITlNTdHJpbmcBlYQBKwhwb3NpdGlvboaShISEB05TVmFsdWUAlYQB
-KoSEDHtDR1BvaW50PWRkfZuBWgSBYQGGhg</bytes>
-													</object>
-												</dictionary>
-											</dictionary>
-											<dictionary>
-												<string key="class">QCScreenInfo</string>
-												<string key="key">ScreenInfo_1</string>
-												<dictionary key="state">
-													<boolean value="YES" key="cleanAperture"/>
-													<object class="NSMutableData" key="userInfo">
-														<bytes key="NS.bytes">BAtzdHJlYW10eXBlZIHoA4QBQISEhBNOU011dGFibGVEaWN0aW9uYXJ5AISEDE5TRGljdGlvbmFyeQCE
-hAhOU09iamVjdACFhAFpAZKEhIQITlNTdHJpbmcBlYQBKwhwb3NpdGlvboaShISEB05TVmFsdWUAlYQB
-KoSEDHtDR1BvaW50PWRkfZuB9wCBeQGGhg</bytes>
-													</object>
-												</dictionary>
-											</dictionary>
-											<dictionary>
-												<string key="class">QCTextImage</string>
-												<string key="key">TextImage_1</string>
-												<dictionary key="state">
-													<dictionary key="customInputPortStates">
-														<object class="NSDictionary" key="inputGlyphSize" id="904439322">
-															<string key="NS.key.0">value</string>
-															<real value="0.10000000000000001" key="NS.object.0"/>
-														</object>
-														<object class="NSDictionary" key="inputKerning" id="919838666">
-															<string key="NS.key.0">value</string>
-															<real value="0.0" key="NS.object.0"/>
-														</object>
-														<object class="NSDictionary" key="inputLeading" id="420613658">
-															<string key="NS.key.0">value</string>
-															<real value="0.0" key="NS.object.0"/>
-														</object>
-													</dictionary>
-													<string key="fontName">LucidaGrande</string>
-													<real value="0.10000000000000001" key="fontSize"/>
-													<string key="horizontalAlignment">Centered</string>
-													<dictionary key="ivarInputPortStates">
-														<object class="NSDictionary" key="inputFontName">
-															<string key="NS.key.0">value</string>
-															<string key="NS.object.0">LucidaGrande</string>
-														</object>
-														<reference key="inputGlyphSize" ref="904439322"/>
-														<reference key="inputKerning" ref="919838666"/>
-														<reference key="inputLeading" ref="420613658"/>
-													</dictionary>
-													<boolean value="NO" key="manualLayout"/>
-													<object class="NSMutableData" key="userInfo">
-														<bytes key="NS.bytes">BAtzdHJlYW10eXBlZIHoA4QBQISEhBNOU011dGFibGVEaWN0aW9uYXJ5AISEDE5TRGljdGlvbmFyeQCE
-hAhOU09iamVjdACFhAFpAZKEhIQITlNTdHJpbmcBlYQBKwhwb3NpdGlvboaShISEB05TVmFsdWUAlYQB
-KoSEDHtDR1BvaW50PWRkfZuBRwOB2QGGhg</bytes>
-													</object>
-													<integer value="2" key="version"/>
-													<string key="verticalAlignment">Centered</string>
-												</dictionary>
-											</dictionary>
-											<dictionary>
-												<string key="class">QCSplitter</string>
-												<string key="key">Splitter_1</string>
-												<dictionary key="state">
-													<string key="portClass">QCStringPort</string>
-													<object class="NSMutableData" key="userInfo">
-														<bytes key="NS.bytes">BAtzdHJlYW10eXBlZIHoA4QBQISEhBNOU011dGFibGVEaWN0aW9uYXJ5AISEDE5TRGljdGlvbmFyeQCE
-hAhOU09iamVjdACFhAFpApKEhIQITlNTdHJpbmcBlYQBKwRuYW1lhpKEl5gGU3RyaW5nhpKEl5gIcG9z
-aXRpb26GkoSEhAdOU1ZhbHVlAJWEASqEhAx7Q0dQb2ludD1kZH2bgRABgRQChoY</bytes>
-													</object>
-													<integer value="1" key="version"/>
-												</dictionary>
-											</dictionary>
-											<dictionary>
-												<string key="class">QCSplitter</string>
-												<string key="key">Splitter_2</string>
-												<dictionary key="state">
-													<object class="NSDictionary" key="customInputPortStates">
-														<string key="NS.key.0">input</string>
-														<object class="NSDictionary" key="NS.object.0">
-															<string key="NS.key.0">userInfo</string>
-															<object class="NSMutableData" key="NS.object.0">
-																<bytes key="NS.bytes">BAtzdHJlYW10eXBlZIHoA4QBQISEhBNOU011dGFibGVEaWN0aW9uYXJ5AISEDE5TRGljdGlvbmFyeQCE
-hAhOU09iamVjdACFhAFpAZKEhIQITlNTdHJpbmcBlYQBKwRuYW1lhpKEl5gJU3RydWN0dXJlhoY</bytes>
-															</object>
-														</object>
-													</object>
-													<object class="NSDictionary" key="customOutputPortStates">
-														<string key="NS.key.0">output</string>
-														<object class="NSDictionary" key="NS.object.0">
-															<string key="NS.key.0">userInfo</string>
-															<object class="NSMutableData" key="NS.object.0">
-																<bytes key="NS.bytes">BAtzdHJlYW10eXBlZIHoA4QBQISEhBNOU011dGFibGVEaWN0aW9uYXJ5AISEDE5TRGljdGlvbmFyeQCE
-hAhOU09iamVjdACFhAFpAZKEhIQITlNTdHJpbmcBlYQBKwRuYW1lhpKEl5gJU3RydWN0dXJlhoY</bytes>
-															</object>
-														</object>
-													</object>
-													<string key="portClass">QCStructurePort</string>
-													<object class="NSMutableData" key="userInfo">
-														<bytes key="NS.bytes">BAtzdHJlYW10eXBlZIHoA4QBQISEhBNOU011dGFibGVEaWN0aW9uYXJ5AISEDE5TRGljdGlvbmFyeQCE
-hAhOU09iamVjdACFhAFpApKEhIQITlNTdHJpbmcBlYQBKwRuYW1lhpKEl5gJU3RydWN0dXJlhpKEl5gI
-cG9zaXRpb26GkoSEhAdOU1ZhbHVlAJWEASqEhAx7Q0dQb2ludD1kZH2bgQwBgcgChoY</bytes>
-													</object>
-													<integer value="1" key="version"/>
-												</dictionary>
-											</dictionary>
-											<dictionary>
-												<string key="class">QCStructureCount</string>
-												<string key="key">StructureCount_1</string>
-												<object class="NSDictionary" key="state">
-													<string key="NS.key.0">userInfo</string>
-													<object class="NSMutableData" key="NS.object.0">
-														<bytes key="NS.bytes">BAtzdHJlYW10eXBlZIHoA4QBQISEhBNOU011dGFibGVEaWN0aW9uYXJ5AISEDE5TRGljdGlvbmFyeQCE
-hAhOU09iamVjdACFhAFpAZKEhIQITlNTdHJpbmcBlYQBKwhwb3NpdGlvboaShISEB05TVmFsdWUAlYQB
-KoSEDHtDR1BvaW50PWRkfZuBxwKBpQKGhg</bytes>
-													</object>
-												</object>
-											</dictionary>
-											<dictionary>
-												<string key="class">QCIterator</string>
-												<string key="key">Iterator_1</string>
-												<dictionary key="state">
-													<dictionary key="connections">
-														<dictionary key="connection_1">
-															<string key="destinationNode">StructureMember_index_1</string>
-															<string key="destinationPort">inputIndex</string>
-															<string key="sourceNode">IteratorVariables_1</string>
-															<string key="sourcePort">outputIndex</string>
-														</dictionary>
-														<dictionary key="connection_10">
-															<string key="destinationNode">TextImage_1</string>
-															<string key="destinationPort">inputString</string>
-															<string key="sourceNode">StructureMember_index_1</string>
-															<string key="sourcePort">outputMember</string>
-														</dictionary>
-														<dictionary key="connection_11">
-															<string key="destinationNode">Patch_1</string>
-															<string key="destinationPort">Value</string>
-															<string key="sourceNode">ScreenInfo_1</string>
-															<string key="sourcePort">outputHeight</string>
-														</dictionary>
-														<dictionary key="connection_12">
-															<string key="destinationNode">Expression_1</string>
-															<string key="destinationPort">base</string>
-															<string key="sourceNode">Patch_1</string>
-															<string key="sourcePort">Lower_Value</string>
-														</dictionary>
-														<dictionary key="connection_13">
-															<string key="destinationNode">Expression_1</string>
-															<string key="destinationPort">height</string>
-															<string key="sourceNode">Math_1</string>
-															<string key="sourcePort">outputValue</string>
-														</dictionary>
-														<dictionary key="connection_14">
-															<string key="destinationNode">Expression_1</string>
-															<string key="destinationPort">index</string>
-															<string key="sourceNode">IteratorVariables_1</string>
-															<string key="sourcePort">outputIndex</string>
-														</dictionary>
-														<dictionary key="connection_15">
-															<string key="destinationNode">Sprite_1</string>
-															<string key="destinationPort">inputY</string>
-															<string key="sourceNode">Expression_1</string>
-															<string key="sourcePort">outputResult</string>
-														</dictionary>
-														<dictionary key="connection_2">
-															<string key="destinationNode">StructureMember_index_1</string>
-															<string key="destinationPort">inputStructure</string>
-															<string key="sourceNode">Splitter_2</string>
-															<string key="sourcePort">output</string>
-														</dictionary>
-														<dictionary key="connection_3">
-															<string key="destinationNode">Sprite_1</string>
-															<string key="destinationPort">inputWidth</string>
-															<string key="sourceNode">ScreenInfo_1</string>
-															<string key="sourcePort">outputWidth</string>
-														</dictionary>
-														<dictionary key="connection_4">
-															<string key="destinationNode">Math_1</string>
-															<string key="destinationPort">inputValue</string>
-															<string key="sourceNode">ScreenInfo_1</string>
-															<string key="sourcePort">outputHeight</string>
-														</dictionary>
-														<dictionary key="connection_5">
-															<string key="destinationNode">Math_1</string>
-															<string key="destinationPort">operand_1</string>
-															<string key="sourceNode">IteratorVariables_1</string>
-															<string key="sourcePort">outputCount</string>
-														</dictionary>
-														<dictionary key="connection_6">
-															<string key="destinationNode">TextImage_1</string>
-															<string key="destinationPort">inputHeight</string>
-															<string key="sourceNode">Math_1</string>
-															<string key="sourcePort">outputValue</string>
-														</dictionary>
-														<dictionary key="connection_7">
-															<string key="destinationNode">TextImage_1</string>
-															<string key="destinationPort">inputWidth</string>
-															<string key="sourceNode">ScreenInfo_1</string>
-															<string key="sourcePort">outputWidth</string>
-														</dictionary>
-														<dictionary key="connection_8">
-															<string key="destinationNode">Sprite_1</string>
-															<string key="destinationPort">inputHeight</string>
-															<string key="sourceNode">Math_1</string>
-															<string key="sourcePort">outputValue</string>
-														</dictionary>
-														<dictionary key="connection_9">
-															<string key="destinationNode">Sprite_1</string>
-															<string key="destinationPort">inputImage</string>
-															<string key="sourceNode">TextImage_1</string>
-															<string key="sourcePort">outputImage</string>
-														</dictionary>
-													</dictionary>
-													<array key="nodes">
-														<dictionary>
-															<string key="class">QCSplitter</string>
-															<string key="key">Splitter_2</string>
-															<dictionary key="state">
-																<object class="NSDictionary" key="customInputPortStates">
-																	<string key="NS.key.0">input</string>
-																	<object class="NSDictionary" key="NS.object.0">
-																		<string key="NS.key.0">userInfo</string>
-																		<object class="NSMutableData" key="NS.object.0">
-																			<bytes key="NS.bytes">BAtzdHJlYW10eXBlZIHoA4QBQISEhBNOU011dGFibGVEaWN0aW9uYXJ5AISEDE5TRGljdGlvbmFyeQCE
-hAhOU09iamVjdACFhAFpAZKEhIQITlNTdHJpbmcBlYQBKwRuYW1lhpKEl5gJU3RydWN0dXJlhoY</bytes>
-																		</object>
-																	</object>
-																</object>
-																<object class="NSDictionary" key="customOutputPortStates">
-																	<string key="NS.key.0">output</string>
-																	<object class="NSDictionary" key="NS.object.0">
-																		<string key="NS.key.0">userInfo</string>
-																		<object class="NSMutableData" key="NS.object.0">
-																			<bytes key="NS.bytes">BAtzdHJlYW10eXBlZIHoA4QBQISEhBNOU011dGFibGVEaWN0aW9uYXJ5AISEDE5TRGljdGlvbmFyeQCE
-hAhOU09iamVjdACFhAFpAZKEhIQITlNTdHJpbmcBlYQBKwRuYW1lhpKEl5gJU3RydWN0dXJlhoY</bytes>
-																		</object>
-																	</object>
-																</object>
-																<string key="portClass">QCStructurePort</string>
-																<object class="NSMutableData" key="userInfo">
-																	<bytes key="NS.bytes">BAtzdHJlYW10eXBlZIHoA4QBQISEhBNOU011dGFibGVEaWN0aW9uYXJ5AISEDE5TRGljdGlvbmFyeQCE
-hAhOU09iamVjdACFhAFpApKEhIQITlNTdHJpbmcBlYQBKwRuYW1lhpKEl5gJU3RydWN0dXJlhpKEl5gI
-cG9zaXRpb26GkoSEhAdOU1ZhbHVlAJWEASqEhAx7Q0dQb2ludD1kZH2bgeYAgVwChoY</bytes>
-																</object>
-																<integer value="1" key="version"/>
-															</dictionary>
-														</dictionary>
-														<dictionary>
-															<string key="class">QCIteratorVariables</string>
-															<string key="key">IteratorVariables_1</string>
-															<object class="NSDictionary" key="state">
-																<string key="NS.key.0">userInfo</string>
-																<object class="NSMutableData" key="NS.object.0">
-																	<bytes key="NS.bytes">BAtzdHJlYW10eXBlZIHoA4QBQISEhBNOU011dGFibGVEaWN0aW9uYXJ5AISEDE5TRGljdGlvbmFyeQCE
-hAhOU09iamVjdACFhAFpAZKEhIQITlNTdHJpbmcBlYQBKwhwb3NpdGlvboaShISEB05TVmFsdWUAlYQB
-KoSEDHtDR1BvaW50PWRkfZuBFgGBbQGGhg</bytes>
-																</object>
-															</object>
-														</dictionary>
-														<dictionary>
-															<string key="class">QCSprite</string>
-															<string key="key">Sprite_1</string>
-															<dictionary key="state">
-																<integer value="0" key="antialiasing"/>
-																<dictionary key="ivarInputPortStates">
-																	<object class="NSDictionary" key="inputBlending">
-																		<string key="NS.key.0">value</string>
-																		<integer value="1" key="NS.object.0"/>
-																	</object>
-																	<object class="NSDictionary" key="inputColor">
-																		<string key="NS.key.0">value</string>
-																		<dictionary key="NS.object.0">
-																			<real value="1" key="alpha"/>
-																			<real value="1" key="blue"/>
-																			<real value="1" key="green"/>
-																			<real value="1" key="red"/>
-																		</dictionary>
-																	</object>
-																	<object class="NSDictionary" key="inputCulling">
-																		<string key="NS.key.0">value</string>
-																		<integer value="0" key="NS.object.0"/>
-																	</object>
-																	<object class="NSDictionary" key="inputRX">
-																		<string key="NS.key.0">value</string>
-																		<real value="0.0" key="NS.object.0"/>
-																	</object>
-																	<object class="NSDictionary" key="inputRY">
-																		<string key="NS.key.0">value</string>
-																		<real value="0.0" key="NS.object.0"/>
-																	</object>
-																	<object class="NSDictionary" key="inputRZ">
-																		<string key="NS.key.0">value</string>
-																		<real value="0.0" key="NS.object.0"/>
-																	</object>
-																	<object class="NSDictionary" key="inputX">
-																		<string key="NS.key.0">value</string>
-																		<real value="0.0" key="NS.object.0"/>
-																	</object>
-																	<object class="NSDictionary" key="inputZ">
-																		<string key="NS.key.0">value</string>
-																		<real value="0.0" key="NS.object.0"/>
-																	</object>
-																	<object class="NSDictionary" key="inputZBuffer">
-																		<string key="NS.key.0">value</string>
-																		<integer value="1" key="NS.object.0"/>
-																	</object>
-																</dictionary>
-																<object class="NSDictionary" key="systemInputPortStates">
-																	<string key="NS.key.0">_enable</string>
-																	<object class="NSDictionary" key="NS.object.0">
-																		<string key="NS.key.0">value</string>
-																		<boolean value="YES" key="NS.object.0"/>
-																	</object>
-																</object>
-																<object class="NSMutableData" key="userInfo">
-																	<bytes key="NS.bytes">BAtzdHJlYW10eXBlZIHoA4QBQISEhBNOU011dGFibGVEaWN0aW9uYXJ5AISEDE5TRGljdGlvbmFyeQCE
-hAhOU09iamVjdACFhAFpAZKEhIQITlNTdHJpbmcBlYQBKwhwb3NpdGlvboaShISEB05TVmFsdWUAlYQB
-KoSEDHtDR1BvaW50PWRkfZuBNgSBnQGGhg</bytes>
-																</object>
-															</dictionary>
-														</dictionary>
-														<dictionary>
-															<string key="class">QCScreenInfo</string>
-															<string key="key">ScreenInfo_1</string>
-															<dictionary key="state">
-																<boolean value="YES" key="cleanAperture"/>
-																<object class="NSMutableData" key="userInfo">
-																	<bytes key="NS.bytes">BAtzdHJlYW10eXBlZIHoA4QBQISEhBNOU011dGFibGVEaWN0aW9uYXJ5AISEDE5TRGljdGlvbmFyeQCE
-hAhOU09iamVjdACFhAFpAZKEhIQITlNTdHJpbmcBlYQBKwhwb3NpdGlvboaShISEB05TVmFsdWUAlYQB
-KoSEDHtDR1BvaW50PWRkfZuB1ACBtQGGhg</bytes>
-																</object>
-															</dictionary>
-														</dictionary>
-														<dictionary>
-															<string key="class">QCStructureMember</string>
-															<string key="identifier">index</string>
-															<string key="key">StructureMember_index_1</string>
-															<object class="NSDictionary" key="state">
-																<string key="NS.key.0">userInfo</string>
-																<object class="NSMutableData" key="NS.object.0">
-																	<bytes key="NS.bytes">BAtzdHJlYW10eXBlZIHoA4QBQISEhBNOU011dGFibGVEaWN0aW9uYXJ5AISEDE5TRGljdGlvbmFyeQCE
-hAhOU09iamVjdACFhAFpAZKEhIQITlNTdHJpbmcBlYQBKwhwb3NpdGlvboaShISEB05TVmFsdWUAlYQB
-KoSEDHtDR1BvaW50PWRkfZuB3wGBYQGGhg</bytes>
-																</object>
-															</object>
-														</dictionary>
-														<dictionary>
-															<string key="class">QCTextImage</string>
-															<string key="key">TextImage_1</string>
-															<dictionary key="state">
-																<dictionary key="customInputPortStates">
-																	<object class="NSDictionary" key="inputGlyphSize" id="649363736">
-																		<string key="NS.key.0">value</string>
-																		<real value="0.10000000000000001" key="NS.object.0"/>
-																	</object>
-																	<object class="NSDictionary" key="inputKerning" id="420473025">
-																		<string key="NS.key.0">value</string>
-																		<real value="0.0" key="NS.object.0"/>
-																	</object>
-																	<object class="NSDictionary" key="inputLeading" id="725247332">
-																		<string key="NS.key.0">value</string>
-																		<real value="0.0" key="NS.object.0"/>
-																	</object>
-																</dictionary>
-																<string key="fontName">LucidaGrande</string>
-																<real value="0.10000000000000001" key="fontSize"/>
-																<string key="horizontalAlignment">Centered</string>
-																<dictionary key="ivarInputPortStates">
-																	<object class="NSDictionary" key="inputFontName">
-																		<string key="NS.key.0">value</string>
-																		<string key="NS.object.0">LucidaGrande</string>
-																	</object>
-																	<reference key="inputGlyphSize" ref="649363736"/>
-																	<reference key="inputKerning" ref="420473025"/>
-																	<reference key="inputLeading" ref="725247332"/>
-																</dictionary>
-																<boolean value="NO" key="manualLayout"/>
-																<object class="NSMutableData" key="userInfo">
-																	<bytes key="NS.bytes">BAtzdHJlYW10eXBlZIHoA4QBQISEhBNOU011dGFibGVEaWN0aW9uYXJ5AISEDE5TRGljdGlvbmFyeQCE
-hAhOU09iamVjdACFhAFpAZKEhIQITlNTdHJpbmcBlYQBKwhwb3NpdGlvboaShISEB05TVmFsdWUAlYQB
-KoSEDHtDR1BvaW50PWRkfZuBrAKBkQGGhg</bytes>
-																</object>
-																<integer value="2" key="version"/>
-																<string key="verticalAlignment">Centered</string>
-															</dictionary>
-														</dictionary>
-														<dictionary>
-															<string key="class">QCMath</string>
-															<string key="key">Math_1</string>
-															<dictionary key="state">
-																<object class="NSDictionary" key="customInputPortStates">
-																	<string key="NS.key.0">operation_1</string>
-																	<object class="NSDictionary" key="NS.object.0">
-																		<string key="NS.key.0">value</string>
-																		<integer value="3" key="NS.object.0"/>
-																	</object>
-																</object>
-																<integer value="1" key="numberOfOperations"/>
-																<integer value="1" key="operationCount"/>
-																<object class="NSMutableData" key="userInfo">
-																	<bytes key="NS.bytes">BAtzdHJlYW10eXBlZIHoA4QBQISEhBNOU011dGFibGVEaWN0aW9uYXJ5AISEDE5TRGljdGlvbmFyeQCE
-hAhOU09iamVjdACFhAFpAZKEhIQITlNTdHJpbmcBlYQBKwhwb3NpdGlvboaShISEB05TVmFsdWUAlYQB
-KoSEDHtDR1BvaW50PWRkfZuB7wGBwgGGhg</bytes>
-																</object>
-																<integer value="1" key="version"/>
-															</dictionary>
-														</dictionary>
-														<dictionary>
-															<string key="class">/split</string>
-															<string key="key">Patch_1</string>
-															<dictionary key="state">
-																<dictionary key="customInputPortStates">
-																	<object class="NSDictionary" key="Factor">
-																		<string key="NS.key.0">value</string>
-																		<real value="1" key="NS.object.0"/>
-																	</object>
-																	<object class="NSDictionary" key="Offset">
-																		<string key="NS.key.0">value</string>
-																		<real value="0.0" key="NS.object.0"/>
-																	</object>
-																</dictionary>
-																<object class="NSMutableData" key="userInfo">
-																	<bytes key="NS.bytes">BAtzdHJlYW10eXBlZIHoA4QBQISEhBNOU011dGFibGVEaWN0aW9uYXJ5AISEDE5TRGljdGlvbmFyeQCE
-hAhOU09iamVjdACFhAFpA5KEhIQITlNTdHJpbmcBlYQBKwp6b29tRmFjdG9yhpKEhIQITlNOdW1iZXIA
-hIQHTlNWYWx1ZQCVhAEqhIQBZpwBhpKEl5gJc2Nyb2xsaW5nhpKEmpuEhAx7Q0dQb2ludD1kZH2dgwAA
-AAAAvI5AgSEEhpKEl5gIcG9zaXRpb26GkoSam56dgfkBgRUChoY</bytes>
-																</object>
-															</dictionary>
-														</dictionary>
-														<dictionary>
-															<string key="class">QCMath</string>
-															<string key="key">Math_2</string>
-															<dictionary key="state">
-																<dictionary key="customInputPortStates">
-																	<object class="NSDictionary" key="operand_1">
-																		<string key="NS.key.0">value</string>
-																		<real value="0.0" key="NS.object.0"/>
-																	</object>
-																	<object class="NSDictionary" key="operation_1">
-																		<string key="NS.key.0">value</string>
-																		<integer value="0" key="NS.object.0"/>
-																	</object>
-																</dictionary>
-																<object class="NSDictionary" key="ivarInputPortStates">
-																	<string key="NS.key.0">inputValue</string>
-																	<object class="NSDictionary" key="NS.object.0">
-																		<string key="NS.key.0">value</string>
-																		<real value="0.0" key="NS.object.0"/>
-																	</object>
-																</object>
-																<integer value="1" key="numberOfOperations"/>
-																<integer value="1" key="operationCount"/>
-																<object class="NSMutableData" key="userInfo">
-																	<bytes key="NS.bytes">BAtzdHJlYW10eXBlZIHoA4QBQISEhBNOU011dGFibGVEaWN0aW9uYXJ5AISEDE5TRGljdGlvbmFyeQCE
-hAhOU09iamVjdACFhAFpAZKEhIQITlNTdHJpbmcBlYQBKwhwb3NpdGlvboaShISEB05TVmFsdWUAlYQB
-KoSEDHtDR1BvaW50PWRkfZuB+QKBOgKGhg</bytes>
-																</object>
-																<integer value="1" key="version"/>
-															</dictionary>
-														</dictionary>
-														<dictionary>
-															<string key="class">QCExpression</string>
-															<string key="key">Expression_1</string>
-															<dictionary key="state">
-																<string key="expression">(base+(0.5*height))+height*index</string>
-																<object class="NSMutableData" key="userInfo">
-																	<bytes key="NS.bytes">BAtzdHJlYW10eXBlZIHoA4QBQISEhBNOU011dGFibGVEaWN0aW9uYXJ5AISEDE5TRGljdGlvbmFyeQCE
-hAhOU09iamVjdACFhAFpApKEhIQITlNTdHJpbmcBlYQBKwRuYW1lhpKEl5giIihiYXNlKygwLjUqaGVp
-Z2h0KSkraGVpZ2h0KmluZGV4IoaShJeYCHBvc2l0aW9uhpKEhIQHTlNWYWx1ZQCVhAEqhIQMe0NHUG9p
-bnQ9ZGR9m4GnAoGBAoaGA</bytes>
-																</object>
-															</dictionary>
-														</dictionary>
-													</array>
-													<array key="publishedInputPorts">
-														<dictionary>
-															<string key="key">Structure</string>
-															<string key="node">Splitter_2</string>
-															<string key="port">input</string>
-															<object class="NSDictionary" key="state">
-																<string key="NS.key.0">userInfo</string>
-																<object class="NSMutableData" key="NS.object.0">
-																	<bytes key="NS.bytes">BAtzdHJlYW10eXBlZIHoA4QBQISEhBNOU011dGFibGVEaWN0aW9uYXJ5AISEDE5TRGljdGlvbmFyeQCE
-hAhOU09iamVjdACFhAFpAZKEhIQITlNTdHJpbmcBlYQBKwRuYW1lhpKEl5gJU3RydWN0dXJlhoY</bytes>
-																</object>
-															</object>
-														</dictionary>
-													</array>
-													<object class="NSMutableData" key="userInfo">
-														<bytes key="NS.bytes">BAtzdHJlYW10eXBlZIHoA4QBQISEhBNOU011dGFibGVEaWN0aW9uYXJ5AISEDE5TRGljdGlvbmFyeQCE
-hAhOU09iamVjdACFhAFpA5KEhIQITlNTdHJpbmcBlYQBKwp6b29tRmFjdG9yhpKEhIQITlNOdW1iZXIA
-hIQHTlNWYWx1ZQCVhAEqhIQBZpwBhpKEl5gJc2Nyb2xsaW5nhpKEmpuEhAx7Q0dQb2ludD1kZH2dgwAA
-AAAAnIdAgeIBhpKEl5gIcG9zaXRpb26GkoSam56dgYYDgaUChoY</bytes>
-													</object>
-												</dictionary>
-											</dictionary>
-											<dictionary>
-												<string key="class">QCSprite</string>
-												<string key="key">Sprite_2</string>
-												<dictionary key="state">
-													<integer value="0" key="antialiasing"/>
-													<dictionary key="ivarInputPortStates">
-														<object class="NSDictionary" key="inputBlending">
-															<string key="NS.key.0">value</string>
-															<integer value="1" key="NS.object.0"/>
-														</object>
-														<object class="NSDictionary" key="inputColor">
-															<string key="NS.key.0">value</string>
-															<dictionary key="NS.object.0">
-																<real value="1" key="alpha"/>
-																<real value="1" key="blue"/>
-																<real value="1" key="green"/>
-																<real value="1" key="red"/>
-															</dictionary>
-														</object>
-														<object class="NSDictionary" key="inputCulling">
-															<string key="NS.key.0">value</string>
-															<integer value="0" key="NS.object.0"/>
-														</object>
-														<object class="NSDictionary" key="inputRX">
-															<string key="NS.key.0">value</string>
-															<real value="0.0" key="NS.object.0"/>
-														</object>
-														<object class="NSDictionary" key="inputRY">
-															<string key="NS.key.0">value</string>
-															<real value="0.0" key="NS.object.0"/>
-														</object>
-														<object class="NSDictionary" key="inputRZ">
-															<string key="NS.key.0">value</string>
-															<real value="0.0" key="NS.object.0"/>
-														</object>
-														<object class="NSDictionary" key="inputX">
-															<string key="NS.key.0">value</string>
-															<real value="0.0" key="NS.object.0"/>
-														</object>
-														<object class="NSDictionary" key="inputY">
-															<string key="NS.key.0">value</string>
-															<real value="0.0" key="NS.object.0"/>
-														</object>
-														<object class="NSDictionary" key="inputZ">
-															<string key="NS.key.0">value</string>
-															<real value="0.0" key="NS.object.0"/>
-														</object>
-														<object class="NSDictionary" key="inputZBuffer">
-															<string key="NS.key.0">value</string>
-															<integer value="1" key="NS.object.0"/>
-														</object>
-													</dictionary>
-													<object class="NSMutableData" key="userInfo">
-														<bytes key="NS.bytes">BAtzdHJlYW10eXBlZIHoA4QBQISEhBNOU011dGFibGVEaWN0aW9uYXJ5AISEDE5TRGljdGlvbmFyeQCE
-hAhOU09iamVjdACFhAFpAZKEhIQITlNTdHJpbmcBlYQBKwhwb3NpdGlvboaShISEB05TVmFsdWUAlYQB
-KoSEDHtDR1BvaW50PWRkfZuBYgSByQKGhg</bytes>
-													</object>
-												</dictionary>
-											</dictionary>
-											<dictionary>
-												<string key="class">QCConditional</string>
-												<string key="key">Conditional_1</string>
-												<dictionary key="state">
-													<dictionary key="ivarInputPortStates">
-														<object class="NSDictionary" key="inputTest">
-															<string key="NS.key.0">value</string>
-															<integer value="0" key="NS.object.0"/>
-														</object>
-														<object class="NSDictionary" key="inputTolerance">
-															<string key="NS.key.0">value</string>
-															<real value="0.0" key="NS.object.0"/>
-														</object>
-														<object class="NSDictionary" key="inputValue2">
-															<string key="NS.key.0">value</string>
-															<real value="1" key="NS.object.0"/>
-														</object>
-													</dictionary>
-													<object class="NSMutableData" key="userInfo">
-														<bytes key="NS.bytes">BAtzdHJlYW10eXBlZIHoA4QBQISEhBNOU011dGFibGVEaWN0aW9uYXJ5AISEDE5TRGljdGlvbmFyeQCE
-hAhOU09iamVjdACFhAFpAZKEhIQITlNTdHJpbmcBlYQBKwhwb3NpdGlvboaShISEB05TVmFsdWUAlYQB
-KoSEDHtDR1BvaW50PWRkfZuBQgKBYQGGhg</bytes>
-													</object>
-												</dictionary>
-											</dictionary>
-											<dictionary>
-												<string key="class">QCSplitter</string>
-												<string key="key">Splitter_4</string>
-												<dictionary key="state">
-													<object class="NSDictionary" key="customInputPortStates">
-														<string key="NS.key.0">input</string>
-														<object class="NSDictionary" key="NS.object.0">
-															<string key="NS.key.0">userInfo</string>
-															<object class="NSMutableData" key="NS.object.0">
-																<bytes key="NS.bytes">BAtzdHJlYW10eXBlZIHoA4QBQISEhBNOU011dGFibGVEaWN0aW9uYXJ5AISEDE5TRGljdGlvbmFyeQCE
-hAhOU09iamVjdACFhAFpAZKEhIQITlNTdHJpbmcBlYQBKwRuYW1lhpKEl5gGU3ByaXRlhoY</bytes>
-															</object>
-														</object>
-													</object>
-													<object class="NSDictionary" key="customOutputPortStates">
-														<string key="NS.key.0">output</string>
-														<object class="NSDictionary" key="NS.object.0">
-															<string key="NS.key.0">userInfo</string>
-															<object class="NSMutableData" key="NS.object.0">
-																<bytes key="NS.bytes">BAtzdHJlYW10eXBlZIHoA4QBQISEhBNOU011dGFibGVEaWN0aW9uYXJ5AISEDE5TRGljdGlvbmFyeQCE
-hAhOU09iamVjdACFhAFpAZKEhIQITlNTdHJpbmcBlYQBKwRuYW1lhpKEl5gGU3ByaXRlhoY</bytes>
-															</object>
-														</object>
-													</object>
-													<real value="3" key="inputMax"/>
-													<real value="1" key="inputMin"/>
-													<string key="portClass">QCIndexPort</string>
-													<object class="NSMutableData" key="userInfo">
-														<bytes key="NS.bytes">BAtzdHJlYW10eXBlZIHoA4QBQISEhBNOU011dGFibGVEaWN0aW9uYXJ5AISEDE5TRGljdGlvbmFyeQCE
-hAhOU09iamVjdACFhAFpApKEhIQITlNTdHJpbmcBlYQBKwRuYW1lhpKEl5gGU3ByaXRlhpKEl5gIcG9z
-aXRpb26GkoSEhAdOU1ZhbHVlAJWEASqEhAx7Q0dQb2ludD1kZH2bgRcBgTgChoY</bytes>
-													</object>
-													<integer value="1" key="version"/>
-												</dictionary>
-											</dictionary>
-											<dictionary>
-												<string key="class">QCConditional</string>
-												<string key="key">Conditional_2</string>
-												<dictionary key="state">
-													<dictionary key="ivarInputPortStates">
-														<object class="NSDictionary" key="inputTest">
-															<string key="NS.key.0">value</string>
-															<integer value="0" key="NS.object.0"/>
-														</object>
-														<object class="NSDictionary" key="inputTolerance">
-															<string key="NS.key.0">value</string>
-															<real value="0.0" key="NS.object.0"/>
-														</object>
-														<object class="NSDictionary" key="inputValue2">
-															<string key="NS.key.0">value</string>
-															<real value="2" key="NS.object.0"/>
-														</object>
-													</dictionary>
-													<object class="NSMutableData" key="userInfo">
-														<bytes key="NS.bytes">BAtzdHJlYW10eXBlZIHoA4QBQISEhBNOU011dGFibGVEaWN0aW9uYXJ5AISEDE5TRGljdGlvbmFyeQCE
-hAhOU09iamVjdACFhAFpAZKEhIQITlNTdHJpbmcBlYQBKwhwb3NpdGlvboaShISEB05TVmFsdWUAlYQB
-KoSEDHtDR1BvaW50PWRkfZuBLwKBLQKGhg</bytes>
-													</object>
-												</dictionary>
-											</dictionary>
-											<dictionary>
-												<string key="class">QCConditional</string>
-												<string key="key">Conditional_3</string>
-												<dictionary key="state">
-													<dictionary key="ivarInputPortStates">
-														<object class="NSDictionary" key="inputTest">
-															<string key="NS.key.0">value</string>
-															<integer value="0" key="NS.object.0"/>
-														</object>
-														<object class="NSDictionary" key="inputTolerance">
-															<string key="NS.key.0">value</string>
-															<real value="0.0" key="NS.object.0"/>
-														</object>
-														<object class="NSDictionary" key="inputValue2">
-															<string key="NS.key.0">value</string>
-															<real value="3" key="NS.object.0"/>
-														</object>
-													</dictionary>
-													<object class="NSMutableData" key="userInfo">
-														<bytes key="NS.bytes">BAtzdHJlYW10eXBlZIHoA4QBQISEhBNOU011dGFibGVEaWN0aW9uYXJ5AISEDE5TRGljdGlvbmFyeQCE
-hAhOU09iamVjdACFhAFpAZKEhIQITlNTdHJpbmcBlYQBKwhwb3NpdGlvboaShISEB05TVmFsdWUAlYQB
-KoSEDHtDR1BvaW50PWRkfZuBLAKB1QKGhg</bytes>
-													</object>
-												</dictionary>
-											</dictionary>
-											<dictionary>
-												<string key="class">QCSplitter</string>
-												<string key="key">Splitter_3</string>
-												<dictionary key="state">
-													<object class="NSDictionary" key="customInputPortStates">
-														<string key="NS.key.0">input</string>
-														<object class="NSDictionary" key="NS.object.0">
-															<string key="NS.key.0">userInfo</string>
-															<object class="NSMutableData" key="NS.object.0">
-																<bytes key="NS.bytes">BAtzdHJlYW10eXBlZIHoA4QBQISEhBNOU011dGFibGVEaWN0aW9uYXJ5AISEDE5TRGljdGlvbmFyeQCE
-hAhOU09iamVjdACFhAFpAZKEhIQITlNTdHJpbmcBlYQBKwRuYW1lhpKEl5gJU3VyZmFjZUlEhoY</bytes>
-															</object>
-														</object>
-													</object>
-													<object class="NSDictionary" key="customOutputPortStates">
-														<string key="NS.key.0">output</string>
-														<object class="NSDictionary" key="NS.object.0">
-															<string key="NS.key.0">userInfo</string>
-															<object class="NSMutableData" key="NS.object.0">
-																<bytes key="NS.bytes">BAtzdHJlYW10eXBlZIHoA4QBQISEhBNOU011dGFibGVEaWN0aW9uYXJ5AISEDE5TRGljdGlvbmFyeQCE
-hAhOU09iamVjdACFhAFpAZKEhIQITlNTdHJpbmcBlYQBKwRuYW1lhpKEl5gJU3VyZmFjZUlEhoY</bytes>
-															</object>
-														</object>
-													</object>
-													<real value="0.0" key="inputMin"/>
-													<string key="portClass">QCIndexPort</string>
-													<object class="NSMutableData" key="userInfo">
-														<bytes key="NS.bytes">BAtzdHJlYW10eXBlZIHoA4QBQISEhBNOU011dGFibGVEaWN0aW9uYXJ5AISEDE5TRGljdGlvbmFyeQCE
-hAhOU09iamVjdACFhAFpApKEhIQITlNTdHJpbmcBlYQBKwRuYW1lhpKEl5gJU3VyZmFjZUlEhpKEl5gI
-cG9zaXRpb26GkoSEhAdOU1ZhbHVlAJWEASqEhAx7Q0dQb2ludD1kZH2bgVQBgUwDhoY</bytes>
-													</object>
-													<integer value="1" key="version"/>
-												</dictionary>
-											</dictionary>
-											<dictionary>
-												<string key="class">QCSplitter</string>
-												<string key="key">Splitter_5</string>
-												<dictionary key="state">
-													<object class="NSDictionary" key="customInputPortStates">
-														<string key="NS.key.0">input</string>
-														<object class="NSDictionary" key="NS.object.0">
-															<string key="NS.key.0">userInfo</string>
-															<object class="NSMutableData" key="NS.object.0">
-																<bytes key="NS.bytes">BAtzdHJlYW10eXBlZIHoA4QBQISEhBNOU011dGFibGVEaWN0aW9uYXJ5AISEDE5TRGljdGlvbmFyeQCE
-hAhOU09iamVjdACFhAFpAZKEhIQITlNTdHJpbmcBlYQBKwRuYW1lhpKEl5gFSW1hZ2WGhg</bytes>
-															</object>
-														</object>
-													</object>
-													<object class="NSDictionary" key="customOutputPortStates">
-														<string key="NS.key.0">output</string>
-														<object class="NSDictionary" key="NS.object.0">
-															<string key="NS.key.0">userInfo</string>
-															<object class="NSMutableData" key="NS.object.0">
-																<bytes key="NS.bytes">BAtzdHJlYW10eXBlZIHoA4QBQISEhBNOU011dGFibGVEaWN0aW9uYXJ5AISEDE5TRGljdGlvbmFyeQCE
-hAhOU09iamVjdACFhAFpAZKEhIQITlNTdHJpbmcBlYQBKwRuYW1lhpKEl5gFSW1hZ2WGhg</bytes>
-															</object>
-														</object>
-													</object>
-													<string key="portClass">QCGLImagePort</string>
-													<object class="NSMutableData" key="userInfo">
-														<bytes key="NS.bytes">BAtzdHJlYW10eXBlZIHoA4QBQISEhBNOU011dGFibGVEaWN0aW9uYXJ5AISEDE5TRGljdGlvbmFyeQCE
-hAhOU09iamVjdACFhAFpApKEhIQITlNTdHJpbmcBlYQBKwRuYW1lhpKEl5gFSW1hZ2WGkoSXmAhwb3Np
-dGlvboaShISEB05TVmFsdWUAlYQBKoSEDHtDR1BvaW50PWRkfZuBOAGBBAOGhg</bytes>
-													</object>
-													<integer value="1" key="version"/>
-												</dictionary>
-											</dictionary>
-											<dictionary>
-												<string key="class">QCSprite</string>
-												<string key="key">Sprite_3</string>
-												<dictionary key="state">
-													<integer value="0" key="antialiasing"/>
-													<dictionary key="ivarInputPortStates">
-														<object class="NSDictionary" key="inputBlending">
-															<string key="NS.key.0">value</string>
-															<integer value="1" key="NS.object.0"/>
-														</object>
-														<object class="NSDictionary" key="inputColor">
-															<string key="NS.key.0">value</string>
-															<dictionary key="NS.object.0">
-																<real value="1" key="alpha"/>
-																<real value="1" key="blue"/>
-																<real value="1" key="green"/>
-																<real value="1" key="red"/>
-															</dictionary>
-														</object>
-														<object class="NSDictionary" key="inputCulling">
-															<string key="NS.key.0">value</string>
-															<integer value="0" key="NS.object.0"/>
-														</object>
-														<object class="NSDictionary" key="inputRX">
-															<string key="NS.key.0">value</string>
-															<real value="0.0" key="NS.object.0"/>
-														</object>
-														<object class="NSDictionary" key="inputRY">
-															<string key="NS.key.0">value</string>
-															<real value="0.0" key="NS.object.0"/>
-														</object>
-														<object class="NSDictionary" key="inputRZ">
-															<string key="NS.key.0">value</string>
-															<real value="0.0" key="NS.object.0"/>
-														</object>
-														<object class="NSDictionary" key="inputX">
-															<string key="NS.key.0">value</string>
-															<real value="0.0" key="NS.object.0"/>
-														</object>
-														<object class="NSDictionary" key="inputY">
-															<string key="NS.key.0">value</string>
-															<real value="0.0" key="NS.object.0"/>
-														</object>
-														<object class="NSDictionary" key="inputZ">
-															<string key="NS.key.0">value</string>
-															<real value="0.0" key="NS.object.0"/>
-														</object>
-														<object class="NSDictionary" key="inputZBuffer">
-															<string key="NS.key.0">value</string>
-															<integer value="1" key="NS.object.0"/>
-														</object>
-													</dictionary>
-													<object class="NSMutableData" key="userInfo">
-														<bytes key="NS.bytes">BAtzdHJlYW10eXBlZIHoA4QBQISEhBNOU011dGFibGVEaWN0aW9uYXJ5AISEDE5TRGljdGlvbmFyeQCE
-hAhOU09iamVjdACFhAFpAZKEhIQITlNTdHJpbmcBlYQBKwhwb3NpdGlvboaShISEB05TVmFsdWUAlYQB
-KoSEDHtDR1BvaW50PWRkfZuBYQSBoQOGhg</bytes>
-													</object>
-												</dictionary>
-											</dictionary>
-											<dictionary>
-												<string key="class">QCConditional</string>
-												<string key="key">Conditional_4</string>
-												<dictionary key="state">
-													<dictionary key="ivarInputPortStates">
-														<object class="NSDictionary" key="inputTest">
-															<string key="NS.key.0">value</string>
-															<integer value="0" key="NS.object.0"/>
-														</object>
-														<object class="NSDictionary" key="inputTolerance">
-															<string key="NS.key.0">value</string>
-															<real value="0.0" key="NS.object.0"/>
-														</object>
-														<object class="NSDictionary" key="inputValue2">
-															<string key="NS.key.0">value</string>
-															<real value="4" key="NS.object.0"/>
-														</object>
-													</dictionary>
-													<object class="NSMutableData" key="userInfo">
-														<bytes key="NS.bytes">BAtzdHJlYW10eXBlZIHoA4QBQISEhBNOU011dGFibGVEaWN0aW9uYXJ5AISEDE5TRGljdGlvbmFyeQCE
-hAhOU09iamVjdACFhAFpAZKEhIQITlNTdHJpbmcBlYQBKwhwb3NpdGlvboaShISEB05TVmFsdWUAlYQB
-KoSEDHtDR1BvaW50PWRkfZuBlQKBNQOGhg</bytes>
-													</object>
-												</dictionary>
-											</dictionary>
-										</array>
-										<array key="publishedInputPorts">
-											<dictionary>
-												<string key="key">String</string>
-												<string key="node">Splitter_1</string>
-												<string key="port">input</string>
-												<object class="NSDictionary" key="state">
-													<string key="NS.key.0">userInfo</string>
-													<object class="NSMutableData" key="NS.object.0">
-														<bytes key="NS.bytes">BAtzdHJlYW10eXBlZIHoA4QBQISEhBNOU011dGFibGVEaWN0aW9uYXJ5AISEDE5TRGljdGlvbmFyeQCE
-hAhOU09iamVjdACFhAFpAZKEhIQITlNTdHJpbmcBlYQBKwRuYW1lhpKEl5gGU3RyaW5nhoY</bytes>
-													</object>
-												</object>
-											</dictionary>
-											<dictionary>
-												<string key="key">Structure</string>
-												<string key="node">Splitter_2</string>
-												<string key="port">input</string>
-												<object class="NSDictionary" key="state">
-													<string key="NS.key.0">userInfo</string>
-													<object class="NSMutableData" key="NS.object.0">
-														<bytes key="NS.bytes">BAtzdHJlYW10eXBlZIHoA4QBQISEhBNOU011dGFibGVEaWN0aW9uYXJ5AISEDE5TRGljdGlvbmFyeQCE
-hAhOU09iamVjdACFhAFpAZKEhIQITlNTdHJpbmcBlYQBKwRuYW1lhpKEl5gJU3RydWN0dXJlhoY</bytes>
-													</object>
-												</object>
-											</dictionary>
-											<dictionary>
-												<string key="key">Sprite</string>
-												<string key="node">Splitter_4</string>
-												<string key="port">input</string>
-												<object class="NSDictionary" key="state">
-													<string key="NS.key.0">userInfo</string>
-													<object class="NSMutableData" key="NS.object.0">
-														<bytes key="NS.bytes">BAtzdHJlYW10eXBlZIHoA4QBQISEhBNOU011dGFibGVEaWN0aW9uYXJ5AISEDE5TRGljdGlvbmFyeQCE
-hAhOU09iamVjdACFhAFpAZKEhIQITlNTdHJpbmcBlYQBKwRuYW1lhpKEl5gGU3ByaXRlhoY</bytes>
-													</object>
-												</object>
-											</dictionary>
-											<dictionary>
-												<string key="key">SurfaceID</string>
-												<string key="node">Splitter_3</string>
-												<string key="port">input</string>
-												<object class="NSDictionary" key="state">
-													<string key="NS.key.0">userInfo</string>
-													<object class="NSMutableData" key="NS.object.0">
-														<bytes key="NS.bytes">BAtzdHJlYW10eXBlZIHoA4QBQISEhBNOU011dGFibGVEaWN0aW9uYXJ5AISEDE5TRGljdGlvbmFyeQCE
-hAhOU09iamVjdACFhAFpAZKEhIQITlNTdHJpbmcBlYQBKwRuYW1lhpKEl5gJU3VyZmFjZUlEhoY</bytes>
-													</object>
-												</object>
-											</dictionary>
-											<dictionary>
-												<string key="key">Image</string>
-												<string key="node">Splitter_5</string>
-												<string key="port">input</string>
-												<object class="NSDictionary" key="state">
-													<string key="NS.key.0">userInfo</string>
-													<object class="NSMutableData" key="NS.object.0">
-														<bytes key="NS.bytes">BAtzdHJlYW10eXBlZIHoA4QBQISEhBNOU011dGFibGVEaWN0aW9uYXJ5AISEDE5TRGljdGlvbmFyeQCE
-hAhOU09iamVjdACFhAFpAZKEhIQITlNTdHJpbmcBlYQBKwRuYW1lhpKEl5gFSW1hZ2WGhg</bytes>
-													</object>
-												</object>
-											</dictionary>
-										</array>
-										<object class="NSMutableData" key="userInfo">
-											<bytes key="NS.bytes">BAtzdHJlYW10eXBlZIHoA4QBQISEhBNOU011dGFibGVEaWN0aW9uYXJ5AISEDE5TRGljdGlvbmFyeQCE
-hAhOU09iamVjdACFhAFpA5KEhIQITlNTdHJpbmcBlYQBKwp6b29tRmFjdG9yhpKEhIQITlNOdW1iZXIA
-hIQHTlNWYWx1ZQCVhAEqhIQBZpwBhpKEl5gJc2Nyb2xsaW5nhpKEmpuEhAx7Q0dQb2ludD1kZH2dgc0C
-gW4DhpKEl5gIcG9zaXRpb26GkoSam56dAAWGhg</bytes>
-										</object>
-									</dictionary>
-								</dictionary>
-								<object class="NSMutableData" key="templateImageData">
-									<bytes key="NS.bytes">BAtzdHJlYW10eXBlZIHoA4QBQISEhAdOU0ltYWdlLoSECE5TT2JqZWN0AIWShYQBYwCVAJUAlQCVAJUA
-lQCVAJUBlQGVAJUAlQCVAIQBcwGVAJKEhIQQTlNCaXRtYXBJbWFnZVJlcBGEhApOU0ltYWdlUmVwEZSE
-AWmBTmeECFsyNjQ0NmNdTU0AKgAAWkj///8A////AP///wD///8A////AP///wD///8A////AP///wD/
-//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
-//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
-//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
-//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
-//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
-//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
-//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
-//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
-//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
-//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
-//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
-//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
-//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
-//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
-//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
-//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
-//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
-//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
-//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
-//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
-//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
-//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
-//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
-//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
-//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
-//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
-//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
-//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
-//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
-//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
-//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
-//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
-//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
-//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
-//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
-//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
-//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
-//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
-//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
-//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
-//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
-//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
-//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
-//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
-//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
-//8A////AAAAAAAAAAAAAAAAAAAAAABUVlWXn5+g6paWl96WlpfdlpaX3ZaWl92Xl5jdl5eY3ZeXmd2Y
-mJndmJiY3ZiZmt2ZmZrdmZma3ZmZmt2amprdmpqa3Zqam92ampzdmpuc3ZqbnN2bnJ3dnJyd3Zycnd2c
-nZ3dnJ2d3Z2dnd2dnZ7dnZ2e3Z2dn92dnp/dnZ6f3Z2en92dnp/dnZ2f3Z2dnt2dnZ7dnZ2d3Zydnd2c
-nZ3dnJyd3Zycnd2bnJzdmpuc3ZqbnN2ampzdmpqb3Zqamt2ZmZrdmZma3ZmZmt2ZmZrdmJiZ3ZiYmd2Y
-mJndl5eZ3ZeXmN2WlpjdlpaX3ZaWl92WlpfdlpaX3qCgoO1AQEB1AAAAAAAAAAAAAAAAAAAAAP///wD/
-//8A////AP///wAAAAAAAAAAAAAAAAEAAAABhYWGuP/////m5+n/5ebo/+bm6P/m5un/5+fp/+fn6f/n
-5+n/5+fp/+fn6v/o6Or/6Ojq/+jo6//n5+v/6efr/+np6//o6Or/6Ojq/+jq6//o6ev/6Onr/+np6//p
-6uv/6err/+nq6//q6uz/6urs/+rq7P/q6uz/6urs/+rq7P/q6uz/6urs/+rq7P/q6uz/6urs/+rq7P/p
-6uv/6err/+np6//o6ev/6Onr/+jp6//o6Ov/6Ojq/+jo6v/p6ev/6efp/+jn6f/o6Ov/6Ojq/+fo6v/n
-5+r/5+fp/+fn6f/n5+n/5ubn/+bm6f/m5uj/5ebo/+bn6f//////aGhokAAAAAEAAAABAAAAAAAAAAD/
-//8A////AP///wD///8AAAAAAAAAAAEAAAACAAAAA29vcK7Ky8//vr/D/76/w//AwMT/v8DE/8HBxP/A
-wcX/wMHF/8LCxf/Cwsb/wsLG/8PDxv/Dw8f/xMTH/8TEyP/ExMj/xcXI/8XFyf/Fxcn/xsbJ/8bGyv/G
-xsr/x8fK/8fHy//Hx8v/yMjL/8jIy//IyMv/yMjL/8jIy//IyMz/yMjM/8jIzP/IyMv/yMjL/8jIy//H
-x8v/x8fL/8fHyv/Hx8r/xsbK/8bGyv/Gxsn/xcXJ/8XFyP/Fxcj/xMTI/8TEx//DxMf/w8PH/8PDxv/C
-wsb/wsLG/8LCxf/AwcX/wMHF/7/AxP+/wMT/wMDD/76/w/++v8P/zs/T/1NTU44AAAACAAAAAQAAAAEA
-AAAA////AP///wD///8A////AAAAAAEAAAACAAAAAwAAAAVwb3Cvzc7R/8DBxP/AwMT/xMXJ/83O0v/P
-z9L/z9HU/8/P1P/R0tT/0NLV/9HS1f/S09b/0tPX/9PU1//T1Nf/1NTY/9TV2P/U1dn/1dXZ/9XW2f/V
-1tv/1tbb/9bX2//W19v/1tfc/9fX3P/X2Nz/19jc/9fY3P/X2Nz/19jc/9fY3P/X2Nz/19jc/9fY3P/X
-2dz/19fc/9bX3P/W19v/1tfb/9bW2//V1tr/1dba/9XV2v/U1dj/1NXY/9PU2f/T1Nj/09PY/9LT2P/S
-09b/0dLX/9HS1//R0dX/0NHV/9DR1v/P0NT/zc7S/8PDx//AwcT/wMHE/9HS1/9TVFSPAAAABQAAAAMA
-AAABAAAAAP///wD///8A////AP///wAAAAABAAAAAgAAAAUAAAAJb29wsMzN0v+/wMT/xMXJ/7S0t/9/
-f3//goKE/4ODhf+Cg4T/hISF/4ODhP+Dg4X/g4OF/4ODhP+Dg4X/g4OF/4KCg/+EhIX/hISF/4SEhf+D
-g4T/hISE/4SEhf+EhIX/hISF/4SEhv+EhIT/hYWG/4WFhv+FhYb/hYWG/4WFhv+EhIX/hYWG/4WFhv+E
-hYX/hISF/4SEhf+EhIX/hISF/4SEhP+DhIT/g4OD/4ODhP+Dg4T/g4OE/4ODhP+Dg4X/goKC/4ODhP+C
-goP/goKD/4KCg/+CgoP/gYGC/4GCg/+BgYL/gICB/3+Agf+9vsD/w8TH/7/AxP/R0tX/UlJUkgAAAAgA
-AAAFAAAAAgAAAAH///8A////AP///wD///8AAAAAAQAAAAQAAAAIAAAADW1ubrPNztH/v8DD/8jJzf+U
-lJX/y8vL/8vLy//Ly8v/y8vL/8vLy//Ly8v/y8vL/8vLy//Ly8v/ubm5/7W1tf+3t7f/tra2/7a2tv+2
-trb/tra2/7e3t/+2trb/t7e3/7a2tv+2trb/tLS0/7u7u//Ly8v/y8vL/8vLy//Ly8v/y8vL/8vLy//L
-y8v/y8vL/8vLy//Ly8v/y8vL/8vLy//Ly8v/v7+//7S0tP+2trb/tra2/7a2tv+2trb/t7e3/7e3t/+2
-trb/tra2/7a2tv+3t7f/tra2/7e3t//Jycn/y8vL/8vLy//Ly8v/qqut/8bGyv+/wMP/0dLU/09PUZUA
-AAAMAAAABwAAAAMAAAAB////AP///wD///8A////AAAAAAEAAAAFAAAACgAAABFqa220zM3Q/76+wv/H
-x8v/mJma/8vLy//y8vL/8vLy//Ly8v/y8vL/8vLy//Ly8v/y8vL/8vLy/93d3f/Y2Nj/2NjY/9jY2P/Y
-2Nj/2NjY/9jY2P/Y2Nj/2NjY/9jY2P/Z2dn/2NjY/9jY2P/e3t7/8vLy//Ly8v/y8vL/8vLy//Ly8v/y
-8vL/8vLy//Ly8v/y8vL/8vLy//Ly8v/y8vL/8vLy/+Pj4//X19f/2NjY/9nZ2f/Y2Nj/2dnZ/9jY2P/Z
-2dn/2NjY/9nZ2f/Y2Nj/2NjY/9jY2P/Z2dn/7+/v//Ly8v/y8vL/y8vL/62tsP/ExMj/vr7C/87Q1P9N
-TlCXAAAAEAAAAAkAAAAEAAAAAf///wD///8A////AP///wAAAAACAAAABQAAAAsAAAATaGhstsnLz/+8
-vcL/xMXK/52dn//Ly8v/8vLy//Ly8v/y8vL/8vLy//Ly8v/y8vL/8vLy//Ly8v/c3Nz/19fX/9nZ2f/Z
-2dn/2dnZ/9nZ2f/Z2dn/2NjY/9jY2P/Y2Nj/2dnZ/9jY2P/X19f/39/f//Ly8v/y8vL/8vLy//Ly8v/y
-8vL/8vLy//Ly8v/y8vL/8vLy//Ly8v/y8vL/8vLy//Ly8v/i4uL/1tbW/9nZ2f/Z2dn/2NjY/9nZ2f/Z
-2dn/2NjY/9jY2P/Z2dn/2NjY/9jY2P/X19f/2dnZ/+/v7//y8vL/8vLy/8vLy/+vsLP/wsPH/7y9wv/M
-ztP/TE1OmQAAABIAAAAKAAAABQAAAAH///8A////AP///wD///8AAAAAAgAAAAYAAAAMAAAAFWhoabfI
-yM7/vLzB/8TEyP+foKD/y8vL//Ly8v/y8vL/8vLy//Ly8v/y8vL/8vLy//Ly8v/y8vL/3Nzc/9bW1v/X
-19f/19fX/9fX1//Y2Nj/19fX/9fX1//Y2Nj/19fX/9fX1//X19f/1tbW/97e3v/y8vL/8vLy//Ly8v/y
-8vL/8vLy//Ly8v/y8vL/8vLy//Ly8v/y8vL/8vLy//Ly8v/y8vL/4uLi/9bW1v/Y2Nj/19fX/9fX1//X
-19f/2NjY/9jY2P/Y2Nj/2NjY/9fX1//Y2Nj/19fX/9jY2P/v7+//8vLy//Ly8v/Ly8v/srG1/8HCxv+8
-vMH/zMzQ/0xMTZoAAAAUAAAACwAAAAUAAAAB////AP///wD///8A////AAAAAAIAAAAGAAAADQAAABZo
-Z2i3yMjN/7u7v//Dw8f/np6h/8rKyv/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx8f/x8fH/8fHx/9vb2//V
-1dX/19fX/9fX1//X19f/19fX/9fX1//X19f/19fX/9fX1//X19f/19fX/9bW1v/d3d3/8fHx//Hx8f/x
-8fH/8fHx//Hx8f/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx8f/x8fH/8fHx/+Li4v/V1dX/19fX/9fX1//X
-19f/19fX/9fX1//X19f/19fX/9fX1//X19f/19fX/9bW1v/X19f/7+/v//Hx8f/x8fH/ysrK/7Kytf/A
-wMT/u7u//8zMz/9MTEyaAAAAFQAAAAwAAAAFAAAAAv///wD///8A////AP///wAAAAACAAAABgAAAA0A
-AAAWZ2dot8fHyv+6u73/wsLH/56eof/Kysr/8fHx//Hx8f/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx8f/a
-2tr/1dXV/9fX1//W1tb/1tbW/9bW1v/W1tb/19fX/9fX1//W1tb/1tbW/9fX1//V1dX/3Nzc//Hx8f/x
-8fH/8fHx//Hx8f/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx8f/h4eH/1NTU/9fX1//W
-1tb/1tbW/9bW1v/X19f/1tbW/9bW1v/W1tb/1tbW/9bW1v/V1dX/19fX/+7u7v/x8fH/8fHx/8rKyv+x
-sbT/v7/D/7q7vv/Ky87/SktMmwAAABUAAAAMAAAABQAAAAL///8A////AP///wD///8AAAAAAgAAAAYA
-AAANAAAAFmZnaLfFxcr/ubm9/8HCxf+fn6L/ysrK//Hx8f/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx8f/x
-8fH/2tra/9TU1P/W1tb/1dXV/9XV1f/V1dX/1tbW/9bW1v/W1tb/1tbW/9XV1f/V1dX/09PT/9vb2//x
-8fH/8fHx//Hx8f/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx8f/x8fH/4eHh/9LS0v/V
-1dX/1dXV/9bW1v/V1dX/1dXV/9XV1f/V1dX/1dXV/9XV1f/V1dX/1dXV/9bW1v/u7u7/8fHx//Hx8f/K
-ysr/sLCz/76/w/+5ub3/yMnO/0tKTJsAAAAVAAAADAAAAAUAAAAC////AP///wD///8A////AAAAAAIA
-AAAGAAAADQAAABZlZmi3xMXJ/7e4vP+/wMT/np6h/8nJyf/w8PD/8PDw//Dw8P/w8PD/8PDw//Dw8P/w
-8PD/8PDw/9nZ2f/T09P/1NTU/9XV1f/U1NT/1NTU/9TU1P/V1dX/1dXV/9TU1P/V1dX/1NTU/9LS0v/c
-3Nz/8PDw//Dw8P/w8PD/8PDw//Dw8P/w8PD/8PDw//Dw8P/w8PD/8PDw//Dw8P/w8PD/8PDw/9/f3//S
-0tL/1NTU/9TU1P/U1NT/1dXV/9XV1f/V1dX/1NTU/9TU1P/V1dX/1NTU/9TU1P/V1dX/7u7u//Dw8P/w
-8PD/ycnJ/6+ws/+9vsH/t7i8/8fIzf9ISUubAAAAFQAAAAwAAAAFAAAAAv///wD///8A////AP///wAA
-AAACAAAABgAAAA0AAAAWZWZot8PDyP+2trv/vr7D/52eoP/Jycn/8PDw//Dw8P/w8PD/8PDw//Dw8P/w
-8PD/8PDw//Dw8P/W1tb/0dHR/9LS0v/S0tL/0tLS/9LS0v/S0tL/0tLS/9LS0v/R0dH/0tLS/9LS0v/R
-0dH/2tra//Dw8P/w8PD/8PDw//Dw8P/w8PD/8PDw//Dw8P/w8PD/8PDw//Dw8P/w8PD/8PDw//Dw8P/g
-4OD/0NDQ/9LS0v/S0tL/0tLS/9HR0f/S0tL/0tLS/9LS0v/S0tL/0tLS/9LS0v/R0dH/1NTU/+/v7//w
-8PD/8PDw/8nJyf+vr7P/u7zA/7a2u//Hx8z/SElLmwAAABUAAAAMAAAABQAAAAL///8A////AP///wD/
-//8AAAAAAgAAAAYAAAANAAAAFmVkZrfCwsf/tbW6/7y9wv+fn6L/wsLC/+fn5//n5+f/5+fn/+fn5//n
-5+f/5+fn/+fn5//n5+f/3t7e/9zc3P/d3d3/3Nzc/93d3f/c3Nz/3d3d/93d3f/d3d3/3Nzc/9zc3P/d
-3d3/3Nzc/9/f3//n5+f/5+fn/+fn5//n5+f/5+fn/+fn5//n5+f/5+fn/+fn5//n5+f/5+fn/+fn5//n
-5+f/4eHh/9vb2//d3d3/3d3d/9zc3P/d3d3/3d3d/9zc3P/c3Nz/3d3d/9zc3P/c3Nz/3Nzc/93d3f/n
-5+f/5+fn/+fn5//CwsL/r6+z/7q6v/+1tbr/xcbK/0lISZsAAAAVAAAADAAAAAUAAAAC////AP///wD/
-//8A////AAAAAAIAAAAGAAAADQAAABZjZGa3wMHF/7O0uf+6u8H/nJ2f/6+vr//Q0ND/0NDQ/9DQ0P/Q
-0ND/0NDQ/9DQ0P/Q0ND/0NDQ/+3t7f/w8PD/8PDw//Dw8P/w8PD/8PDw//Dw8P/w8PD/8PDw//Dw8P/w
-8PD/8PDw//Dw8P/p6en/0NDQ/9DQ0P/Q0ND/0NDQ/9DQ0P/Q0ND/0NDQ/9DQ0P/Q0ND/0NDQ/9DQ0P/Q
-0ND/zs7O/+Pj4//w8PD/8PDw//Dw8P/w8PD/8PDw//Dw8P/w8PD/8PDw//Dw8P/w8PD/8PDw//Dw8P/w
-8PD/1dXV/9DQ0P/Q0ND/r6+v/62usf+4ub7/s7S5/8PEyf9IR0mbAAAAFQAAAAwAAAAFAAAAAv///wD/
-//8A////AP///wAAAAACAAAABgAAAA0AAAAWYmNlt7/AxP+ys7f/ubrA/5manP+vr6//0dHR/9HR0f/R
-0dH/0tLS/9LS0v/S0tL/0dHR/9LS0v/r6+v/8PDw//Dw8P/w8PD/8PDw//Dw8P/w8PD/8PDw//Dw8P/w
-8PD/8PDw//Dw8P/w8PD/6urq/9HR0f/R0dH/0dHR/9HR0f/R0dH/0dHR/9HR0f/S0tL/0tLS/9HR0f/S
-0tL/0dHR/9HR0f/k5OT/8PDw//Dw8P/w8PD/8PDw//Dw8P/w8PD/8PDw//Dw8P/w8PD/8PDw//Dw8P/w
-8PD/8PDw/9XV1f/R0dH/0tLS/7CwsP+rrK7/t7i9/7KzuP/Cw8f/SEhImwAAABUAAAAMAAAABQAAAAL/
-//8A////AP///wD///8AAAAAAgAAAAYAAAANAAAAFmFhZLe9v8P/sbK2/7i6v/+YmJv/sLCw/9LS0v/S
-0tL/0tLS/9LS0v/S0tL/0tLS/9LS0v/S0tL/6+vr//Dw8P/w8PD/8PDw//Dw8P/w8PD/8PDw//Dw8P/w
-8PD/8PDw//Dw8P/w8PD/8PDw/+np6f/Q0ND/0tLS/9LS0v/S0tL/0tLS/9LS0v/S0tL/0tLS/9LS0v/S
-0tL/0tLS/9LS0v/Q0ND/5eXl//Dw8P/w8PD/8PDw//Dw8P/w8PD/8PDw//Dw8P/w8PD/8PDw//Dw8P/w
-8PD/8PDw/+/v7//V1dX/0tLS/9LS0v+wsLD/qaqt/7a3vP+xsrb/wcLF/0dHSZsAAAAVAAAADAAAAAUA
-AAAC////AP///wD///8A////AAAAAAIAAAAGAAAADQAAABZhYWO3vL3B/7CxtP+4ub3/lZaX/7CwsP/R
-0dH/0tLS/9HR0f/R0dH/0tLS/9HR0f/S0tL/0dHR/+rq6v/w8PD/8PDw//Dw8P/w8PD/8PDw//Dw8P/w
-8PD/8PDw//Dw8P/w8PD/8PDw//Dw8P/p6en/z8/P/9HR0f/S0tL/0tLS/9HR0f/S0tL/0dHR/9HR0f/R
-0dH/0dHR/9LS0v/R0dH/z8/P/+Pj4//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v
-7+//7+/v/+/v7//u7u7/0dHR/87Ozv/Ozs7/ra2t/6iprf+1trr/sLG0/77AxP9GRkibAAAAFQAAAAwA
-AAAFAAAAAv///wD///8A////AP///wAAAAACAAAABgAAAA0AAAAWYGFjt7q7wP+ur7P/t7i8/5OUl/+w
-sLD/0dHR/9LS0v/R0dH/0dHR/9LS0v/R0dH/0dHR/9HR0f/r6+v/8PDw//Dw8P/w8PD/8PDw//Dw8P/w
-8PD/8PDw//Dw8P/w8PD/7+/v/+/v7//v7+//5+fn/83Nzf/Pz8//zc3N/8zMzP/MzMz/y8vL/8vLy//K
-ysr/ycnJ/8nJyf/Kysr/ysrK/8fHx//e3t7/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t
-7e3/7e3t/+3t7f/t7e3/7Ozs/87Ozv/IyMj/ycnJ/6mpqf+oqa3/tLW5/6+vs/+9v8P/RUVImwAAABUA
-AAAMAAAABQAAAAL///8A////AP///wD///8AAAAAAgAAAAYAAAANAAAAFl9gY7e5uMD/ra2y/7S2u/+P
-k5P/r6+v/9HR0f/S0tL/0tLS/9HR0f/S0tL/0NDQ/9DQ0P/Pz8//6enp/+7u7v/u7u7/7u7u/+7u7v/u
-7u7/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+Xl5f/IyMj/ycnJ/8nJyf/Jycn/ycnJ/8nJyf/J
-ycn/ycnJ/8rKyv/Jycn/ycnJ/8nJyf/Hx8f/3t7e/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t
-7e3/7e3t/+3t7f/t7e3/7e3t/+zs7P/Ozs7/ycnJ/8nJyf+pqan/qaqu/7OzuP+srbL/vLzC/0VFSJsA
-AAAVAAAADAAAAAUAAAAC////AP///wD///8A////AAAAAAIAAAAGAAAADQAAABZdXmK3uLm+/6ytsf+y
-tbj/jZaS/6urq//MzMz/zMzM/8rKyv/Kysr/ysrK/8nJyf/Jycn/ysrK/+jo6P/t7e3/7e3t/+3t7f/t
-7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/k5OT/yMjI/8nJyf/Jycn/ysrK/8rKyv/K
-ysr/ycnJ/8nJyf/Jycn/ycnJ/8nJyf/Jycn/x8fH/97e3v/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t
-7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/s7Oz/zc3N/8jIyP/Jycn/qamp/6aprP+xsrf/rK2x/7u8wv9F
-RUebAAAAFQAAAAwAAAAFAAAAAv///wD///8A////AP///wAAAAACAAAABgAAAA0AAAAWXF1gt7e4vf+r
-rLD/r7W3/4iWkf+qqqr/ycnJ/8rKyv/Jycn/ycnJ/8nJyf/Kysr/ycnJ/8nJyf/o6Oj/7e3t/+3t7f/t
-7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/5eXl/8fHx//Jycn/ycnJ/8rKyv/J
-ycn/ycnJ/8nJyf/Kysr/ysrK/8rKyv/Jycn/ycnJ/8fHx//e3t7/7e3t/+3t7f/t7e3/7e3t/+3t7f/t
-7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7Ozs/83Nzf/IyMj/ysrK/6mpqf+mpqn/sLG2/6ussP+6
-u8D/REVGmwAAABUAAAAMAAAABQAAAAL///8A////AP///wD///8AAAAAAgAAAAYAAAANAAAAFlxcXre2
-t7z/qquw/661tf+Gl5H/qamp/8rKyv/Jycn/ycnJ/8nJyf/Kysr/ycnJ/8rKyv/Jycn/6Ojo/+3t7f/t
-7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+Xl5f/IyMj/ysrK/8rKyv/K
-ysr/ycnJ/8rKyv/Kysr/ycnJ/8nJyf/Jycn/ycnJ/8rKyv/Hx8f/3t7e/+3t7f/t7e3/7e3t/+3t7f/t
-7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+zs7P/Ozs7/yMjI/8nJyf+pqan/o6Sn/6+wtf+q
-q7D/uLm9/0RERZsAAAAVAAAADAAAAAUAAAAC////AP///wD///8A////AAAAAAIAAAAGAAAADQAAABZb
-XF63tLS6/6iqrv+stLX/hJeS/6mpqf/Jycn/ycnJ/8nJyf/Jycn/ycnJ/8nJyf/Jycn/ycnJ/+fn5//t
-7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/l5eX/yMjI/8nJyf/J
-ycn/ysrK/8nJyf/Jycn/ycnJ/8nJyf/Kysr/ycnJ/8rKyv/Jycn/x8fH/9/f3//t7e3/7e3t/+3t7f/t
-7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/s7Oz/zc3N/8jIyP/Jycn/qqqq/6Ojp/+v
-sLX/qaqu/7e3vf9DRUWbAAAAFQAAAAwAAAAFAAAAAv///wD///8A////AP///wAAAAACAAAABgAAAA0A
-AAAWW1tdt7Ozuf+nqa3/q7O1/4SWkv+pqan/ycnJ/8nJyf/Jycn/ysrK/8rKyv/Jycn/ycnJ/8nJyf/o
-6Oj/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/5eXl/8fHx//J
-ycn/ycnJ/8nJyf/Jycn/ycnJ/8nJyf/Jycn/ycnJ/8nJyf/Jycn/ysrK/8fHx//f39//7e3t/+3t7f/t
-7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7Ozs/83Nzf/IyMj/ysrK/6qqqv+g
-oqb/rq+0/6eorf+1t7z/RENFmwAAABUAAAAMAAAABQAAAAL///8A////AP///wD///8AAAAAAgAAAAYA
-AAANAAAAFllaXLewsbj/pqis/6qytf+Cl5P/qqqq/8rKyv/Kysr/ysrK/8nJyf/Kysr/ycnJ/8nJyf/J
-ycn/5+fn/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+Xl5f/H
-x8f/ysrK/8nJyf/Kysr/ycnJ/8nJyf/Kysr/ysrK/8nJyf/Jycn/ycnJ/8rKyv/Hx8f/3t7e/+3t7f/t
-7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+zs7P/Ozs7/ycnJ/8rKyv+q
-qqr/oKCl/6yts/+mp6z/tLW9/0NERZsAAAAVAAAADAAAAAUAAAAC////AP///wD///8A////AAAAAAIA
-AAAGAAAADQAAABZZWVy3rq+2/6Smq/+osLP/gpaV/6enp//Hx8f/x8fH/8fHx//Hx8f/x8fH/8fHx//H
-x8f/x8fH/+np6f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/l
-5eX/xcXF/8fHx//Hx8f/x8fH/8fHx//Gxsb/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx8f/xMTE/97e3v/t
-7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/zMzM/8bGxv/H
-x8f/p6en/56fpP+rrLL/pqes/7S1uv9DREWbAAAAFQAAAAwAAAAFAAAAAv///wD///8A////AP///wAA
-AAACAAAABgAAAA0AAAAWWFhbt62us/+jpKn/p6+z/4OWlv+9vb3/4uLi/+Hh4f/i4uL/4uLi/+Hh4f/i
-4uL/4uLi/+Hh4f/X19f/1dXV/9XV1f/V1dX/1dXV/9XV1f/V1dX/1dXV/9XV1f/V1dX/1dXV/9XV1f/U
-1NT/2NjY/+Hh4f/h4eH/4eHh/+Hh4f/h4eH/4uLi/+Li4v/i4uL/4uLi/+Hh4f/h4eH/4uLi/+Hh4f/a
-2tr/09PT/9XV1f/W1tb/1tbW/9XV1f/V1dX/1tbW/9XV1f/W1tb/1dXV/9bW1v/V1dX/19fX/+Dg4P/g
-4OD/4uLi/729vf+fn6P/qqux/6Wmq/+ztLn/Q0NEmwAAABUAAAAMAAAABQAAAAL///8A////AP///wD/
-//8AAAAAAgAAAAYAAAANAAAAFldXWberrLH/oaOn/6Wtsf+ElZb/x8fH/+3t7f/t7e3/7e3t/+3t7f/t
-7e3/7e3t/+3t7f/t7e3/zc3N/8XFxf/Hx8f/x8fH/8fHx//Hx8f/xsbG/8fHx//Hx8f/xsbG/8fHx//H
-x8f/xcXF/9HR0f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t
-7e3/2NjY/8TExP/Hx8f/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx8f/xsbG/8nJyf/r
-6+v/7e3t/+3t7f/Hx8f/np6i/6mqsf+kpar/srO4/0JDQ5sAAAAVAAAADAAAAAUAAAAC////AP///wD/
-//8A////AAAAAAIAAAAGAAAADQAAABZVVli3qKmu/5+hpf+kq7D/hJSY/8fHx//t7e3/7e3t/+3t7f/t
-7e3/7e3t/+3t7f/t7e3/7e3t/87Ozv/IyMj/ysrK/8nJyf/Kysr/ycnJ/8nJyf/Jycn/ycnJ/8nJyf/J
-ycn/ycnJ/8jIyP/S0tL/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t
-7e3/7e3t/9jY2P/Hx8f/ycnJ/8nJyf/Jycn/ycnJ/8rKyv/Jycn/ycnJ/8nJyf/Jycn/ycnJ/8nJyf/L
-y8v/6enp/+3t7f/t7e3/x8fH/56fpP+pqq//pKWq/7Cxt/9BQEObAAAAFQAAAAwAAAAFAAAAAv///wD/
-//8A////AP///wAAAAACAAAABgAAAA0AAAAWVFVXt6eorf+en6T/oqqv/4WWmf/Hx8f/7e3t/+3t7f/t
-7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/Ozs7/yMjI/8nJyf/Jycn/ysrK/8rKyv/Kysr/ysrK/8rKyv/K
-ysr/ycnJ/8nJyf/IyMj/0tLS/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t
-7e3/7e3t/+3t7f/Y2Nj/x8fH/8nJyf/Jycn/ysrK/8nJyf/Jycn/ycnJ/8rKyv/Jycn/ysrK/8nJyf/J
-ycn/ysrK/+np6f/t7e3/7e3t/8fHx/+goqX/qaqv/6Okqf+vsbb/QEFCmwAAABUAAAAMAAAABQAAAAL/
-//8A////AP///wD///8AAAAAAgAAAAYAAAANAAAAFlRVV7emp6z/nZ6j/6Gnrf+HlZn/x8fH/+3t7f/t
-7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/0NDQ/8jIyP/Kysr/ycnJ/8rKyv/Kysr/ycnJ/8rKyv/J
-ycn/ycnJ/8nJyf/Kysr/yMjI/9HR0f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t
-7e3/7e3t/+3t7f/t7e3/2NjY/8fHx//Kysr/ysrK/8nJyf/Jycn/ycnJ/8nJyf/Jycn/ysrK/8nJyf/J
-ycn/ycnJ/8rKyv/p6en/7e3t/+3t7f/Hx8f/oaKl/6eorv+io6j/rK+0/z9AQZsAAAAVAAAADAAAAAUA
-AAAC////AP///wD///8A////AAAAAAIAAAAGAAAADQAAABZTVFa3paWq/5ycof+gpqv/iZWc/8fHx//t
-7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/9DQ0P/Hx8f/ycnJ/8nJyf/Kysr/ycnJ/8rKyv/K
-ysr/ycnJ/8rKyv/Jycn/ycnJ/8jIyP/S0tL/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t
-7e3/7e3t/+3t7f/t7e3/7e3t/9jY2P/Hx8f/ycnJ/8rKyv/Kysr/ycnJ/8nJyf/Kysr/ycnJ/8nJyf/K
-ysr/ysrK/8jIyP/Kysr/6enp/+3t7f/t7e3/x8fH/6Skp/+mp63/oKGm/6ussv8/P0KbAAAAFQAAAAwA
-AAAFAAAAAv///wD///8A////AP///wAAAAACAAAABgAAAA0AAAAWUVJVt6KjqP+amp//n6Sq/4mVnP/H
-x8f/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/Q0ND/yMjI/8nJyf/Jycn/ysrK/8nJyf/J
-ycn/ysrK/8nJyf/Kysr/ycnJ/8nJyf/IyMj/0dHR/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t
-7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/Y2Nj/x8fH/8rKyv/Kysr/ycnJ/8nJyf/Jycn/ysrK/8rKyv/J
-ycn/ysrK/8nJyf/Jycn/ysrK/+np6f/t7e3/7e3t/8fHx/+kpan/pKWq/5+gpf+qq7H/Pz9AmwAAABUA
-AAAMAAAABQAAAAL///8A////AP///wD///8AAAAAAgAAAAYAAAANAAAAFk9QVLegoab/l5ie/56hqP+K
-lZ3/x8fH/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/zs7O/8fHx//Jycn/ysrK/8rKyv/K
-ysr/ycnJ/8nJyf/Kysr/ycnJ/8nJyf/Jycn/x8fH/9LS0v/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t
-7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/19fX/8fHx//Kysr/ycnJ/8rKyv/Kysr/ycnJ/8rKyv/J
-ycn/ycnJ/8nJyf/Jycn/yMjI/8rKyv/p6en/7e3t/+3t7f/Hx8f/paeq/6KjqP+dnqP/qKmv/zw8QJsA
-AAAVAAAADAAAAAUAAAAC////AP///wD///8A////AAAAAAIAAAAGAAAADQAAABZOT1K3n6Ck/5aXnf+c
-n6f/jJWe/8fHx//t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/9DQ0P/Hx8f/ycnJ/8rKyv/J
-ycn/ycnJ/8nJyf/Jycn/ycnJ/8nJyf/Jycn/ysrK/8fHx//R0dH/7e3t/+3t7f/t7e3/7e3t/+3t7f/t
-7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/9jY2P/Hx8f/ycnJ/8nJyf/Jycn/ycnJ/8rKyv/J
-ycn/ycnJ/8nJyf/Kysr/ycnJ/8nJyf/Kysr/6enp/+3t7f/t7e3/x8fH/6enq/+hoqf/nJ2i/6eorv87
-OzybAAAAFQAAAAwAAAAFAAAAAv///wD///8A////AP///wAAAAACAAAABgAAAA0AAAAWTk5Rt56eo/+V
-l5v/mp6m/46WoP/Hx8f/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/Pz8//yMjI/8nJyf/J
-ycn/ycnJ/8rKyv/Jycn/ysrK/8nJyf/Kysr/ycnJ/8rKyv/IyMj/0dHR/+3t7f/t7e3/7e3t/+3t7f/t
-7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/Y2Nj/x8fH/8nJyf/Jycn/ysrK/8nJyf/J
-ycn/ycnJ/8nJyf/Kysr/ycnJ/8nJyf/Jycn/ysrK/+np6f/t7e3/7e3t/8fHx/+np6v/oaGm/5ucof+m
-p63/Ozs8mwAAABUAAAAMAAAABQAAAAL///8A////AP///wD///8AAAAAAgAAAAYAAAANAAAAFk5OULed
-nqL/lZWb/5qdpf+PlqD/x8fH/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/0NDQ/8jIyP/J
-ycn/ycnJ/8nJyf/Jycn/ycnJ/8nJyf/Jycn/ycnJ/8nJyf/Jycn/yMjI/9HR0f/t7e3/7e3t/+3t7f/t
-7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/2NjY/8bGxv/Jycn/ycnJ/8nJyf/J
-ycn/ysrK/8rKyv/Jycn/ycnJ/8rKyv/Jycn/ycnJ/8rKyv/p6en/7e3t/+3t7f/Hx8f/qKms/5+gpv+b
-nKD/paas/zo6PJsAAAAVAAAADAAAAAUAAAAC////AP///wD///8A////AAAAAAIAAAAGAAAADQAAABZN
-TlC3nZ2h/5SVmv+ZnaT/kZah/8fHx//t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/8/Pz//I
-yMj/ysrK/8nJyf/Kysr/ycnJ/8rKyv/Jycn/ysrK/8nJyf/Kysr/ysrK/8fHx//R0dH/7e3t/+3t7f/t
-7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/9jY2P/Hx8f/ycnJ/8rKyv/J
-ycn/ycnJ/8rKyv/Jycn/ycnJ/8nJyf/Jycn/ycnJ/8nJyf/Kysr/6enp/+3t7f/t7e3/x8fH/6qqrf+f
-oKT/mpuf/6Wmq/86OjybAAAAFQAAAAwAAAAFAAAAAv///wD///8A////AP///wAAAAACAAAABgAAAA0A
-AAAWTU1Pt5ucoP+TlJr/mJui/5GWov/Hx8f/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/O
-zs7/x8fH/8jIyP/IyMj/yMjI/8nJyf/Jycn/ycnJ/8jIyP/Jycn/ycnJ/8jIyP/Hx8f/0dHR/+3t7f/t
-7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/Y2Nj/xsbG/8nJyf/J
-ycn/ycnJ/8nJyf/Jycn/ycnJ/8nJyf/IyMj/yMjI/8jIyP/Hx8f/ysrK/+rq6v/t7e3/7e3t/8fHx/+q
-rK//np+k/5qan/+kpar/Ojo7mwAAABUAAAAMAAAABQAAAAL///8A////AP///wD///8AAAAAAgAAAAYA
-AAANAAAAFk1NT7ebnKD/k5SY/5iaov+TlqP/xcXF/+vr6//q6ur/6urq/+vr6//r6+v/6urq/+rq6v/r
-6+v/0dHR/8rKyv/MzMz/y8vL/8zMzP/MzMz/y8vL/8zMzP/MzMz/zMzM/8vLy//MzMz/ysrK/9PT0//r
-6+v/6+vr/+rq6v/q6ur/6+vr/+vr6//r6+v/6+vr/+vr6//r6+v/6urq/+vr6//q6ur/2NjY/8rKyv/M
-zMz/zMzM/8zMzP/MzMz/y8vL/8vLy//Ly8v/zMzM/8zMzP/Ly8v/y8vL/83Nzf/n5+f/6+vr/+vr6//E
-xMT/q62w/56fo/+Zm57/o6Sq/zk6O5sAAAAVAAAADAAAAAUAAAAC////AP///wD///8A////AAAAAAIA
-AAAGAAAADQAAABZNTU+3m5yg/5OUmP+YmaH/k5aj/6qqqv/Ly8v/y8vL/8vLy//Kysr/y8vL/8vLy//L
-y8v/y8vL/+bm5v/s7Oz/7Ozs/+vr6//s7Oz/6+vr/+zs7P/r6+v/6+vr/+vr6//r6+v/6+vr/+vr6//k
-5OT/ysrK/8rKyv/Ly8v/y8vL/8vLy//Ly8v/y8vL/8vLy//Ly8v/ysrK/8vLy//Ly8v/ysrK/97e3v/r
-6+v/7Ozs/+zs7P/s7Oz/7Ozs/+vr6//r6+v/6+vr/+zs7P/r6+v/6+vr/+vr6//q6ur/z8/P/8rKyv/L
-y8v/qqqq/6yur/+en6P/mZqe/6OkqP85OTubAAAAFQAAAAwAAAAFAAAAAv///wD///8A////AP///wAA
-AAACAAAABgAAAA0AAAAWTE1Pt5qbn/+TlJj/l5ig/5SWpP+oqKj/ycnJ/8jIyP/Jycn/yMjI/8nJyf/J
-ycn/yMjI/8jIyP/o6Oj/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t
-7e3/5eXl/8fHx//Jycn/yMjI/8nJyf/IyMj/yMjI/8nJyf/Jycn/yMjI/8nJyf/Jycn/ycnJ/8bGxv/e
-3t7/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7Ozs/83Nzf/I
-yMj/ycnJ/6mpqf+srbD/nZ6i/5mZnf+io6n/OTk7mwAAABUAAAAMAAAABQAAAAL///8A////AP///wD/
-//8AAAAAAgAAAAYAAAANAAAAFkxMTream57/kpOX/5eYoP+WlqT/qqqq/8rKyv/Jycn/ycnJ/8nJyf/K
-ysr/ysrK/8jIyP/Jycn/6Ojo/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t
-7e3/7e3t/+Xl5f/IyMj/ysrK/8rKyv/Kysr/ycnJ/8nJyf/Kysr/ycnJ/8rKyv/Kysr/ycnJ/8nJyf/H
-x8f/3t7e/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+zs7P/N
-zc3/ycnJ/8rKyv+pqan/rq+y/5ydof+YmZ3/oKOm/zk5OpsAAAAVAAAADAAAAAUAAAAC////AP///wD/
-//8A////AAAAAAIAAAAGAAAADQAAABZMTE63mpue/5KTl/+XmKD/lZWj/6mpqf/Jycn/ysrK/8nJyf/K
-ysr/ysrK/8rKyv/Jycn/ycnJ/+jo6P/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t
-7e3/7e3t/+3t7f/l5eX/yMjI/8nJyf/Kysr/ysrK/8nJyf/Kysr/ysrK/8rKyv/Jycn/ysrK/8nJyf/K
-ysr/x8fH/97e3v/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/r
-6+v/zc3N/8jIyP/Jycn/qqqq/6qrrv+cnaD/mJic/6Gipv84OTqbAAAAFQAAAAwAAAAFAAAAAv///wD/
-//8A////AP///wAAAAACAAAABgAAAA0AAAAWTExOt5manf+Skpb/lZWc/6Ohr/+pqan/qamp/6mpqf+p
-qan/qamp/6qqqv+qqqr/qamp/6mpqf/Dw8P/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx8f/x8fH/8fHx//H
-x8f/x8fH/8fHx//Hx8f/wMDA/6ioqP+pqan/qamp/6mpqf+qqqr/qqqq/6mpqf+pqan/qqqq/6qqqv+q
-qqr/qamp/6ampv+6urr/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx8f/x8fH/8fHx//H
-x8f/xsbG/6ysrP+pqan/qqqq/6mpqf+urrH/mpue/5eYm/+foaX/ODg6mwAAABUAAAAMAAAABQAAAAL/
-//8A////AP///wD///8AAAAAAgAAAAYAAAANAAAAFktMTbeZmZ3/kZKV/5OTl/+pqK//sLC6/7Kyvv+0
-sr//tLLB/7e0w/+5tMH/ubXC/7m1wv+6tcL/urXC/7u2xP+7tsT/u7TB/7y2wf+7tcD/ubS//7m0vv+5
-tLz/uLW6/7azuP+ztLf/s7O1/7Kztv+xsbT/r7Cz/6+vsv+wsLL/r6+x/66usf+vsLP/sbK2/7Kztv+z
-tbf/tLa5/7e4u/+4uLv/urq9/7u8vv+9vsH/vr/C/8DBw//BwsX/wcLE/8HCxf/AwcT/wcLE/8LCxf/C
-w8X/wcLF/8HCxP+/wMP/vr/B/728wf+5urz/rK2w/5iZnP+Xl5r/oJ+k/zg4OZsAAAAVAAAADAAAAAUA
-AAAC////AP///wD///8A////AAAAAAIAAAAGAAAADQAAABZLTE23l5ib/5CQk/+Sk5b/lJSY/5WVmv+X
-l5z/mJed/5mZnv+amqD/nJug/5ycof+dnKL/np2i/56dov+enaP/np2j/56dov+dnKL/nJyh/5ybof+c
-m5//m5ue/5qZnf+YmZz/lpea/5WVmP+TlJb/kpOV/5GRlP+QkJP/j5CS/4+Qkv+QkJP/kZGU/5KTlf+T
-lJf/lZWY/5aXmv+YmZz/mpue/5ydn/+en6H/n6Gk/6GhpP+hoqX/oqOm/6Ojp/+jpKf/o6Sn/6Okp/+j
-o6f/oqOm/6Gipf+hoqX/n6Ck/56fov+dnqH/m5yf/5manf+YmJv/lZaY/52eof83ODmbAAAAFQAAAAwA
-AAAFAAAAAv///wD///8A////AP///wAAAAACAAAABgAAAA0AAAAWTExOuJqanf+SkpX/lJSX/5eXmv+Z
-mZz/mpqd/5ucnv+cnaD/nZ6h/56fof+foKP/oKCj/6ChpP+hoaT/oaGl/6Gipf+hoqT/oKGk/6ChpP+h
-oaP/oKGj/5+fov+enqH/nZ6h/5ydoP+bm57/mZqc/5eYm/+Xl5n/lpaZ/5WVmP+UlZf/lpaY/5eXmf+Y
-mJv/mZqc/5ubnf+cnZ//np6h/6Cgo/+ioqX/o6Om/6SlqP+lpqj/paap/6amqv+mp6n/pqeq/6anqv+m
-p6r/paap/6Wlqf+kpaj/o6Sm/6Kipf+goaT/n5+j/56eof+cnJ7/mZqd/5eXmv+enqL/Nzc4mwAAABUA
-AAAMAAAABQAAAAL///8A////AP///wD///8AAAAAAgAAAAYAAAANAAAAFl9gYcLLy83/t7e7/7m5vP+7
-u73/vL2//729wP++v8H/v8DC/8DBw//BwsT/wsLF/8LDxf/DxMX/xMTG/8TExv/Excb/xMXG/8TFxv/E
-xMb/xMXG/8TExf/DxMX/wsPF/8LDxf/Bwsb/wcPD/8DAwv+/v8H/vr/A/72+v/+8vb//vL2//729v/++
-wML/v7/B/8DAwv/BwsT/wsPF/8TExv/Fx8f/xsbI/8fHyf/Hx8r/x8jK/8jIy//IyMv/yMjL/8jIy//I
-yMv/x8jK/8fIyv/Gx8r/xsbI/8XGyP/Excb/w8PF/8LCxP/BwcP/vr/B/7y9v/+8vL7/0NHT/0hISZ8A
-AAAVAAAADAAAAAUAAAAC////AP///wD///8A////AAAAAAIAAAAGAAAADQAAABYrKyygX19g8lpaW+1b
-W1vtXFtd7VxdX+1dXV/tXl9f7V9fYO1gYGDtYGBh7WBgYu1gYGLtYGFi7WFhY+1hYmPtYmJj7WJiY+1i
-YmPtYmJj7WFiY+1iYmPtYWJj7WFiY+1gYGPtYGFi7WBhYu1gYGLtYGBh7V9fYO1fX2DtX19g7V9fYO1f
-X2DtX19g7V9gYe1gYGLtYWFi7WFiY+1iY2TtY2Nl7WNkZe1kZWXtZWVl7WVlZu1kZWXtZWVl7WVlZu1l
-ZWbtZGVl7WRkZe1jZGXtY2Nl7WJiZe1iYmTtYWFi7WBgYu1gYGLtX2Bg7V9eYO1cXV/tW1xd7WFhYvMf
-Hx+EAAAAFQAAAAwAAAAFAAAAAv///wD///8A////AP///wAAAAACAAAABgAAAA0AAAAWAAAAIgAAAC0A
-AAA2AAAAOwAAAD8AAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAA
-AABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAA
-AABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAA
-AABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAAA+AAAAOwAAADUA
-AAAsAAAAIQAAABUAAAAMAAAABQAAAAL///8A////AP///wD///8AAAAAAgAAAAYAAAAMAAAAFQAAACEA
-AAArAAAAMwAAADkAAAA8AAAAPQAAAD0AAAA9AAAAPQAAAD0AAAA9AAAAPQAAAD0AAAA9AAAAPQAAAD0A
-AAA9AAAAPQAAAD0AAAA9AAAAPQAAAD0AAAA9AAAAPQAAAD0AAAA9AAAAPQAAAD0AAAA9AAAAPQAAAD0A
-AAA9AAAAPQAAAD0AAAA9AAAAPQAAAD0AAAA9AAAAPQAAAD0AAAA9AAAAPQAAAD0AAAA9AAAAPQAAAD0A
-AAA9AAAAPQAAAD0AAAA9AAAAPQAAAD0AAAA9AAAAPQAAAD0AAAA9AAAAPQAAAD0AAAA9AAAAPAAAADgA
-AAAyAAAAKgAAAB8AAAAUAAAACwAAAAUAAAAB////AP///wD///8A////AAAAAAIAAAAFAAAACwAAABMA
-AAAeAAAAJwAAAC8AAAA0AAAANwAAADgAAAA4AAAAOAAAADgAAAA4AAAAOAAAADgAAAA4AAAAOAAAADgA
-AAA4AAAAOAAAADgAAAA4AAAAOAAAADgAAAA4AAAAOAAAADgAAAA4AAAAOAAAADgAAAA4AAAAOAAAADgA
-AAA4AAAAOAAAADgAAAA4AAAAOAAAADgAAAA4AAAAOAAAADgAAAA4AAAAOAAAADgAAAA4AAAAOAAAADgA
-AAA4AAAAOAAAADgAAAA4AAAAOAAAADgAAAA4AAAAOAAAADgAAAA4AAAAOAAAADgAAAA4AAAAOAAAADcA
-AAAzAAAALgAAACYAAAAcAAAAEgAAAAoAAAAFAAAAAf///wD///8A////AP///wAAAAABAAAABQAAAAoA
-AAARAAAAGgAAACIAAAAoAAAALQAAAC8AAAAwAAAAMAAAADAAAAAwAAAAMAAAADAAAAAwAAAAMAAAADAA
-AAAwAAAAMAAAADAAAAAwAAAAMAAAADAAAAAwAAAAMAAAADAAAAAwAAAAMAAAADAAAAAwAAAAMAAAADAA
-AAAwAAAAMAAAADAAAAAwAAAAMAAAADAAAAAwAAAAMAAAADAAAAAwAAAAMAAAADAAAAAwAAAAMAAAADAA
-AAAwAAAAMAAAADAAAAAwAAAAMAAAADAAAAAwAAAAMAAAADAAAAAwAAAAMAAAADAAAAAwAAAAMAAAADAA
-AAAvAAAALAAAACcAAAAhAAAAGAAAABAAAAAJAAAABAAAAAH///8A////AP///wD///8AAAAAAQAAAAQA
-AAAIAAAADQAAABQAAAAaAAAAHwAAACMAAAAlAAAAJQAAACUAAAAlAAAAJQAAACUAAAAlAAAAJQAAACUA
-AAAlAAAAJQAAACUAAAAlAAAAJQAAACUAAAAlAAAAJQAAACUAAAAlAAAAJQAAACUAAAAlAAAAJQAAACUA
-AAAlAAAAJQAAACUAAAAlAAAAJQAAACUAAAAlAAAAJQAAACUAAAAlAAAAJQAAACUAAAAlAAAAJQAAACUA
-AAAlAAAAJQAAACUAAAAlAAAAJQAAACUAAAAlAAAAJQAAACUAAAAlAAAAJQAAACUAAAAlAAAAJQAAACUA
-AAAlAAAAJQAAACIAAAAfAAAAGgAAABMAAAAMAAAABwAAAAMAAAAB////AP///wD///8A////AAAAAAEA
-AAACAAAABQAAAAkAAAANAAAAEgAAABUAAAAXAAAAGAAAABkAAAAZAAAAGQAAABkAAAAZAAAAGQAAABkA
-AAAZAAAAGQAAABkAAAAZAAAAGQAAABkAAAAZAAAAGQAAABkAAAAZAAAAGQAAABkAAAAZAAAAGQAAABkA
-AAAZAAAAGQAAABkAAAAZAAAAGQAAABkAAAAZAAAAGQAAABkAAAAZAAAAGQAAABkAAAAZAAAAGQAAABkA
-AAAZAAAAGQAAABkAAAAZAAAAGQAAABkAAAAZAAAAGQAAABkAAAAZAAAAGQAAABkAAAAZAAAAGQAAABkA
-AAAZAAAAGQAAABgAAAAXAAAAFAAAABEAAAANAAAACAAAAAUAAAACAAAAAf///wD///8A////AP///wAA
-AAABAAAAAgAAAAMAAAAFAAAACAAAAAoAAAAMAAAADgAAAA8AAAAPAAAADwAAAA8AAAAPAAAADwAAAA8A
-AAAPAAAADwAAAA8AAAAPAAAADwAAAA8AAAAPAAAADwAAAA8AAAAPAAAADwAAAA8AAAAPAAAADwAAAA8A
-AAAPAAAADwAAAA8AAAAPAAAADwAAAA8AAAAPAAAADwAAAA8AAAAPAAAADwAAAA8AAAAPAAAADwAAAA8A
-AAAPAAAADwAAAA8AAAAPAAAADwAAAA8AAAAPAAAADwAAAA8AAAAPAAAADwAAAA8AAAAPAAAADwAAAA8A
-AAAPAAAADwAAAA8AAAAOAAAADgAAAAwAAAAKAAAACAAAAAUAAAADAAAAAQAAAAD///8A////AP///wD/
-//8AAAAAAAAAAAEAAAACAAAAAwAAAAQAAAAFAAAABgAAAAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAAcA
-AAAHAAAABwAAAAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAAcA
-AAAHAAAABwAAAAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAAcA
-AAAHAAAABwAAAAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAAcA
-AAAHAAAABwAAAAcAAAAHAAAABwAAAAcAAAAGAAAABQAAAAQAAAACAAAAAQAAAAEAAAAA////AP///wD/
-//8A////AAAAAAAAAAAAAAAAAQAAAAEAAAABAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIA
-AAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIA
-AAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIA
-AAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIA
-AAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAABAAAAAQAAAAEAAAAAAAAAAP///wD/
-//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
-//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
-//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
-//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
-//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
-//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
-//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
-//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
-//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
-//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
-//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
-//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
-//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
-//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
-//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
-//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
-//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
-//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
-//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
-//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
-//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
-//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
-//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
-//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
-//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
-//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
-//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
-//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
-//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
-//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
-//8A////AP///wD///8A////AP///wD///8AAA4BAAADAAAAAQBMAAABAQADAAAAAQBMAAABAgADAAAA
-BAAAWvYBAwADAAAAAQABAAABBgADAAAAAQACAAABEQAEAAAAAQAAAAgBEgADAAAAAQABAAABFQADAAAA
-AQAEAAABFgADAAAAAQGZAAABFwAEAAAAAQAAWkABHAADAAAAAQABAAABUgADAAAAAQACAAABUwADAAAA
-BAAAWv6HcwAHAAAMSAAAWwYAAAAAAAgACAAIAAgAAQABAAEAAQAADEhMaW5vAhAAAG1udHJSR0IgWFla
-IAfOAAIACQAGADEAAGFjc3BNU0ZUAAAAAElFQyBzUkdCAAAAAAAAAAAAAAABAAD21gABAAAAANMtSFAg
-IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEWNwcnQAAAFQAAAA
-M2Rlc2MAAAGEAAAAbHd0cHQAAAHwAAAAFGJrcHQAAAIEAAAAFHJYWVoAAAIYAAAAFGdYWVoAAAIsAAAA
-FGJYWVoAAAJAAAAAFGRtbmQAAAJUAAAAcGRtZGQAAALEAAAAiHZ1ZWQAAANMAAAAhnZpZXcAAAPUAAAA
-JGx1bWkAAAP4AAAAFG1lYXMAAAQMAAAAJHRlY2gAAAQwAAAADHJUUkMAAAQ8AAAIDGdUUkMAAAQ8AAAI
-DGJUUkMAAAQ8AAAIDHRleHQAAAAAQ29weXJpZ2h0IChjKSAxOTk4IEhld2xldHQtUGFja2FyZCBDb21w
-YW55AABkZXNjAAAAAAAAABJzUkdCIElFQzYxOTY2LTIuMQAAAAAAAAAAAAAAEnNSR0IgSUVDNjE5NjYt
-Mi4xAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABYWVogAAAA
-AAAA81EAAQAAAAEWzFhZWiAAAAAAAAAAAAAAAAAAAAAAWFlaIAAAAAAAAG+iAAA49QAAA5BYWVogAAAA
-AAAAYpkAALeFAAAY2lhZWiAAAAAAAAAkoAAAD4QAALbPZGVzYwAAAAAAAAAWSUVDIGh0dHA6Ly93d3cu
-aWVjLmNoAAAAAAAAAAAAAAAWSUVDIGh0dHA6Ly93d3cuaWVjLmNoAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGRlc2MAAAAAAAAALklFQyA2MTk2Ni0yLjEgRGVmYXVsdCBS
-R0IgY29sb3VyIHNwYWNlIC0gc1JHQgAAAAAAAAAAAAAALklFQyA2MTk2Ni0yLjEgRGVmYXVsdCBSR0Ig
-Y29sb3VyIHNwYWNlIC0gc1JHQgAAAAAAAAAAAAAAAAAAAAAAAAAAAABkZXNjAAAAAAAAACxSZWZlcmVu
-Y2UgVmlld2luZyBDb25kaXRpb24gaW4gSUVDNjE5NjYtMi4xAAAAAAAAAAAAAAAsUmVmZXJlbmNlIFZp
-ZXdpbmcgQ29uZGl0aW9uIGluIElFQzYxOTY2LTIuMQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAdmll
-dwAAAAAAE6T+ABRfLgAQzxQAA+3MAAQTCwADXJ4AAAABWFlaIAAAAAAATAlWAFAAAABXH+dtZWFzAAAA
-AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAACjwAAAAJzaWcgAAAAAENSVCBjdXJ2AAAAAAAABAAAAAAFAAoA
-DwAUABkAHgAjACgALQAyADcAOwBAAEUASgBPAFQAWQBeAGMAaABtAHIAdwB8AIEAhgCLAJAAlQCaAJ8A
-pACpAK4AsgC3ALwAwQDGAMsA0ADVANsA4ADlAOsA8AD2APsBAQEHAQ0BEwEZAR8BJQErATIBOAE+AUUB
-TAFSAVkBYAFnAW4BdQF8AYMBiwGSAZoBoQGpAbEBuQHBAckB0QHZAeEB6QHyAfoCAwIMAhQCHQImAi8C
-OAJBAksCVAJdAmcCcQJ6AoQCjgKYAqICrAK2AsECywLVAuAC6wL1AwADCwMWAyEDLQM4A0MDTwNaA2YD
-cgN+A4oDlgOiA64DugPHA9MD4APsA/kEBgQTBCAELQQ7BEgEVQRjBHEEfgSMBJoEqAS2BMQE0wThBPAE
-/gUNBRwFKwU6BUkFWAVnBXcFhgWWBaYFtQXFBdUF5QX2BgYGFgYnBjcGSAZZBmoGewaMBp0GrwbABtEG
-4wb1BwcHGQcrBz0HTwdhB3QHhgeZB6wHvwfSB+UH+AgLCB8IMghGCFoIbgiCCJYIqgi+CNII5wj7CRAJ
-JQk6CU8JZAl5CY8JpAm6Cc8J5Qn7ChEKJwo9ClQKagqBCpgKrgrFCtwK8wsLCyILOQtRC2kLgAuYC7AL
-yAvhC/kMEgwqDEMMXAx1DI4MpwzADNkM8w0NDSYNQA1aDXQNjg2pDcMN3g34DhMOLg5JDmQOfw6bDrYO
-0g7uDwkPJQ9BD14Peg+WD7MPzw/sEAkQJhBDEGEQfhCbELkQ1xD1ERMRMRFPEW0RjBGqEckR6BIHEiYS
-RRJkEoQSoxLDEuMTAxMjE0MTYxODE6QTxRPlFAYUJxRJFGoUixStFM4U8BUSFTQVVhV4FZsVvRXgFgMW
-JhZJFmwWjxayFtYW+hcdF0EXZReJF64X0hf3GBsYQBhlGIoYrxjVGPoZIBlFGWsZkRm3Gd0aBBoqGlEa
-dxqeGsUa7BsUGzsbYxuKG7Ib2hwCHCocUhx7HKMczBz1HR4dRx1wHZkdwx3sHhYeQB5qHpQevh7pHxMf
-Ph9pH5Qfvx/qIBUgQSBsIJggxCDwIRwhSCF1IaEhziH7IiciVSKCIq8i3SMKIzgjZiOUI8Ij8CQfJE0k
-fCSrJNolCSU4JWgllyXHJfcmJyZXJocmtyboJxgnSSd6J6sn3CgNKD8ocSiiKNQpBik4KWspnSnQKgIq
-NSpoKpsqzysCKzYraSudK9EsBSw5LG4soizXLQwtQS12Last4S4WLkwugi63Lu4vJC9aL5Evxy/+MDUw
-bDCkMNsxEjFKMYIxujHyMioyYzKbMtQzDTNGM38zuDPxNCs0ZTSeNNg1EzVNNYc1wjX9Njc2cjauNuk3
-JDdgN5w31zgUOFA4jDjIOQU5Qjl/Obw5+To2OnQ6sjrvOy07azuqO+g8JzxlPKQ84z0iPWE9oT3gPiA+
-YD6gPuA/IT9hP6I/4kAjQGRApkDnQSlBakGsQe5CMEJyQrVC90M6Q31DwEQDREdEikTORRJFVUWaRd5G
-IkZnRqtG8Ec1R3tHwEgFSEtIkUjXSR1JY0mpSfBKN0p9SsRLDEtTS5pL4kwqTHJMuk0CTUpNk03cTiVO
-bk63TwBPSU+TT91QJ1BxULtRBlFQUZtR5lIxUnxSx1MTU19TqlP2VEJUj1TbVShVdVXCVg9WXFapVvdX
-RFeSV+BYL1h9WMtZGllpWbhaB1pWWqZa9VtFW5Vb5Vw1XIZc1l0nXXhdyV4aXmxevV8PX2Ffs2AFYFdg
-qmD8YU9homH1YklinGLwY0Njl2PrZEBklGTpZT1lkmXnZj1mkmboZz1nk2fpaD9olmjsaUNpmmnxakhq
-n2r3a09rp2v/bFdsr20IbWBtuW4SbmtuxG8eb3hv0XArcIZw4HE6cZVx8HJLcqZzAXNdc7h0FHRwdMx1
-KHWFdeF2Pnabdvh3VnezeBF4bnjMeSp5iXnnekZ6pXsEe2N7wnwhfIF84X1BfaF+AX5ifsJ/I3+Ef+WA
-R4CogQqBa4HNgjCCkoL0g1eDuoQdhICE44VHhauGDoZyhteHO4efiASIaYjOiTOJmYn+imSKyoswi5aL
-/IxjjMqNMY2Yjf+OZo7OjzaPnpAGkG6Q1pE/kaiSEZJ6kuOTTZO2lCCUipT0lV+VyZY0lp+XCpd1l+CY
-TJi4mSSZkJn8mmia1ZtCm6+cHJyJnPedZJ3SnkCerp8dn4uf+qBpoNihR6G2oiailqMGo3aj5qRWpMel
-OKWpphqmi6b9p26n4KhSqMSpN6mpqhyqj6sCq3Wr6axcrNCtRK24ri2uoa8Wr4uwALB1sOqxYLHWskuy
-wrM4s660JbSctRO1irYBtnm28Ldot+C4WbjRuUq5wro7urW7LrunvCG8m70VvY++Cr6Evv+/er/1wHDA
-7MFnwePCX8Lbw1jD1MRRxM7FS8XIxkbGw8dBx7/IPci8yTrJuco4yrfLNsu2zDXMtc01zbXONs62zzfP
-uNA50LrRPNG+0j/SwdNE08bUSdTL1U7V0dZV1tjXXNfg2GTY6Nls2fHadtr724DcBdyK3RDdlt4c3qLf
-Kd+v4DbgveFE4cziU+Lb42Pj6+Rz5PzlhOYN5pbnH+ep6DLovOlG6dDqW+rl63Dr++yG7RHtnO4o7rTv
-QO/M8Fjw5fFy8f/yjPMZ86f0NPTC9VD13vZt9vv3ivgZ+Kj5OPnH+lf65/t3/Af8mP0p/br+S/7c/23/
-/4aShISEB05TQ29sb3IAlJUDhAJmZgAAhpKFhg</bytes>
+							<string key="NSReuseIdentifierKey">_NS:24</string>
+							<object class="NSOpenGLPixelFormat" key="NSPixelFormat">
+								<object class="NSMutableData" key="NSPixelAttributes">
+									<bytes key="NS.bytes">AAAABQAAAGAAAAAMAAAAGAAAAAA</bytes>
 								</object>
-								<string key="templatePath">Library/Compositions</string>
-								<object class="NSDictionary" key="virtualPatches">
-									<string key="NS.key.0">/split</string>
-									<dictionary key="NS.object.0">
-										<string key="frameworkVersion">284</string>
-										<dictionary key="inputParameters">
-											<real value="1" key="Factor"/>
-											<real value="0.0" key="Offset"/>
-										</dictionary>
-										<dictionary key="portAttributes">
-											<object class="NSDictionary" key="Factor">
-												<string key="NS.key.0">name</string>
-												<string key="NS.object.0">Factor</string>
-											</object>
-											<object class="NSDictionary" key="Lower_Value">
-												<string key="NS.key.0">name</string>
-												<string key="NS.object.0">Lower_Value</string>
-											</object>
-											<object class="NSDictionary" key="Offset">
-												<string key="NS.key.0">name</string>
-												<string key="NS.object.0">Offset</string>
-											</object>
-											<object class="NSDictionary" key="Upper_Value">
-												<string key="NS.key.0">name</string>
-												<string key="NS.object.0">Upper_Value</string>
-											</object>
-											<object class="NSDictionary" key="Value">
-												<string key="NS.key.0">name</string>
-												<string key="NS.object.0">Value</string>
-											</object>
-										</dictionary>
-										<dictionary key="rootPatch">
-											<string key="class">QCPatch</string>
-											<dictionary key="state">
-												<dictionary key="connections">
-													<dictionary key="connection_1">
-														<string key="destinationNode">Expression_1</string>
-														<string key="destinationPort">a</string>
-														<string key="sourceNode">Splitter_1</string>
-														<string key="sourcePort">output</string>
-													</dictionary>
-													<dictionary key="connection_2">
-														<string key="destinationNode">Expression_1</string>
-														<string key="destinationPort">factor</string>
-														<string key="sourceNode">Splitter_2</string>
-														<string key="sourcePort">output</string>
-													</dictionary>
-													<dictionary key="connection_3">
-														<string key="destinationNode">Expression_1</string>
-														<string key="destinationPort">offset</string>
-														<string key="sourceNode">Splitter_3</string>
-														<string key="sourcePort">output</string>
-													</dictionary>
-													<dictionary key="connection_4">
-														<string key="destinationNode">Splitter_5</string>
-														<string key="destinationPort">input</string>
-														<string key="sourceNode">Expression_1</string>
-														<string key="sourcePort">outputResult</string>
-													</dictionary>
-													<dictionary key="connection_5">
-														<string key="destinationNode">Expression_2</string>
-														<string key="destinationPort">a</string>
-														<string key="sourceNode">Splitter_1</string>
-														<string key="sourcePort">output</string>
-													</dictionary>
-													<dictionary key="connection_6">
-														<string key="destinationNode">Expression_2</string>
-														<string key="destinationPort">factor</string>
-														<string key="sourceNode">Splitter_2</string>
-														<string key="sourcePort">output</string>
-													</dictionary>
-													<dictionary key="connection_7">
-														<string key="destinationNode">Expression_2</string>
-														<string key="destinationPort">offset</string>
-														<string key="sourceNode">Splitter_3</string>
-														<string key="sourcePort">output</string>
-													</dictionary>
-													<dictionary key="connection_8">
-														<string key="destinationNode">Splitter_4</string>
-														<string key="destinationPort">input</string>
-														<string key="sourceNode">Expression_2</string>
-														<string key="sourcePort">outputResult</string>
-													</dictionary>
-												</dictionary>
-												<array key="nodes">
-													<dictionary>
-														<string key="class">QCExpression</string>
-														<string key="key">Expression_1</string>
-														<dictionary key="state">
-															<string key="expression">a * factor/2 + offset</string>
-															<object class="NSMutableData" key="userInfo">
-																<bytes key="NS.bytes">BAtzdHJlYW10eXBlZIHoA4QBQISEhBNOU011dGFibGVEaWN0aW9uYXJ5AISEDE5TRGljdGlvbmFyeQCE
-hAhOU09iamVjdACFhAFpApKEhIQITlNTdHJpbmcBlYQBKwRuYW1lhpKEl5gXImEgKiBmYWN0b3IvMiAr
-IG9mZnNldCKGkoSXmAhwb3NpdGlvboaShISEB05TVmFsdWUAlYQBKoSEDHtDR1BvaW50PWRkfZuBYgOB
-IQSGhg</bytes>
-															</object>
-														</dictionary>
-													</dictionary>
-													<dictionary>
-														<string key="class">QCSplitter</string>
-														<string key="key">Splitter_1</string>
-														<dictionary key="state">
-															<object class="NSDictionary" key="customInputPortStates">
-																<string key="NS.key.0">input</string>
-																<object class="NSDictionary" key="NS.object.0">
-																	<string key="NS.key.0">userInfo</string>
-																	<object class="NSMutableData" key="NS.object.0">
-																		<bytes key="NS.bytes">BAtzdHJlYW10eXBlZIHoA4QBQISEhBNOU011dGFibGVEaWN0aW9uYXJ5AISEDE5TRGljdGlvbmFyeQCE
-hAhOU09iamVjdACFhAFpAZKEhIQITlNTdHJpbmcBlYQBKwRuYW1lhpKEl5gFVmFsdWWGhg</bytes>
-																	</object>
-																</object>
-															</object>
-															<object class="NSDictionary" key="customOutputPortStates">
-																<string key="NS.key.0">output</string>
-																<object class="NSDictionary" key="NS.object.0">
-																	<string key="NS.key.0">userInfo</string>
-																	<object class="NSMutableData" key="NS.object.0">
-																		<bytes key="NS.bytes">BAtzdHJlYW10eXBlZIHoA4QBQISEhBNOU011dGFibGVEaWN0aW9uYXJ5AISEDE5TRGljdGlvbmFyeQCE
-hAhOU09iamVjdACFhAFpAZKEhIQITlNTdHJpbmcBlYQBKwRuYW1lhpKEl5gFVmFsdWWGhg</bytes>
-																	</object>
-																</object>
-															</object>
-															<string key="portClass">QCNumberPort</string>
-															<object class="NSMutableData" key="userInfo">
-																<bytes key="NS.bytes">BAtzdHJlYW10eXBlZIHoA4QBQISEhBNOU011dGFibGVEaWN0aW9uYXJ5AISEDE5TRGljdGlvbmFyeQCE
-hAhOU09iamVjdACFhAFpApKEhIQITlNTdHJpbmcBlYQBKwRuYW1lhpKEl5gFVmFsdWWGkoSXmAhwb3Np
-dGlvboaShISEB05TVmFsdWUAlYQBKoSEDHtDR1BvaW50PWRkfZuBBwOB6AOGhg</bytes>
-															</object>
-															<integer value="1" key="version"/>
-														</dictionary>
-													</dictionary>
-													<dictionary>
-														<string key="class">QCSplitter</string>
-														<string key="key">Splitter_2</string>
-														<dictionary key="state">
-															<object class="NSDictionary" key="customInputPortStates">
-																<string key="NS.key.0">input</string>
-																<dictionary key="NS.object.0">
-																	<object class="NSMutableData" key="userInfo">
-																		<bytes key="NS.bytes">BAtzdHJlYW10eXBlZIHoA4QBQISEhBNOU011dGFibGVEaWN0aW9uYXJ5AISEDE5TRGljdGlvbmFyeQCE
-hAhOU09iamVjdACFhAFpAZKEhIQITlNTdHJpbmcBlYQBKwRuYW1lhpKEl5gGRmFjdG9yhoY</bytes>
-																	</object>
-																	<real value="1" key="value"/>
-																</dictionary>
-															</object>
-															<object class="NSDictionary" key="customOutputPortStates">
-																<string key="NS.key.0">output</string>
-																<object class="NSDictionary" key="NS.object.0">
-																	<string key="NS.key.0">userInfo</string>
-																	<object class="NSMutableData" key="NS.object.0">
-																		<bytes key="NS.bytes">BAtzdHJlYW10eXBlZIHoA4QBQISEhBNOU011dGFibGVEaWN0aW9uYXJ5AISEDE5TRGljdGlvbmFyeQCE
-hAhOU09iamVjdACFhAFpAZKEhIQITlNTdHJpbmcBlYQBKwRuYW1lhpKEl5gGRmFjdG9yhoY</bytes>
-																	</object>
-																</object>
-															</object>
-															<string key="portClass">QCNumberPort</string>
-															<object class="NSMutableData" key="userInfo">
-																<bytes key="NS.bytes">BAtzdHJlYW10eXBlZIHoA4QBQISEhBNOU011dGFibGVEaWN0aW9uYXJ5AISEDE5TRGljdGlvbmFyeQCE
-hAhOU09iamVjdACFhAFpApKEhIQITlNTdHJpbmcBlYQBKwRuYW1lhpKEl5gGRmFjdG9yhpKEl5gIcG9z
-aXRpb26GkoSEhAdOU1ZhbHVlAJWEASqEhAx7Q0dQb2ludD1kZH2bgQMDgQAEhoY</bytes>
-															</object>
-															<integer value="1" key="version"/>
-														</dictionary>
-													</dictionary>
-													<dictionary>
-														<string key="class">QCSplitter</string>
-														<string key="key">Splitter_3</string>
-														<dictionary key="state">
-															<object class="NSDictionary" key="customInputPortStates">
-																<string key="NS.key.0">input</string>
-																<dictionary key="NS.object.0">
-																	<object class="NSMutableData" key="userInfo">
-																		<bytes key="NS.bytes">BAtzdHJlYW10eXBlZIHoA4QBQISEhBNOU011dGFibGVEaWN0aW9uYXJ5AISEDE5TRGljdGlvbmFyeQCE
-hAhOU09iamVjdACFhAFpAZKEhIQITlNTdHJpbmcBlYQBKwRuYW1lhpKEl5gGT2Zmc2V0hoY</bytes>
-																	</object>
-																	<real value="0.0" key="value"/>
-																</dictionary>
-															</object>
-															<object class="NSDictionary" key="customOutputPortStates">
-																<string key="NS.key.0">output</string>
-																<object class="NSDictionary" key="NS.object.0">
-																	<string key="NS.key.0">userInfo</string>
-																	<object class="NSMutableData" key="NS.object.0">
-																		<bytes key="NS.bytes">BAtzdHJlYW10eXBlZIHoA4QBQISEhBNOU011dGFibGVEaWN0aW9uYXJ5AISEDE5TRGljdGlvbmFyeQCE
-hAhOU09iamVjdACFhAFpAZKEhIQITlNTdHJpbmcBlYQBKwRuYW1lhpKEl5gGT2Zmc2V0hoY</bytes>
-																	</object>
-																</object>
-															</object>
-															<string key="portClass">QCNumberPort</string>
-															<object class="NSMutableData" key="userInfo">
-																<bytes key="NS.bytes">BAtzdHJlYW10eXBlZIHoA4QBQISEhBNOU011dGFibGVEaWN0aW9uYXJ5AISEDE5TRGljdGlvbmFyeQCE
-hAhOU09iamVjdACFhAFpApKEhIQITlNTdHJpbmcBlYQBKwRuYW1lhpKEl5gGT2Zmc2V0hpKEl5gIcG9z
-aXRpb26GkoSEhAdOU1ZhbHVlAJWEASqEhAx7Q0dQb2ludD1kZH2bgQQDgRgEhoY</bytes>
-															</object>
-															<integer value="1" key="version"/>
-														</dictionary>
-													</dictionary>
-													<dictionary>
-														<string key="class">QCSplitter</string>
-														<string key="key">Splitter_5</string>
-														<dictionary key="state">
-															<object class="NSDictionary" key="customInputPortStates">
-																<string key="NS.key.0">input</string>
-																<object class="NSDictionary" key="NS.object.0">
-																	<string key="NS.key.0">userInfo</string>
-																	<object class="NSMutableData" key="NS.object.0">
-																		<bytes key="NS.bytes">BAtzdHJlYW10eXBlZIHoA4QBQISEhBNOU011dGFibGVEaWN0aW9uYXJ5AISEDE5TRGljdGlvbmFyeQCE
-hAhOU09iamVjdACFhAFpAZKEhIQITlNTdHJpbmcBlYQBKwRuYW1lhpKEl5gLVXBwZXIgVmFsdWWGhg</bytes>
-																	</object>
-																</object>
-															</object>
-															<object class="NSDictionary" key="customOutputPortStates">
-																<string key="NS.key.0">output</string>
-																<object class="NSDictionary" key="NS.object.0">
-																	<string key="NS.key.0">userInfo</string>
-																	<object class="NSMutableData" key="NS.object.0">
-																		<bytes key="NS.bytes">BAtzdHJlYW10eXBlZIHoA4QBQISEhBNOU011dGFibGVEaWN0aW9uYXJ5AISEDE5TRGljdGlvbmFyeQCE
-hAhOU09iamVjdACFhAFpAZKEhIQITlNTdHJpbmcBlYQBKwRuYW1lhpKEl5gLVXBwZXIgVmFsdWWGhg</bytes>
-																	</object>
-																</object>
-															</object>
-															<string key="portClass">QCNumberPort</string>
-															<object class="NSMutableData" key="userInfo">
-																<bytes key="NS.bytes">BAtzdHJlYW10eXBlZIHoA4QBQISEhBNOU011dGFibGVEaWN0aW9uYXJ5AISEDE5TRGljdGlvbmFyeQCE
-hAhOU09iamVjdACFhAFpApKEhIQITlNTdHJpbmcBlYQBKwRuYW1lhpKEl5gLVXBwZXIgVmFsdWWGkoSX
-mAhwb3NpdGlvboaShISEB05TVmFsdWUAlYQBKoSEDHtDR1BvaW50PWRkfZuB6wOBMASGhg</bytes>
-															</object>
-															<integer value="1" key="version"/>
-														</dictionary>
-													</dictionary>
-													<dictionary>
-														<string key="class">QCExpression</string>
-														<string key="key">Expression_2</string>
-														<dictionary key="state">
-															<string key="expression">-a * factor/2 + offset</string>
-															<object class="NSMutableData" key="userInfo">
-																<bytes key="NS.bytes">BAtzdHJlYW10eXBlZIHoA4QBQISEhBNOU011dGFibGVEaWN0aW9uYXJ5AISEDE5TRGljdGlvbmFyeQCE
-hAhOU09iamVjdACFhAFpApKEhIQITlNTdHJpbmcBlYQBKwRuYW1lhpKEl5gYIi1hICogZmFjdG9yLzIg
-KyBvZmZzZXQihpKEl5gIcG9zaXRpb26GkoSEhAdOU1ZhbHVlAJWEASqEhAx7Q0dQb2ludD1kZH2bgWAD
-gdkDhoY</bytes>
-															</object>
-														</dictionary>
-													</dictionary>
-													<dictionary>
-														<string key="class">QCSplitter</string>
-														<string key="key">Splitter_4</string>
-														<dictionary key="state">
-															<object class="NSDictionary" key="customInputPortStates">
-																<string key="NS.key.0">input</string>
-																<object class="NSDictionary" key="NS.object.0">
-																	<string key="NS.key.0">userInfo</string>
-																	<object class="NSMutableData" key="NS.object.0">
-																		<bytes key="NS.bytes">BAtzdHJlYW10eXBlZIHoA4QBQISEhBNOU011dGFibGVEaWN0aW9uYXJ5AISEDE5TRGljdGlvbmFyeQCE
-hAhOU09iamVjdACFhAFpAZKEhIQITlNTdHJpbmcBlYQBKwRuYW1lhpKEl5gLTG93ZXIgVmFsdWWGhg</bytes>
-																	</object>
-																</object>
-															</object>
-															<object class="NSDictionary" key="customOutputPortStates">
-																<string key="NS.key.0">output</string>
-																<object class="NSDictionary" key="NS.object.0">
-																	<string key="NS.key.0">userInfo</string>
-																	<object class="NSMutableData" key="NS.object.0">
-																		<bytes key="NS.bytes">BAtzdHJlYW10eXBlZIHoA4QBQISEhBNOU011dGFibGVEaWN0aW9uYXJ5AISEDE5TRGljdGlvbmFyeQCE
-hAhOU09iamVjdACFhAFpAZKEhIQITlNTdHJpbmcBlYQBKwRuYW1lhpKEl5gLTG93ZXIgVmFsdWWGhg</bytes>
-																	</object>
-																</object>
-															</object>
-															<string key="portClass">QCNumberPort</string>
-															<object class="NSMutableData" key="userInfo">
-																<bytes key="NS.bytes">BAtzdHJlYW10eXBlZIHoA4QBQISEhBNOU011dGFibGVEaWN0aW9uYXJ5AISEDE5TRGljdGlvbmFyeQCE
-hAhOU09iamVjdACFhAFpApKEhIQITlNTdHJpbmcBlYQBKwRuYW1lhpKEl5gLTG93ZXIgVmFsdWWGkoSX
-mAhwb3NpdGlvboaShISEB05TVmFsdWUAlYQBKoSEDHtDR1BvaW50PWRkfZuB7gOB6AOGhg</bytes>
-															</object>
-															<integer value="1" key="version"/>
-														</dictionary>
-													</dictionary>
-												</array>
-												<array key="publishedInputPorts">
-													<dictionary>
-														<string key="key">Value</string>
-														<string key="node">Splitter_1</string>
-														<string key="port">input</string>
-														<object class="NSDictionary" key="state">
-															<string key="NS.key.0">userInfo</string>
-															<object class="NSMutableData" key="NS.object.0">
-																<bytes key="NS.bytes">BAtzdHJlYW10eXBlZIHoA4QBQISEhBNOU011dGFibGVEaWN0aW9uYXJ5AISEDE5TRGljdGlvbmFyeQCE
-hAhOU09iamVjdACFhAFpAZKEhIQITlNTdHJpbmcBlYQBKwRuYW1lhpKEl5gFVmFsdWWGhg</bytes>
-															</object>
-														</object>
-													</dictionary>
-													<dictionary>
-														<string key="key">Factor</string>
-														<string key="node">Splitter_2</string>
-														<string key="port">input</string>
-														<dictionary key="state">
-															<object class="NSMutableData" key="userInfo">
-																<bytes key="NS.bytes">BAtzdHJlYW10eXBlZIHoA4QBQISEhBNOU011dGFibGVEaWN0aW9uYXJ5AISEDE5TRGljdGlvbmFyeQCE
-hAhOU09iamVjdACFhAFpAZKEhIQITlNTdHJpbmcBlYQBKwRuYW1lhpKEl5gGRmFjdG9yhoY</bytes>
-															</object>
-															<real value="1" key="value"/>
-														</dictionary>
-													</dictionary>
-													<dictionary>
-														<string key="key">Offset</string>
-														<string key="node">Splitter_3</string>
-														<string key="port">input</string>
-														<dictionary key="state">
-															<object class="NSMutableData" key="userInfo">
-																<bytes key="NS.bytes">BAtzdHJlYW10eXBlZIHoA4QBQISEhBNOU011dGFibGVEaWN0aW9uYXJ5AISEDE5TRGljdGlvbmFyeQCE
-hAhOU09iamVjdACFhAFpAZKEhIQITlNTdHJpbmcBlYQBKwRuYW1lhpKEl5gGT2Zmc2V0hoY</bytes>
-															</object>
-															<real value="0.0" key="value"/>
-														</dictionary>
-													</dictionary>
-												</array>
-												<array key="publishedOutputPorts">
-													<dictionary>
-														<string key="key">Lower_Value</string>
-														<string key="node">Splitter_4</string>
-														<string key="port">output</string>
-														<object class="NSDictionary" key="state">
-															<string key="NS.key.0">userInfo</string>
-															<object class="NSMutableData" key="NS.object.0">
-																<bytes key="NS.bytes">BAtzdHJlYW10eXBlZIHoA4QBQISEhBNOU011dGFibGVEaWN0aW9uYXJ5AISEDE5TRGljdGlvbmFyeQCE
-hAhOU09iamVjdACFhAFpAZKEhIQITlNTdHJpbmcBlYQBKwRuYW1lhpKEl5gLTG93ZXJfVmFsdWWGhg</bytes>
-															</object>
-														</object>
-													</dictionary>
-													<dictionary>
-														<string key="key">Upper_Value</string>
-														<string key="node">Splitter_5</string>
-														<string key="port">output</string>
-														<object class="NSDictionary" key="state">
-															<string key="NS.key.0">userInfo</string>
-															<object class="NSMutableData" key="NS.object.0">
-																<bytes key="NS.bytes">BAtzdHJlYW10eXBlZIHoA4QBQISEhBNOU011dGFibGVEaWN0aW9uYXJ5AISEDE5TRGljdGlvbmFyeQCE
-hAhOU09iamVjdACFhAFpAZKEhIQITlNTdHJpbmcBlYQBKwRuYW1lhpKEl5gLVXBwZXJfVmFsdWWGhg</bytes>
-															</object>
-														</object>
-													</dictionary>
-												</array>
-												<object class="NSMutableData" key="userInfo">
-													<bytes key="NS.bytes">BAtzdHJlYW10eXBlZIHoA4QBQISEhBNOU011dGFibGVEaWN0aW9uYXJ5AISEDE5TRGljdGlvbmFyeQCE
-hAhOU09iamVjdACFhAFpA5KEhIQITlNTdHJpbmcBlYQBKwp6b29tRmFjdG9yhpKEhIQITlNOdW1iZXIA
-hIQHTlNWYWx1ZQCVhAEqhIQBZpwBhpKEl5gJc2Nyb2xsaW5nhpKEmpuEhAx7Q0dQb2ludD1kZH2dgwAA
-AAAAvI5AgSEEhpKEl5gIcG9zaXRpb26GkoSam56dgfkBgRUChoY</bytes>
-												</object>
-											</dictionary>
-										</dictionary>
-									</dictionary>
-								</object>
-							</dictionary>
-							<string key="aspectRatio">{0, 0}</string>
-							<bool key="allowsDragIn">NO</bool>
-							<bool key="allowsDragOut">NO</bool>
-							<float key="maxFPS">0.0</float>
-							<bool key="autorun">YES</bool>
-							<int key="forwardingEventMask">-1</int>
-							<object class="NSColor" key="clearColor" id="237828493">
-								<int key="NSColorSpace">1</int>
-								<bytes key="NSRGB">MCAwIDAAA</bytes>
 							</object>
-							<reference key="backgroundColor" ref="237828493"/>
-							<int key="checkerboardSize">0</int>
-							<int key="flags">0</int>
-							<bool key="forcesClear">NO</bool>
 						</object>
 					</array>
 					<string key="NSFrameSize">{640, 480}</string>
 					<reference key="NSSuperview"/>
 					<reference key="NSWindow"/>
-					<reference key="NSNextKeyView" ref="516801481"/>
+					<reference key="NSNextKeyView" ref="593023252"/>
 				</object>
 				<string key="NSScreenRect">{{0, 0}, {1920, 1178}}</string>
 				<string key="NSMaxSize">{10000000000000, 10000000000000}</string>
@@ -3304,7 +1347,7 @@ AAAAvI5AgSEEhpKEl5gIcG9zaXRpb26GkoSam56dgfkBgRUChoY</bytes>
 				<string key="NSClassName">NSFontManager</string>
 			</object>
 			<object class="NSObjectController" id="556129800">
-				<string key="NSObjectClassName">QCView</string>
+				<string key="NSObjectClassName">NSOpenGLView</string>
 				<bool key="NSEditable">YES</bool>
 				<object class="_NSManagedProxy" key="_NSManagedProxy"/>
 			</object>
@@ -3323,75 +1366,10 @@ AAAAvI5AgSEEhpKEl5gIcG9zaXRpb26GkoSam56dgfkBgRUChoY</bytes>
 				<object class="NSView" key="NSWindowView" id="142353368">
 					<reference key="NSNextResponder"/>
 					<int key="NSvFlags">256</int>
-					<array class="NSMutableArray" key="NSSubviews">
-						<object class="NSTextField" id="192184003">
-							<reference key="NSNextResponder" ref="142353368"/>
-							<int key="NSvFlags">268</int>
-							<string key="NSFrame">{{20, 336}, {236, 22}}</string>
-							<reference key="NSSuperview" ref="142353368"/>
-							<reference key="NSWindow"/>
-							<reference key="NSNextKeyView" ref="19792165"/>
-							<string key="NSReuseIdentifierKey">_NS:9</string>
-							<bool key="NSEnabled">YES</bool>
-							<object class="NSTextFieldCell" key="NSCell" id="989633982">
-								<int key="NSCellFlags">-1804074943</int>
-								<int key="NSCellFlags2">272630784</int>
-								<string key="NSContents"/>
-								<object class="NSFont" key="NSSupport" id="814806029">
-									<string key="NSName">LucidaGrande</string>
-									<double key="NSSize">13</double>
-									<int key="NSfFlags">1044</int>
-								</object>
-								<string key="NSCellIdentifier">_NS:9</string>
-								<reference key="NSControlView" ref="192184003"/>
-								<bool key="NSDrawsBackground">YES</bool>
-								<object class="NSColor" key="NSBackgroundColor" id="316602214">
-									<int key="NSColorSpace">6</int>
-									<string key="NSCatalogName">System</string>
-									<string key="NSColorName">textBackgroundColor</string>
-									<object class="NSColor" key="NSColor">
-										<int key="NSColorSpace">3</int>
-										<bytes key="NSWhite">MQA</bytes>
-									</object>
-								</object>
-								<object class="NSColor" key="NSTextColor" id="77219563">
-									<int key="NSColorSpace">6</int>
-									<string key="NSCatalogName">System</string>
-									<string key="NSColorName">textColor</string>
-									<object class="NSColor" key="NSColor">
-										<int key="NSColorSpace">3</int>
-										<bytes key="NSWhite">MAA</bytes>
-									</object>
-								</object>
-							</object>
-							<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
-						</object>
-						<object class="NSTextField" id="19792165">
-							<reference key="NSNextResponder" ref="142353368"/>
-							<int key="NSvFlags">268</int>
-							<string key="NSFrame">{{20, 304}, {236, 22}}</string>
-							<reference key="NSSuperview" ref="142353368"/>
-							<reference key="NSWindow"/>
-							<string key="NSReuseIdentifierKey">_NS:9</string>
-							<bool key="NSEnabled">YES</bool>
-							<object class="NSTextFieldCell" key="NSCell" id="1061965202">
-								<int key="NSCellFlags">-1804599231</int>
-								<int key="NSCellFlags2">272630784</int>
-								<string key="NSContents"/>
-								<reference key="NSSupport" ref="814806029"/>
-								<string key="NSCellIdentifier">_NS:9</string>
-								<reference key="NSControlView" ref="19792165"/>
-								<bool key="NSDrawsBackground">YES</bool>
-								<reference key="NSBackgroundColor" ref="316602214"/>
-								<reference key="NSTextColor" ref="77219563"/>
-							</object>
-							<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
-						</object>
-					</array>
+					<array class="NSMutableArray" key="NSSubviews"/>
 					<string key="NSFrameSize">{276, 378}</string>
 					<reference key="NSSuperview"/>
 					<reference key="NSWindow"/>
-					<reference key="NSNextKeyView" ref="192184003"/>
 					<string key="NSReuseIdentifierKey">_NS:21</string>
 				</object>
 				<string key="NSScreenRect">{{0, 0}, {1920, 1178}}</string>
@@ -4109,41 +2087,9 @@ AAAAvI5AgSEEhpKEl5gIcG9zaXRpb26GkoSam56dgfkBgRUChoY</bytes>
 					<object class="IBOutletConnection" key="connection">
 						<string key="label">content</string>
 						<reference key="source" ref="556129800"/>
-						<reference key="destination" ref="516801481"/>
+						<reference key="destination" ref="593023252"/>
 					</object>
-					<int key="connectionID">587</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBBindingConnection" key="connection">
-						<string key="label">value: selection.patch.String.value</string>
-						<reference key="source" ref="192184003"/>
-						<reference key="destination" ref="556129800"/>
-						<object class="NSNibBindingConnector" key="connector">
-							<reference key="NSSource" ref="192184003"/>
-							<reference key="NSDestination" ref="556129800"/>
-							<string key="NSLabel">value: selection.patch.String.value</string>
-							<string key="NSBinding">value</string>
-							<string key="NSKeyPath">selection.patch.String.value</string>
-							<int key="NSNibBindingConnectorVersion">2</int>
-						</object>
-					</object>
-					<int key="connectionID">591</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBBindingConnection" key="connection">
-						<string key="label">value: selection.patch.Sprite.value</string>
-						<reference key="source" ref="19792165"/>
-						<reference key="destination" ref="556129800"/>
-						<object class="NSNibBindingConnector" key="connector">
-							<reference key="NSSource" ref="19792165"/>
-							<reference key="NSDestination" ref="556129800"/>
-							<string key="NSLabel">value: selection.patch.Sprite.value</string>
-							<string key="NSBinding">value</string>
-							<string key="NSKeyPath">selection.patch.Sprite.value</string>
-							<int key="NSNibBindingConnectorVersion">2</int>
-						</object>
-					</object>
-					<int key="connectionID">614</int>
+					<int key="connectionID">626</int>
 				</object>
 			</array>
 			<object class="IBMutableOrderedSet" key="objectRecords">
@@ -4671,11 +2617,12 @@ AAAAvI5AgSEEhpKEl5gIcG9zaXRpb26GkoSam56dgfkBgRUChoY</bytes>
 						<int key="objectID">372</int>
 						<reference key="object" ref="439893737"/>
 						<array class="NSMutableArray" key="children">
-							<object class="IBNSLayoutConstraint" id="989771573">
-								<reference key="firstItem" ref="516801481"/>
+							<reference ref="593023252"/>
+							<object class="IBNSLayoutConstraint" id="839105814">
+								<reference key="firstItem" ref="439893737"/>
 								<int key="firstAttribute">6</int>
 								<int key="relation">0</int>
-								<reference key="secondItem" ref="439893737"/>
+								<reference key="secondItem" ref="593023252"/>
 								<int key="secondAttribute">6</int>
 								<float key="multiplier">1</float>
 								<object class="IBLayoutConstant" key="constant">
@@ -4683,28 +2630,28 @@ AAAAvI5AgSEEhpKEl5gIcG9zaXRpb26GkoSam56dgfkBgRUChoY</bytes>
 								</object>
 								<float key="priority">1000</float>
 								<reference key="containingView" ref="439893737"/>
-								<int key="scoringType">8</int>
-								<float key="scoringTypeFloat">29</float>
+								<int key="scoringType">9</int>
+								<float key="scoringTypeFloat">40</float>
 								<int key="contentType">3</int>
 							</object>
-							<object class="IBNSLayoutConstraint" id="810468430">
-								<reference key="firstItem" ref="516801481"/>
-								<int key="firstAttribute">5</int>
+							<object class="IBNSLayoutConstraint" id="794442058">
+								<reference key="firstItem" ref="439893737"/>
+								<int key="firstAttribute">4</int>
 								<int key="relation">0</int>
-								<reference key="secondItem" ref="439893737"/>
-								<int key="secondAttribute">5</int>
+								<reference key="secondItem" ref="593023252"/>
+								<int key="secondAttribute">4</int>
 								<float key="multiplier">1</float>
 								<object class="IBLayoutConstant" key="constant">
 									<double key="value">0.0</double>
 								</object>
 								<float key="priority">1000</float>
 								<reference key="containingView" ref="439893737"/>
-								<int key="scoringType">8</int>
-								<float key="scoringTypeFloat">29</float>
+								<int key="scoringType">9</int>
+								<float key="scoringTypeFloat">40</float>
 								<int key="contentType">3</int>
 							</object>
-							<object class="IBNSLayoutConstraint" id="36256529">
-								<reference key="firstItem" ref="516801481"/>
+							<object class="IBNSLayoutConstraint" id="294459254">
+								<reference key="firstItem" ref="593023252"/>
 								<int key="firstAttribute">3</int>
 								<int key="relation">0</int>
 								<reference key="secondItem" ref="439893737"/>
@@ -4715,27 +2662,26 @@ AAAAvI5AgSEEhpKEl5gIcG9zaXRpb26GkoSam56dgfkBgRUChoY</bytes>
 								</object>
 								<float key="priority">1000</float>
 								<reference key="containingView" ref="439893737"/>
-								<int key="scoringType">8</int>
-								<float key="scoringTypeFloat">29</float>
+								<int key="scoringType">9</int>
+								<float key="scoringTypeFloat">40</float>
 								<int key="contentType">3</int>
 							</object>
-							<object class="IBNSLayoutConstraint" id="497218372">
-								<reference key="firstItem" ref="516801481"/>
-								<int key="firstAttribute">4</int>
+							<object class="IBNSLayoutConstraint" id="237909786">
+								<reference key="firstItem" ref="593023252"/>
+								<int key="firstAttribute">5</int>
 								<int key="relation">0</int>
 								<reference key="secondItem" ref="439893737"/>
-								<int key="secondAttribute">4</int>
+								<int key="secondAttribute">5</int>
 								<float key="multiplier">1</float>
 								<object class="IBLayoutConstant" key="constant">
 									<double key="value">0.0</double>
 								</object>
 								<float key="priority">1000</float>
 								<reference key="containingView" ref="439893737"/>
-								<int key="scoringType">8</int>
-								<float key="scoringTypeFloat">29</float>
+								<int key="scoringType">9</int>
+								<float key="scoringTypeFloat">40</float>
 								<int key="contentType">3</int>
 							</object>
-							<reference ref="516801481"/>
 						</array>
 						<reference key="parent" ref="972006081"/>
 					</object>
@@ -5213,44 +3159,13 @@ AAAAvI5AgSEEhpKEl5gIcG9zaXRpb26GkoSam56dgfkBgRUChoY</bytes>
 						<reference key="parent" ref="963351320"/>
 					</object>
 					<object class="IBObjectRecord">
-						<int key="objectID">536</int>
-						<reference key="object" ref="516801481"/>
-						<array class="NSMutableArray" key="children"/>
-						<reference key="parent" ref="439893737"/>
-					</object>
-					<object class="IBObjectRecord">
 						<int key="objectID">543</int>
 						<reference key="object" ref="784455371"/>
 						<reference key="parent" ref="835318025"/>
 					</object>
 					<object class="IBObjectRecord">
-						<int key="objectID">551</int>
-						<reference key="object" ref="497218372"/>
-						<reference key="parent" ref="439893737"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">552</int>
-						<reference key="object" ref="36256529"/>
-						<reference key="parent" ref="439893737"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">553</int>
-						<reference key="object" ref="810468430"/>
-						<reference key="parent" ref="439893737"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">554</int>
-						<reference key="object" ref="989771573"/>
-						<reference key="parent" ref="439893737"/>
-					</object>
-					<object class="IBObjectRecord">
 						<int key="objectID">558</int>
 						<reference key="object" ref="391233247"/>
-						<reference key="parent" ref="0"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">570</int>
-						<reference key="object" ref="556129800"/>
 						<reference key="parent" ref="0"/>
 					</object>
 					<object class="IBObjectRecord">
@@ -5264,163 +3179,38 @@ AAAAvI5AgSEEhpKEl5gIcG9zaXRpb26GkoSam56dgfkBgRUChoY</bytes>
 					<object class="IBObjectRecord">
 						<int key="objectID">573</int>
 						<reference key="object" ref="142353368"/>
-						<array class="NSMutableArray" key="children">
-							<object class="IBNSLayoutConstraint" id="906438739">
-								<reference key="firstItem" ref="142353368"/>
-								<int key="firstAttribute">6</int>
-								<int key="relation">0</int>
-								<reference key="secondItem" ref="19792165"/>
-								<int key="secondAttribute">6</int>
-								<float key="multiplier">1</float>
-								<object class="IBNSLayoutSymbolicConstant" key="constant">
-									<double key="value">20</double>
-								</object>
-								<float key="priority">1000</float>
-								<reference key="containingView" ref="142353368"/>
-								<int key="scoringType">8</int>
-								<float key="scoringTypeFloat">29</float>
-								<int key="contentType">3</int>
-							</object>
-							<object class="IBNSLayoutConstraint" id="563146018">
-								<reference key="firstItem" ref="19792165"/>
-								<int key="firstAttribute">3</int>
-								<int key="relation">0</int>
-								<reference key="secondItem" ref="192184003"/>
-								<int key="secondAttribute">4</int>
-								<float key="multiplier">1</float>
-								<object class="IBNSLayoutSymbolicConstant" key="constant">
-									<double key="value">10</double>
-								</object>
-								<float key="priority">1000</float>
-								<reference key="containingView" ref="142353368"/>
-								<int key="scoringType">6</int>
-								<float key="scoringTypeFloat">24</float>
-								<int key="contentType">3</int>
-							</object>
-							<object class="IBNSLayoutConstraint" id="600770707">
-								<reference key="firstItem" ref="19792165"/>
-								<int key="firstAttribute">5</int>
-								<int key="relation">0</int>
-								<reference key="secondItem" ref="142353368"/>
-								<int key="secondAttribute">5</int>
-								<float key="multiplier">1</float>
-								<object class="IBNSLayoutSymbolicConstant" key="constant">
-									<double key="value">20</double>
-								</object>
-								<float key="priority">1000</float>
-								<reference key="containingView" ref="142353368"/>
-								<int key="scoringType">8</int>
-								<float key="scoringTypeFloat">29</float>
-								<int key="contentType">3</int>
-							</object>
-							<object class="IBNSLayoutConstraint" id="653425992">
-								<reference key="firstItem" ref="142353368"/>
-								<int key="firstAttribute">6</int>
-								<int key="relation">0</int>
-								<reference key="secondItem" ref="192184003"/>
-								<int key="secondAttribute">6</int>
-								<float key="multiplier">1</float>
-								<object class="IBNSLayoutSymbolicConstant" key="constant">
-									<double key="value">20</double>
-								</object>
-								<float key="priority">1000</float>
-								<reference key="containingView" ref="142353368"/>
-								<int key="scoringType">8</int>
-								<float key="scoringTypeFloat">29</float>
-								<int key="contentType">3</int>
-							</object>
-							<object class="IBNSLayoutConstraint" id="265201862">
-								<reference key="firstItem" ref="192184003"/>
-								<int key="firstAttribute">3</int>
-								<int key="relation">0</int>
-								<reference key="secondItem" ref="142353368"/>
-								<int key="secondAttribute">3</int>
-								<float key="multiplier">1</float>
-								<object class="IBNSLayoutSymbolicConstant" key="constant">
-									<double key="value">20</double>
-								</object>
-								<float key="priority">1000</float>
-								<reference key="containingView" ref="142353368"/>
-								<int key="scoringType">8</int>
-								<float key="scoringTypeFloat">29</float>
-								<int key="contentType">3</int>
-							</object>
-							<object class="IBNSLayoutConstraint" id="362184397">
-								<reference key="firstItem" ref="192184003"/>
-								<int key="firstAttribute">5</int>
-								<int key="relation">0</int>
-								<reference key="secondItem" ref="142353368"/>
-								<int key="secondAttribute">5</int>
-								<float key="multiplier">1</float>
-								<object class="IBNSLayoutSymbolicConstant" key="constant">
-									<double key="value">20</double>
-								</object>
-								<float key="priority">1000</float>
-								<reference key="containingView" ref="142353368"/>
-								<int key="scoringType">8</int>
-								<float key="scoringTypeFloat">29</float>
-								<int key="contentType">3</int>
-							</object>
-							<reference ref="19792165"/>
-							<reference ref="192184003"/>
-						</array>
+						<array class="NSMutableArray" key="children"/>
 						<reference key="parent" ref="789654337"/>
 					</object>
 					<object class="IBObjectRecord">
-						<int key="objectID">574</int>
-						<reference key="object" ref="192184003"/>
-						<array class="NSMutableArray" key="children">
-							<reference ref="989633982"/>
-						</array>
-						<reference key="parent" ref="142353368"/>
+						<int key="objectID">615</int>
+						<reference key="object" ref="593023252"/>
+						<reference key="parent" ref="439893737"/>
 					</object>
 					<object class="IBObjectRecord">
-						<int key="objectID">575</int>
-						<reference key="object" ref="989633982"/>
-						<reference key="parent" ref="192184003"/>
+						<int key="objectID">616</int>
+						<reference key="object" ref="237909786"/>
+						<reference key="parent" ref="439893737"/>
 					</object>
 					<object class="IBObjectRecord">
-						<int key="objectID">577</int>
-						<reference key="object" ref="362184397"/>
-						<reference key="parent" ref="142353368"/>
+						<int key="objectID">619</int>
+						<reference key="object" ref="294459254"/>
+						<reference key="parent" ref="439893737"/>
 					</object>
 					<object class="IBObjectRecord">
-						<int key="objectID">579</int>
-						<reference key="object" ref="265201862"/>
-						<reference key="parent" ref="142353368"/>
+						<int key="objectID">620</int>
+						<reference key="object" ref="794442058"/>
+						<reference key="parent" ref="439893737"/>
 					</object>
 					<object class="IBObjectRecord">
-						<int key="objectID">580</int>
-						<reference key="object" ref="653425992"/>
-						<reference key="parent" ref="142353368"/>
+						<int key="objectID">621</int>
+						<reference key="object" ref="839105814"/>
+						<reference key="parent" ref="439893737"/>
 					</object>
 					<object class="IBObjectRecord">
-						<int key="objectID">601</int>
-						<reference key="object" ref="19792165"/>
-						<array class="NSMutableArray" key="children">
-							<reference ref="1061965202"/>
-						</array>
-						<reference key="parent" ref="142353368"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">602</int>
-						<reference key="object" ref="1061965202"/>
-						<reference key="parent" ref="19792165"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">604</int>
-						<reference key="object" ref="600770707"/>
-						<reference key="parent" ref="142353368"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">605</int>
-						<reference key="object" ref="563146018"/>
-						<reference key="parent" ref="142353368"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">606</int>
-						<reference key="object" ref="906438739"/>
-						<reference key="parent" ref="142353368"/>
+						<int key="objectID">570</int>
+						<reference key="object" ref="556129800"/>
+						<reference key="parent" ref="0"/>
 					</object>
 				</array>
 			</object>
@@ -5489,10 +3279,10 @@ AAAAvI5AgSEEhpKEl5gIcG9zaXRpb26GkoSam56dgfkBgRUChoY</bytes>
 				<string key="371.IBWindowTemplateEditedContentRect">{{380, 496}, {480, 360}}</string>
 				<integer value="1" key="371.NSWindowTemplate.visibleAtLaunch"/>
 				<array class="NSMutableArray" key="372.IBNSViewMetadataConstraints">
-					<reference ref="497218372"/>
-					<reference ref="36256529"/>
-					<reference ref="810468430"/>
-					<reference ref="989771573"/>
+					<reference ref="237909786"/>
+					<reference ref="294459254"/>
+					<reference ref="794442058"/>
+					<reference ref="839105814"/>
 				</array>
 				<string key="372.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="375.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
@@ -5571,44 +3361,22 @@ AAAAvI5AgSEEhpKEl5gIcG9zaXRpb26GkoSam56dgfkBgRUChoY</bytes>
 				<string key="516.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="517.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="534.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<string key="536.CustomClassName">SCMainQCView</string>
-				<dictionary class="NSMutableDictionary" key="536.IBAttributePlaceholdersKey"/>
-				<boolean value="YES" key="536.IBNSViewMetadataLastInspectedTranslatesAutoresizingMaskIntoConstraints"/>
-				<boolean value="NO" key="536.IBNSViewMetadataTranslatesAutoresizingMaskIntoConstraints"/>
-				<string key="536.IBPluginDependency">com.apple.QuartzComposerIBPlugin</string>
 				<string key="543.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<string key="551.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<string key="552.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<string key="553.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<string key="554.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="558.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="56.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="57.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="570.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="572.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<boolean value="YES" key="572.NSWindowTemplate.visibleAtLaunch"/>
-				<array key="573.IBNSViewMetadataConstraints">
-					<reference ref="362184397"/>
-					<reference ref="265201862"/>
-					<reference ref="653425992"/>
-					<reference ref="600770707"/>
-					<reference ref="563146018"/>
-					<reference ref="906438739"/>
-				</array>
 				<string key="573.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<boolean value="NO" key="574.IBNSViewMetadataTranslatesAutoresizingMaskIntoConstraints"/>
-				<string key="574.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<string key="575.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<string key="577.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<string key="579.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="58.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<string key="580.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<boolean value="NO" key="601.IBNSViewMetadataTranslatesAutoresizingMaskIntoConstraints"/>
-				<string key="601.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<string key="602.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<string key="604.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<string key="605.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<string key="606.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="615.CustomClassName">SCOpenGlView</string>
+				<boolean value="NO" key="615.IBNSViewMetadataTranslatesAutoresizingMaskIntoConstraints"/>
+				<string key="615.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="616.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="619.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="620.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="621.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="72.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="73.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="74.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
@@ -5625,7 +3393,7 @@ AAAAvI5AgSEEhpKEl5gIcG9zaXRpb26GkoSam56dgfkBgRUChoY</bytes>
 			<nil key="activeLocalization"/>
 			<dictionary class="NSMutableDictionary" key="localizations"/>
 			<nil key="sourceID"/>
-			<int key="maxID">614</int>
+			<int key="maxID">626</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -5676,11 +3444,11 @@ AAAAvI5AgSEEhpKEl5gIcG9zaXRpb26GkoSam56dgfkBgRUChoY</bytes>
 					</object>
 				</object>
 				<object class="IBPartialClassDescription">
-					<string key="className">SCMainQCView</string>
-					<string key="superclassName">QCView</string>
+					<string key="className">SCOpenGlView</string>
+					<string key="superclassName">NSOpenGLView</string>
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">
 						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">./Classes/SCMainQCView.h</string>
+						<string key="minorKey">./Classes/SCOpenGlView.h</string>
 					</object>
 				</object>
 			</array>

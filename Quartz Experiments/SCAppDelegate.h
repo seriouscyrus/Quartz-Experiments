@@ -11,7 +11,7 @@
 #import <CoreGraphics/CoreGraphics.h>
 #import <QuartzCore/QuartzCore.h>
 #import <IOSurface/IOSurface.h>
-#import "SCMainQCView.h"
+#import "SCOpenGlView.h"
 
 @interface SCAppDelegate : NSObject <NSApplicationDelegate> {
     CGDisplayStreamRef displayStream;
@@ -19,7 +19,7 @@
     IOSurfaceRef        updatedFrame;
     CIImage             *screenImage;
     CIContext              *aContext;
-    SCMainQCView         *mainQCView;
+    SCOpenGlView         *mainQCView;
     CVPixelBufferRef   myPixelBuffer;
     CVPixelBufferPoolRef      myPool;
 }

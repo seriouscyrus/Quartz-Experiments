@@ -14,10 +14,17 @@
 
 
 @interface SCOpenGlView : NSOpenGLView {
-    CVDisplayLinkRef    dsiplayLink;
+    CVDisplayLinkRef    displayLink;
     CVPixelBufferRef    pbCurrentFrame;
     IOSurfaceRef        ioCurrentFrame;
-    QCComposition       *qcComp;
+    QCRenderer          *qcRenderer;
+    CGDirectDisplayID   currentDisplay;
+    NSString            *compPath;
+    CGDisplayStreamRef  displayStream;
+    dispatch_queue_t    displayQueue;
+
 }
+
+- (void) handleNewFrame:(IOSurfaceRef) updatedSurface;
 
 @end

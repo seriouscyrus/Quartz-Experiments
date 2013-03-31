@@ -39,7 +39,7 @@
 
 /* Begin PBXFileReference section */
 		6E0767C616FA6F350091FD7A /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
-		6E0767C816FE40710091FD7A /* Quartz Experiments.qtz */ = {isa = PBXFileReference; lastKnownFileType = "video.quartz-composer"; path = "Quartz Experiments.qtz"; sourceTree = "<group>"; };
+		6E0767C816FE40710091FD7A /* Quartz Experiments.qtz */ = {isa = PBXFileReference; lastKnownFileType = "video.quartz-composer"; name = "Quartz Experiments.qtz"; path = "Quartz Experiments/Quartz Experiments.qtz"; sourceTree = "<group>"; };
 		6E24B9A716F39EA700790233 /* IOSurface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOSurface.framework; path = System/Library/Frameworks/IOSurface.framework; sourceTree = SDKROOT; };
 		6E24B9A916F5FD7C00790233 /* SCMainQCView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCMainQCView.h; sourceTree = "<group>"; };
 		6E24B9AA16F5FD7C00790233 /* SCMainQCView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCMainQCView.m; sourceTree = "<group>"; };
@@ -99,6 +99,7 @@
 		6E61569816E7B7B300DE564E = {
 			isa = PBXGroup;
 			children = (
+				6E9F641F170763EC00ED24FA /* Resources */,
 				6E6156AA16E7B7B300DE564E /* Quartz Experiments */,
 				6E6156C716E7B7B300DE564E /* Quartz ExperimentsTests */,
 				6E6156A316E7B7B300DE564E /* Frameworks */,
@@ -146,7 +147,6 @@
 			children = (
 				6E6156B616E7B7B300DE564E /* SCAppDelegate.h */,
 				6E6156B716E7B7B300DE564E /* SCAppDelegate.m */,
-				6E0767C816FE40710091FD7A /* Quartz Experiments.qtz */,
 				6E6156B916E7B7B300DE564E /* MainMenu.xib */,
 				6E6156AB16E7B7B300DE564E /* Supporting Files */,
 				6E24B9A916F5FD7C00790233 /* SCMainQCView.h */,
@@ -186,6 +186,14 @@
 				6E6156CA16E7B7B300DE564E /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6E9F641F170763EC00ED24FA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6E0767C816FE40710091FD7A /* Quartz Experiments.qtz */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
